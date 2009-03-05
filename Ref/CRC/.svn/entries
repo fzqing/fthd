@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="47"
+   name=""
+   committed-date="2008-05-04T13:34:44.814696Z"
+   url="svn://10.147.6.15/FTHDM/Ref/CRC"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="47"
+   name="crc_explain.pdf"
+   text-time="2008-02-20T02:36:40.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="fbc391ad5bd5367ebcf51dc498e66968"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:33:58.000000Z"/>
+<entry
+   committed-rev="47"
+   name="CRC算法的研究.pdf"
+   text-time="2008-02-20T03:01:56.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="5b0723ec7b08bbbd366594cb1d3a1c50"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:33:58.000000Z"/>
+<entry
+   committed-rev="47"
+   name="并行CRC_32校验码生成算法研究及其实现.pdf"
+   text-time="2008-02-20T03:02:26.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="8d1b3dbf4a308375744270603711a72a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="47"
+   name="CRC校验及其软件实现.pdf"
+   text-time="2008-02-20T03:02:14.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="deb8932dec0304e96bda6818f29d2ada"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="47"
+   name="200762584556156.pdf"
+   text-time="2008-02-20T02:36:28.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="2edffe1c1400592ef069f0a453fa9ad6"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:33:58.000000Z"/>
+<entry
+   committed-rev="47"
+   name="3.pdf"
+   text-time="2008-02-20T02:48:36.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="e85e55d0fbad2de5d3138183a69bfc3d"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="47"
+   name="AN42-循环冗余检验（CRC）原理与实现1.1.pdf"
+   text-time="2008-02-20T02:27:28.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="e16bdd2244acb6a4ad0abd469b33d4fd"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:33:58.000000Z"/>
+<entry
+   committed-rev="47"
+   name="crcver.pdf"
+   text-time="2008-02-20T02:47:56.000000Z"
+   committed-date="2008-05-04T13:34:44.814696Z"
+   checksum="8ef04a4f7110cb64d16c5b895ac300bf"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:33:58.000000Z"/>
+</wc-entries>

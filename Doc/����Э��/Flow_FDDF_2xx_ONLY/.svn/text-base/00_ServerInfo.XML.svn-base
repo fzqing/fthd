@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ServiceInfo>
+	<Protocol_Ver>1</Protocol_Ver>
+	<Stepping>1</Stepping>
+
+	<ServerList>
+		<Ping>localhost</Ping>
+		<Last>localhost:81</Last>
+		<Addr>localhost</Addr>
+		<Addr>localhost:90</Addr>
+	</ServerList>
+
+	<APIPathList>
+		<Pre_Login>/SRV_PreLogin.php</Pre_Login>
+		<Login>/SRV_Login.php</Login>
+		<Query_Status>/SRV_Query.php</Query_Status>
+		<Query_FDDF_List>/SRV_FDDFList.php</Query_FDDF_List>
+		<Update_Status>/SRV_Update.php</Update_Status>
+		<Logout>/SRV_Logout.php</Logout>
+	</APIPathList>
+</ServiceInfo>
+
+<x>可以利用xPath解决</x>

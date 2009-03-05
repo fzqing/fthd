@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="27"
+   name=""
+   committed-date="2008-05-03T17:42:13.975065Z"
+   url="svn://10.147.6.15/FTHDM/Doc/MuFTAD%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="27"
+   name="MuFTAD详细设计ver1.0.pdf"
+   text-time="2008-05-03T09:05:22.000000Z"
+   committed-date="2008-05-03T17:42:13.975065Z"
+   checksum="92a736ac83195d04cb4f4021c25cc928"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

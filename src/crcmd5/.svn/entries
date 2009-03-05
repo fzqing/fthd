@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="203"
+   name=""
+   committed-date="2008-05-29T15:42:49.554251Z"
+   url="svn://10.147.6.15/FTHDM/src/crcmd5"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="208"/>
+<entry
+   committed-rev="203"
+   name="Mu_md5.c"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:42:49.554251Z"
+   checksum="b12cbaef227dd8d20478d5a4744d36d8"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-27T02:34:12.000000Z"/>
+<entry
+   committed-rev="203"
+   name="Mu_crc.c"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:42:49.554251Z"
+   checksum="584461ef0132d927ed209bd600147169"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-27T02:34:12.000000Z"/>
+<entry
+   committed-rev="117"
+   name="Readme.txt"
+   text-time="2008-05-10T08:53:56.000000Z"
+   committed-date="2008-05-09T17:14:36.760099Z"
+   checksum="9bba5d4eabef7a06990dcea23bf72881"
+   last-author="wkx"
+   kind="file"
+   prop-time="2008-05-10T08:53:56.000000Z"/>
+<entry
+   committed-rev="203"
+   name="Makefile"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:42:49.554251Z"
+   checksum="f53dd23204f027370c39311933223843"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

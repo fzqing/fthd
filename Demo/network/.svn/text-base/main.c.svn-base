@@ -1,0 +1,423 @@
+/****************************************************************
+
+* File Name: 
+*
+* 			Mu_Build.c
+* 
+* Description:
+*
+*			To download file on the server
+* 
+* Revision History:
+*
+* 		8-5-2008 ver1.0
+*
+* Author:cks(cks@microunit.com.cn)
+* Modify:
+* 
+*				***PROTECTED BY COPYRIGHT***
+****************************************************************/
+//kernel head files
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/times.h>
+#include <sys/time.h>
+#include <sys/vfs.h>
+
+#include <unistd.h>
+#include <fcntl.h>
+
+//application head files
+#include "../include/Mu_error.h"
+
+#include "../include/Mu_NetIO.h"
+
+#include "../include/Mu_Http.h"
+#include "../include/Mu_HttpDown.h"
+#include "../include/Mu_HttpBuild.h"
+#include "../include/Mu_HttpQuery.h"
+#include "../include/Mu_HttpParse.h"
+#include "../include/Mu_HttpUrl.h"
+#include "../include/Mu_HttpUtil.h"
+
+#include "../include/Mu_Util.h"
+
+
+
+#define TEST_DOWN
+
+
+int main(int argc,char *argv[])
+{
+	Mu_DnStat MuDnStat;
+	threadnum= 0;
+	int fd;
+	int i = 0;
+	Mu_InitNetIO(&MuIO);
+	pthread_mutex_init(&lock, NULL);
+	char temp[256];
+	
+	Mu_SslInit();
+	Mu_InitSslTab(MAX_THD);
+
+	if(argc < 2)
+		return 0;
+
+	char *url = argv[1];
+	char *name = strrchr(url, '/');
+	if(NULL == name)
+		return 0;
+	filename = name + 1;
+
+again:
+	Mu_InitURL(&mu_url);
+#ifdef TEST_QUERY
+	if((fd = open(filename, O_RDWR|O_CREAT, 0644)) == -1){
+		Mu_ErrorPrint();
+		return -1;
+	}
+	ftruncate(fd, 0);
+	int xmlfd = open(argv[2], O_RDWR|O_CREAT, 0644);
+
+	mu_url.url=url;
+	mu_url.urllen=sizeof(url);
+
+	Mu_InitDnStat(&MuDnStat);
+	MuDnStat.fd = fd;
+	MuDnStat.xmlfd = xmlfd;
+	MuDnStat.type = MU_POST;
+
+	Mu_HttpPlus(url, MU_QUERY, &MuDnStat);
+#endif
+
+#ifdef TEST_DOWN
+	if((fd = open(filename, O_RDWR|O_CREAT, 0644)) == -1){
+		Mu_ErrorPrint();
+		return -1;
+	}
+
+	Mu_InitDnStat(&MuDnStat);
+	MuDnStat.fd = fd;
+	MuDnStat.type = MU_GET;
+
+	//for resume
+	if(argc == 3){
+		MuDnStat.resume = atoi(argv[2]);
+		printf("the resume is %d\n", MuDnStat.resume);
+		sleep(5);
+	}
+	if(argc == 2)
+		MuDnStat.resume = 0;
+
+	Mu_HttpPlus(url, MU_DOWNLOAD, &MuDnStat);
+#endif
+
+
+	Mu_Free(mu_url.path);
+	Mu_Free(mu_url.file);
+	Mu_Free(mu_url.username);
+	Mu_Free(mu_url.password);
+	Mu_Free(mu_url.host);
+	Mu_Free(cookies);
+	Mu_Free(location);
+	Mu_Close(fd);
+	
+	i++;
+	if(i == 5)
+		return 0;
+	//goto again;
+
+	return 0;
+
+
+#if 0
+
+    //for test the functions of the projects, write by cks
+	Mu_Build build;
+	int REC;
+	char t;
+	char *pt;
+	char **Ptr;
+	char fun_num;
+	int choice;
+	int count_num = 0;
+
+	//{ "http://cks:cks123@www.godence.com:8000/200711/27/16/200711276074880.rm/login.php",
+	char *url[] =
+	{
+	 "http://cks:cks123@www.godence.com:8000/200711/27/16/200711276074880.rm/login.php",
+	  "http://11111:22222222@www.gmail.com:111111/234324234/53453453534534534543/prelogin.php",
+	  "https://www.sina.com/path/download.php",
+		"https://username:@162.com/logago/php,,,,dfasdfa",
+		"https://:aadfas@www.sina.com/sfafasfaf/adsfadfa/asfda",
+		"http://@www.google.com/adfasdfas/sfasf/asdfa",
+		"http://www.ifneg.com/sfa/",
+		NULL
+	};
+	char *fun[] = 
+	{	
+		"Mu_GetLoop", "Mu_ReadFromRec", "Mu_RecToFile","Mu_InitThreads","Mu_Download","Mu_HttpPlus",
+		"Mu_BuildQuery", "Mu_BuildQueryGet", "Mu_BuildQueryHead",	"Mu_BuildQueryPost", "Mu_ParseUrl","Mu_CheckProtoc", 
+		"Mu_CheckUser",	"Mu_GetHostPort", "Mu_GetPathFile","Mu_Query", "Mu_InitHttpStat","Mu_PostSignal",	
+		"Mu_ParseHeader", "Mu_FetchHeader","Mu_GetStatusCode",	"Mu_GetContentLen", "Mu_GetRelocation","Mu_GetCookies",
+		"Mu_GetBasicAuth", "Mu_Base64Encode","Mu_SslInit","Mu_CheckCA"
+	};	
+	puts("\n*******************************************************");
+again:
+	REC = 0;
+	//Mu_URL mu_url;
+	t = 1;
+	pt = &t;
+	Ptr = &pt;
+	fd = -1;
+	//char i = 0;	
+	fun_num = 0;
+	choice = 0;
+	puts("\twhich function do you want to debug?  (1~28)");
+	puts("*******************************************************\n");
+	for(fun_num = 1 ; fun_num < 29; fun_num ++)
+	{
+		printf("%d.%s()\n",fun_num,fun[fun_num - 1]);
+	}
+
+	scanf("%d",&choice);
+	if((1 <= choice)&&(28 >= choice))
+		printf("#####You will debug ===>%d.%s()\n\n",choice,fun[choice -1]);
+
+	fd = open("./test",O_WRONLY|O_CREAT);
+	//fp = fopen("./test","w");
+	build.fd  = fd;
+
+	switch(choice)
+	{
+		case 1:
+			break;
+
+		case 2:
+			break;
+
+		case 3:
+			Mu_InitThreads(65);
+			puts("111");
+			//mu_url.url = *url;
+			fd = open("./Recordfile.jw",O_RDWR|O_CREAT);
+			if(fd < 0)
+			{
+				Mu_ErrorPrint();
+				break;
+			}
+
+			puts("222");
+			REC = Mu_RecToFile(fd);
+			
+			if(MUOK == REC)
+				printf("\n##### Mu_RecToFile() ==> OK !\n");
+			else
+				printf("\n Mu_RecToFile() ---> FAIL!   REC = %d\n",REC);
+
+			close(fd);
+			break;
+
+			break;
+
+		case 4:
+
+			Mu_InitThreads(65);
+			break;
+
+		case 5:
+			break;
+
+		case 6:
+			break;
+
+		case 7:
+
+			mu_url.username = "cks";
+			mu_url.password= "cks123";
+			mu_url.path = "2007/12/05/";
+			mu_url.file = "20071205.rm";
+			mu_url.host = "www.godence.com";
+			build.startops = 1000;
+			build.endops = 2000;
+
+			for(choice = 1; choice < 4; choice ++)
+			{
+				switch(choice)
+				{
+					case 1:
+						build.method = MU_GET;
+						break;
+					case 2:
+						build.method = MU_HEAD;
+						break;
+					case 3:
+						build.method = MU_POST;
+						break;
+					default:
+						break;
+				}
+
+				REC = Mu_BuildQuery(build,Ptr);
+				if(MUOK == REC)
+					printf("\n##### Mu_BuildQuery() ==> OK !\n");
+				else
+					printf("\n Mu_BuildQuery() ---> FAIL!   REC = %d\n",REC);
+			}
+
+			break;
+
+		case 8:
+			
+			mu_url.username = "cks";
+			mu_url.password= "cks123";
+			mu_url.path = "2007/12/05/20071205.rm";
+			mu_url.file = "20071205.rm";
+			mu_url.host = "www.godence.com";
+			build.startops = 1000;
+			build.endops = 2000;
+
+			REC = Mu_BuildQueryGet(build,Ptr);
+			if(MUOK == REC)
+				printf("\n##### Mu_BuildQueryGet() ==> OK !\n");
+			else
+				printf("\n Mu_BuildQueryGet() ---> FAIL!   REC = %d\n",REC);
+			
+			break;
+
+		case 9:
+			mu_url.username = "cks";
+			mu_url.password= "cks123";
+			mu_url.path = "2007/12/05/20071205.rm";
+			mu_url.file = "20071205.rm";
+			mu_url.host = "www.godence.com";
+			build.startops = 1000;
+			build.endops = 2000;
+
+			REC = Mu_BuildQueryHead(build,Ptr);
+			if(MUOK == REC)
+				printf("\n##### Mu_BuildQueryGet() ==> OK !\n");
+			else
+				printf("\n Mu_BuildQueryGet() ---> FAIL!   REC = %d\n",REC);
+			
+			break;
+
+			break;
+
+		case 10:
+
+			mu_url.username = "cks";
+			mu_url.password= "cks123";
+			mu_url.path = "2007/12/05/20071205.rm";
+			mu_url.file = "20071205.rm";
+			mu_url.host = "www.godence.com";
+			build.startops = 1000;
+			build.endops = 2000;
+
+			REC = Mu_BuildQueryPost(build,Ptr);
+			if(MUOK == REC)
+				printf("\n##### Mu_BuildQueryPost() ==> OK !\n");
+			else
+				printf("\n Mu_BuildQueryPost() ---> FAIL!   REC = %d\n",REC);
+		
+			break;
+
+		case 11:
+
+			REC = Mu_ParseUrl(*(url+count_num));
+			if(MUOK == REC)
+				printf("\n##### Mu_ParseUrl() ==> OK !\n");
+			else
+				printf("\n Mu_ParseUrl() ---> FAIL!   REC = %d\n",REC);
+			count_num ++;
+			break;
+
+		case 12:
+			
+			if(MUOK == Mu_CheckProtoc(*(url+count_num)))
+				printf("\n##### Mu_CheckProtoc() ==> OK !\n");
+			else
+				printf("\n Mu_CheckProtoc() ---> FAIL!\n");
+			break;
+
+		case 13:
+			
+			if(MUOK == Mu_CheckUser(*(url+count_num)))
+				printf("\n##### Mu_CheckUser() ==> OK !\n");
+			else
+				printf("\n Mu_CheckUser() ---> FAIL!\n");	
+			break;
+
+		case 14:
+
+			if(MUOK == Mu_GetHostPort(*(url+count_num)))
+				printf("\n##### Mu_GetHostPort() ==> OK !\n");
+			else
+				printf("\n Mu_GetHostPort() ---> FAIL!\n");	
+			break;
+			
+
+		case 15:
+
+			if(MUOK == Mu_GetPathFile(*(url+count_num)))
+				printf("\n##### Mu_GetPathFile() ==> OK !\n");
+			else
+				printf("\n Mu_GetPathFile() ---> FAIL!\n");	
+			break;
+
+		case 16:
+			break;
+
+		case 17:
+			break;
+
+		case 18:
+			break;
+
+		case 19:
+			break;
+
+		case 20:
+			break;
+
+		case 21:
+			break;
+
+		case 22:
+			break;
+
+		case 23:
+			break;
+
+		case 24:
+			break;
+
+		case 25:
+
+			//Mu_GetBasicAuth("cks","cks123");
+			break;	
+
+		case 26:
+			break;	
+
+		case 27:
+			break;	
+
+		case 28:
+			break;		
+
+		default:
+			printf("check input number:(1~28)\n");
+			break;
+			
+	}
+	
+goto again;		
+	return MUOK;
+#endif
+}
+

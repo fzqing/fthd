@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_FDDF>
+	<File_Infomation>
+		<File_Name>FDDF_2.avi</File_Name>
+		<File_Size>100</File_Size>
+		<File_HMD5>abcdefg</File_HMD5>
+		<File_CCRC>1234567</File_CCRC>
+		<File_Type>1</File_Type>
+		<File_Rate/>
+		<FileDisplayName>电影2</FileDisplayName>
+		<FileDescription>非常之暴力</FileDescription>
+		<ValidBeforeDate/>
+		<ValidAfterWatch/>
+		<Database_Info>
+			<ID_IDX>1</ID_IDX>
+			<ID_PRG>1234</ID_PRG>
+			<ID_GRP>2234</ID_GRP>
+			<ID_OWN>3234</ID_OWN>
+		</Database_Info>
+	</File_Infomation>
+
+	<NonDefaultServer/>
+	<Authorize_Method/>
+	<Server_File_Path>/DATA</Server_File_Path>
+	<File_Segment_Num>2</File_Segment_Num>
+	<Segment>
+		<Index>1</Index>
+		<Size>30</Size>	
+		<Name>FDDF_2_01</Name>	
+		<HMD5>987654</HMD5>	
+		<CCRC>876543</CCRC>	
+	</Segment>
+	<Segment>
+		<Index>2</Index>
+		<Size>70</Size>	
+		<Name>FDDF_2_02</Name>	
+		<HMD5>6543210</HMD5>	
+		<CCRC>5678900</CCRC>	
+	</Segment>
+</Eyewear_FDDF>

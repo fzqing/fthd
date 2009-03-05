@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="49"
+   name=""
+   committed-date="2008-05-04T13:35:21.916356Z"
+   url="svn://10.147.6.15/FTHDM/Ref/libxml"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="49"
+   name="Libxml 简单教程.doc"
+   text-time="2006-06-16T08:12:20.000000Z"
+   committed-date="2008-05-04T13:35:21.916356Z"
+   checksum="c88a7b30e3391c4db9fc6945a5e53168"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:36.000000Z"/>
+<entry
+   committed-rev="49"
+   name="Libxml 简单教程.pdf"
+   text-time="2008-03-06T01:50:12.000000Z"
+   committed-date="2008-05-04T13:35:21.916356Z"
+   checksum="787e1d1486ae674f11c337e6a92f6a2d"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:36.000000Z"/>
+<entry
+   committed-rev="49"
+   name="xmltutorial.pdf"
+   text-time="2008-02-21T05:44:06.000000Z"
+   committed-date="2008-05-04T13:35:21.916356Z"
+   checksum="12df01000d92ab495235de65abcd4e46"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

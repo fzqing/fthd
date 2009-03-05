@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2008-05-26T15:22:29.816032Z"
+   url="svn://10.147.6.15/FTHDM/Doc/%E6%B3%95%E7%94%B5%E5%8D%8F%E8%AE%AE/login"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="185"
+   name="00_ServerInfo.XML"
+   text-time="2008-05-26T02:14:38.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="4b1ea269ebc355914897a8b1dddb2f9a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="Notes.txt"
+   text-time="2008-05-26T06:07:28.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="e6706a9467eceb8a48fcc4dd5e622dd0"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   name="02_Login_Process"
+   kind="dir"/>
+<entry
+   committed-rev="185"
+   name="01_PreLogin.xml"
+   text-time="2008-05-26T02:22:44.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="ad5431920266300a5b3ce22c6c46acc1"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

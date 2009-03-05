@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_FDDF>
+	<File_Infomation>
+		<File_Name>FDDF_1.avi</File_Name>
+		<File_Size>100</File_Size>
+		<File_HMD5>abcdefg</File_HMD5>
+		<File_CCRC>1234567</File_CCRC>
+		<File_Type>1</File_Type>
+		<File_Rate/>
+		<FileDisplayName>电影1</FileDisplayName>
+		<FileDescription>很好很强大</FileDescription>
+		<ValidBeforeDate/>
+		<ValidAfterWatch/>
+		<Database_Info>
+			<ID_IDX>2</ID_IDX>
+			<ID_PRG>1234</ID_PRG>
+			<ID_GRP>2234</ID_GRP>
+			<ID_OWN>3234</ID_OWN>
+		</Database_Info>
+	</File_Infomation>
+
+	<NonDefaultServer/>
+	<Authorize_Method/>
+	<Server_File_Path>/DATA</Server_File_Path>
+	<File_Segment_Num>1</File_Segment_Num>
+	<Segment>
+		<Index>1</Index>
+		<Size>100</Size>	
+		<Name>FDDF_1.avi</Name>	
+		<HMD5>abcdefg</HMD5>	
+		<CCRC>1234567</CCRC>	
+	</Segment>
+</Eyewear_FDDF>

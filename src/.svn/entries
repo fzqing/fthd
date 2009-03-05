@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="208"
+   name=""
+   committed-date="2008-05-29T15:44:48.109850Z"
+   url="svn://10.147.6.15/FTHDM/src"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="208"/>
+<entry
+   committed-rev="208"
+   name="MuFTAD"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:44:48.109850Z"
+   checksum="d093e53f42932fb4fd486eaf46de47fa"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-29T07:48:30.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   name="main"
+   kind="dir"/>
+<entry
+   name="network"
+   kind="dir"/>
+<entry
+   name="parsexml"
+   kind="dir"/>
+<entry
+   name="crcmd5"
+   kind="dir"/>
+<entry
+   committed-rev="208"
+   name="Makefile"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:44:48.109850Z"
+   checksum="ff6f020c17d702535583d6e0e10f8210"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="208"
+   name="tags"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:44:48.109850Z"
+   checksum="0dac68e54611c36ea83dce9999796822"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

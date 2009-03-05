@@ -1,0 +1,19 @@
+CC = gcc
+CFLAGS = -Wall -fPIC -shared `xml2-config --cflags` `xml2-config --libs`
+obj =  Mu_Struct.c Mu_createxml.c Mu_Parsexml.c
+INCLUDE=../inlcude
+INSTALLPATH=$(shell cd ../../lib; pwd)
+LIBPATH=/usr/lib
+OBJ=libMuStruct.so
+
+all:$(OBJ)
+	mv -f $(OBJ) $(INSTALLPATH)
+	ln -sf $(INSTALLPATH)/$(OBJ) $(LIBPATH)/$(OBJ)
+	rm -rf *.o
+$(OBJ):$(obj) 
+	$(CC) $(obj) $(CFLAGS) -o $@
+	#ln -fs /root/fdfd/$@ /usr/lib/$@
+
+.PHONY:clean
+clean:
+	rm *.so *.o

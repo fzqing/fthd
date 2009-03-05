@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="175"
+   name=""
+   committed-date="2008-05-26T09:55:04.061016Z"
+   url="svn://10.147.6.15/FTHDM/Demo/network/testxml"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="175"
+   name="q_001.xml"
+   text-time="2008-05-23T07:05:00.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="c8a47c4f761a1a1c41a7120236106540"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_010.xml"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="96b543c6f6b33760ffe31015d399291a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_002.xml"
+   text-time="2008-05-23T07:05:00.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="c8a47c4f761a1a1c41a7120236106540"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_011.xml"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="1386eb1e981fc8f8c29560c1ae4c6ac8"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_003.xml"
+   text-time="2008-05-23T07:05:00.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="80fa638e1d9d71fbe6f6ae4763acf68c"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_012.xml"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="c4a00c6fa32bced9b2e15472ad7a643c"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_004.xml"
+   text-time="2008-05-23T07:05:00.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="a0e1a06f562d77ead91ae454ff7dff05"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="q_013.xml"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="6096dff891b4b9cb8ee1ccb8181fcdb6"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

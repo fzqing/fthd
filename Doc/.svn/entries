@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="186"
+   name=""
+   committed-date="2008-05-26T15:23:58.835712Z"
+   url="svn://10.147.6.15/FTHDM/Doc"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   name="MuFTAD详细设计"
+   kind="dir"/>
+<entry
+   name="CRC32MD5"
+   kind="dir"/>
+<entry
+   name="法电协议"
+   kind="dir"/>
+<entry
+   name="外观方案"
+   kind="dir"/>
+<entry
+   name="XML解析"
+   kind="dir"/>
+<entry
+   name="Http多线程设计"
+   kind="dir"/>
+<entry
+   name="XML生成"
+   kind="dir"/>
+<entry
+   name="MuFTAD需求说明书"
+   kind="dir"/>
+<entry
+   name="MuFTAD数据结构"
+   kind="dir"/>
+<entry
+   name="网络IO"
+   kind="dir"/>
+</wc-entries>

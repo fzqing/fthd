@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+	<Protocol_Ver>1</Protocol_Ver>
+	<Protocol_OPC>110</Protocol_OPC>
+
+	<Device_Info>
+		<Device_ID_Int>DEV_INT_1234</Device_ID_Int>
+		<Device_ID_App>0</Device_ID_App>
+		<SRV_Date_Time>20080218162030</SRV_Date_Time>
+	</Device_Info>
+
+	<Conversation>
+		<ConversationID>xRandomID</ConversationID>
+		<AuthUsername/>
+		<AuthPassword/>
+	</Conversation>
+</Eyewear_ADP>

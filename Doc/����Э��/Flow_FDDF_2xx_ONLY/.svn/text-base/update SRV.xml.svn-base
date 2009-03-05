@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Update_Information>
+		<SRV_SvrInf>
+				<SvrInfo_version></SvrInfo_version>
+				<SvrInfo_checksum></SvrInfo_checksum>				
+		</SRV_SvrInf>
+		<SRV_FirmSF>
+				<Fireware_version></Fireware_version>
+				<Fireware_checksum></Fireware_checksum>
+				<Hardware_version></Hardware_version>
+		</SRV_FirmSF>
+</Update_Information>

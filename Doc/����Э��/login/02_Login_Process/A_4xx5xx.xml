@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+    <Protocol_Ver>1</Protocol_Ver>
+    /*  范例为401，4xx 5xx情况都一样  */
+    <Protocol_OPC>401</Protocol_OPC>
+
+    /*  <PreLogin> 被服务器删除  */
+
+    <Device_Info>
+        /*  这两个被服务器置空为随机数，示例为0  */
+        <Device_ID_Int>0</Device_ID_Int>
+        <Device_ID_App>0</Device_ID_App>
+        /*  服务器返回的日期和时间  */
+        <SRV_Date_Time>20080523130523</SRV_Date_Time>
+        /*  其余的字段服务器吃掉，不返回  */
+    </Device_Info>
+
+    /*  其它内容被服务器删除  */
+    <Conversation/>
+
+    /*  别的什么都没有  */
+</Eyewear_ADP>

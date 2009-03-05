@@ -1,0 +1,1148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AR	crcmd5/Makefile	/^AR=ar$/;"	m
+AR	network/Makefile	/^AR=ar$/;"	m
+ApiPathList	include/Mu_Struct.h	/^}ApiPathList,*ApiPathListPtr;$/;"	t	typeref:struct:_Apipathlist
+ApiPathList	include/Mu_Struct_main.h	/^}ApiPathList,*ApiPathListPtr;$/;"	t	typeref:struct:_Apipathlist
+ApiPathListPtr	include/Mu_Struct.h	/^}ApiPathList,*ApiPathListPtr;$/;"	t	typeref:struct:_Apipathlist
+ApiPathListPtr	include/Mu_Struct_main.h	/^}ApiPathList,*ApiPathListPtr;$/;"	t	typeref:struct:_Apipathlist
+App	include/Mu_Struct.h	/^	int App;			\/\/XmlDeviceInfo App$/;"	m	struct:_XmlDeviceInfo
+App	include/Mu_Struct_main.h	/^	char *App;			\/\/XmlDeviceInfo App$/;"	m	struct:_XmlDeviceInfo
+AuthPassword	include/Mu_Struct.h	/^	char * AuthPassword;		\/\/Conversation AuthPassword$/;"	m	struct:_Coversation
+AuthPassword	include/Mu_Struct_main.h	/^	char *AuthPassword;		\/\/Conversation AuthPassword$/;"	m	struct:_Coversation
+AuthUsername	include/Mu_Struct.h	/^	char * AuthUsername;		\/\/Conversation AuthUsername$/;"	m	struct:_Coversation
+AuthUsername	include/Mu_Struct_main.h	/^	char *AuthUsername;		\/\/Conversation AuthUsername$/;"	m	struct:_Coversation
+Authorizemethod	include/Mu_Struct.h	/^	int Authorizemethod;		\/\/FddfFile Authorizemethod$/;"	m	struct:_EyewareFDDF
+Authorizemethod	include/Mu_Struct_main.h	/^	int Authorizemethod;		\/\/FddfFile Authorizemethod$/;"	m	struct:_EyewareFDDF
+BUILD_DEVICE_INFO	include/Mu_Buildxml.h	9;"	d
+BUILD_DEVICE_INFO	include/Mu_Creatxml.h	7;"	d
+BUILD_FILE_DES	include/Mu_Buildxml.h	10;"	d
+BUILD_FILE_DES	include/Mu_Creatxml.h	8;"	d
+BUILD_RESUME_INFO	include/Mu_Creatxml.h	9;"	d
+BUILD_SERV_INFO	include/Mu_Buildxml.h	7;"	d
+BUILD_SERV_INFO	include/Mu_Creatxml.h	5;"	d
+BUILD_SIGNAL_ADP	include/Mu_Buildxml.h	11;"	d
+BUILD_SIGNAL_ADP	include/Mu_Creatxml.h	10;"	d
+BUILD_SIGQUE_20X	include/Mu_Buildxml.h	19;"	d
+BUILD_SIGQUE_20X	include/Mu_Creatxml.h	18;"	d
+BUILD_SIGQUE_902	include/Mu_Buildxml.h	20;"	d
+BUILD_SIGQUE_902	include/Mu_Creatxml.h	19;"	d
+BUILD_SIGUP_DN902	include/Mu_Buildxml.h	15;"	d
+BUILD_SIGUP_DN902	include/Mu_Creatxml.h	14;"	d
+BUILD_SIGUP_DN903	include/Mu_Buildxml.h	16;"	d
+BUILD_SIGUP_DN903	include/Mu_Creatxml.h	15;"	d
+BUILD_SIGUP_FILE	include/Mu_Buildxml.h	14;"	d
+BUILD_SIGUP_FILE	include/Mu_Creatxml.h	13;"	d
+BUILD_UPDATE_INFO	include/Mu_Buildxml.h	8;"	d
+BUILD_UPDATE_INFO	include/Mu_Creatxml.h	6;"	d
+CC	crcmd5/Makefile	/^CC=gcc$/;"	m
+CC	main/Makefile	/^CC=gcc$/;"	m
+CC	network/Makefile	/^CC=gcc$/;"	m
+CC	parsexml/makefile	/^CC = gcc$/;"	m
+CFLAGS	parsexml/makefile	/^CFLAGS = -Wall -fPIC -shared `xml2-config --cflags` `xml2-config --libs`$/;"	m
+CHECK_2XX	include/Mu_Parsexml.h	24;"	d
+CHECK_2XX	include/Mu_xml_parse.h	26;"	d
+CHECK_4XX	include/Mu_Parsexml.h	25;"	d
+CHECK_4XX	include/Mu_xml_parse.h	27;"	d
+CHECK_FDDF_LIST	include/Mu_Struct.h	292;"	d
+CHECK_FDDF_LIST	include/Mu_Struct_main.h	303;"	d
+CHECK_STATOK	include/Mu_Http.h	120;"	d
+CHECK_STATRE	include/Mu_Http.h	121;"	d
+CHECK_XPATH	include/Mu_Parsexml.h	26;"	d
+CHECK_XPATH	include/Mu_xml_parse.h	28;"	d
+CRC32_Tab	crcmd5/Mu_crc.c	/^static unsigned int CRC32_Tab[256]={$/;"	v	file:
+Conversation	include/Mu_Struct.h	/^}Conversation,*ConversationPtr;$/;"	t	typeref:struct:_Coversation
+Conversation	include/Mu_Struct_main.h	/^}Conversation,*ConversationPtr;$/;"	t	typeref:struct:_Coversation
+ConversationID	include/Mu_Struct.h	/^	char * ConversationID;		\/\/Conversation ConversationID$/;"	m	struct:_Coversation
+ConversationID	include/Mu_Struct_main.h	/^	char *ConversationID;		\/\/Conversation ConversationID$/;"	m	struct:_Coversation
+ConversationPtr	include/Mu_Struct.h	/^}Conversation,*ConversationPtr;$/;"	t	typeref:struct:_Coversation
+ConversationPtr	include/Mu_Struct_main.h	/^}Conversation,*ConversationPtr;$/;"	t	typeref:struct:_Coversation
+Convert	parsexml/Mu_Struct.c	/^char * Convert(int n, char *strResult)  $/;"	f
+DBIInfo	include/Mu_Struct.h	/^}DBIInfo, *DBIInfoPtr;$/;"	t	typeref:struct:_DBIInfo
+DBIInfo	include/Mu_Struct_main.h	/^}DBIInfo, *DBIInfoPtr;$/;"	t	typeref:struct:_DBIInfo
+DBIInfoPtr	include/Mu_Struct.h	/^}DBIInfo, *DBIInfoPtr;$/;"	t	typeref:struct:_DBIInfo
+DBIInfoPtr	include/Mu_Struct_main.h	/^}DBIInfo, *DBIInfoPtr;$/;"	t	typeref:struct:_DBIInfo
+DBUDirt	include/Mu_Struct.h	/^}DBUDirt, *DBUDirtPtr; $/;"	t	typeref:struct:_DBUDirt
+DBUDirt	include/Mu_Struct_main.h	/^}DBUDirt, *DBUDirtPtr;$/;"	t	typeref:struct:_DBUDirt
+DBUDirtPtr	include/Mu_Struct.h	/^}DBUDirt, *DBUDirtPtr; $/;"	t	typeref:struct:_DBUDirt
+DBUDirtPtr	include/Mu_Struct_main.h	/^}DBUDirt, *DBUDirtPtr;$/;"	t	typeref:struct:_DBUDirt
+DBUInfo	include/Mu_Struct.h	/^}DBUInfo, *DBUInfoPtr; $/;"	t	typeref:struct:_DBUInfo
+DBUInfo	include/Mu_Struct_main.h	/^}DBUInfo, *DBUInfoPtr;$/;"	t	typeref:struct:_DBUInfo
+DBUInfoPtr	include/Mu_Struct.h	/^}DBUInfo, *DBUInfoPtr; $/;"	t	typeref:struct:_DBUInfo
+DBUInfoPtr	include/Mu_Struct_main.h	/^}DBUInfo, *DBUInfoPtr;$/;"	t	typeref:struct:_DBUInfo
+DBURate	include/Mu_Struct.h	/^}DBURate, *DBURatePtr;$/;"	t	typeref:struct:_DBURate
+DBURate	include/Mu_Struct_main.h	/^}DBURate, *DBURatePtr;$/;"	t	typeref:struct:_DBURate
+DBURatePtr	include/Mu_Struct.h	/^}DBURate, *DBURatePtr;$/;"	t	typeref:struct:_DBURate
+DBURatePtr	include/Mu_Struct_main.h	/^}DBURate, *DBURatePtr;$/;"	t	typeref:struct:_DBURate
+DEBUG	include/Mu_Http.h	13;"	d
+DEVICEINFO	main/MuFTAD_main.c	11;"	d	file:
+DIR_4xx_total	parsexml/Mu_Parsexml.c	/^volatile int DIR_4xx_total = 0;$/;"	v
+DatabaseInfo	include/Mu_Struct.h	/^}DatabaseInfo,*DatabaseInfoPtr;$/;"	t	typeref:struct:_DatabaseInfo
+DatabaseInfo	include/Mu_Struct_main.h	/^}DatabaseInfo,*DatabaseInfoPtr;$/;"	t	typeref:struct:_DatabaseInfo
+DatabaseInfoPtr	include/Mu_Struct.h	/^}DatabaseInfo,*DatabaseInfoPtr;$/;"	t	typeref:struct:_DatabaseInfo
+DatabaseInfoPtr	include/Mu_Struct_main.h	/^}DatabaseInfo,*DatabaseInfoPtr;$/;"	t	typeref:struct:_DatabaseInfo
+DeviceIDApp	include/Mu_Struct.h	/^	char * DeviceIDApp;		\/\/DeviceInfo DeviceIDApp	$/;"	m	struct:_DeviceInfo
+DeviceIDApp	include/Mu_Struct_main.h	/^	char *DeviceIDApp;		\/\/DeviceInfo DeviceIDApp	$/;"	m	struct:_DeviceInfo
+DeviceIDInt	include/Mu_Struct.h	/^	char * DeviceIDInt;		\/\/DeviceInfo DeviceIDInt$/;"	m	struct:_DeviceInfo
+DeviceIDInt	include/Mu_Struct_main.h	/^	char *DeviceIDInt;		\/\/DeviceInfo DeviceIDInt$/;"	m	struct:_DeviceInfo
+DeviceInfo	include/Mu_Struct.h	/^}DeviceInfo,*DeviceInfoPtr;$/;"	t	typeref:struct:_DeviceInfo
+DeviceInfo	include/Mu_Struct_main.h	/^}DeviceInfo,*DeviceInfoPtr;$/;"	t	typeref:struct:_DeviceInfo
+DeviceInfoPtr	include/Mu_Struct.h	/^}DeviceInfo,*DeviceInfoPtr;$/;"	t	typeref:struct:_DeviceInfo
+DeviceInfoPtr	include/Mu_Struct_main.h	/^}DeviceInfo,*DeviceInfoPtr;$/;"	t	typeref:struct:_DeviceInfo
+DirDownloadAddr	include/Mu_Struct.h	/^}DirDownloadAddr,*DirDownloadAddrPtr;$/;"	t	typeref:struct:_DirDownloadAddr
+DirDownloadAddr	include/Mu_Struct_main.h	/^}DirDownloadAddr,*DirDownloadAddrPtr;$/;"	t	typeref:struct:_DirDownloadAddr
+DirDownloadAddrPtr	include/Mu_Struct.h	/^}DirDownloadAddr,*DirDownloadAddrPtr;$/;"	t	typeref:struct:_DirDownloadAddr
+DirDownloadAddrPtr	include/Mu_Struct_main.h	/^}DirDownloadAddr,*DirDownloadAddrPtr;$/;"	t	typeref:struct:_DirDownloadAddr
+DirStatusHead	include/Mu_Struct.h	/^}DirStatusHead,*DirStatusHeadPtr;$/;"	t	typeref:struct:__anon5
+DirStatusHead	include/Mu_Struct_main.h	/^}DirStatusHead,*DirStatusHeadPtr;$/;"	t	typeref:struct:__anon2
+DirStatusHeadPtr	include/Mu_Struct.h	/^}DirStatusHead,*DirStatusHeadPtr;$/;"	t	typeref:struct:__anon5
+DirStatusHeadPtr	include/Mu_Struct_main.h	/^}DirStatusHead,*DirStatusHeadPtr;$/;"	t	typeref:struct:__anon2
+DirStatusNode	include/Mu_Struct.h	/^}DirStatusNode,*DirStatusNodePtr;$/;"	t	typeref:struct:_DirStatusNode
+DirStatusNode	include/Mu_Struct_main.h	/^}DirStatusNode,*DirStatusNodePtr;$/;"	t	typeref:struct:_DirStatusNode
+DirStatusNodePtr	include/Mu_Struct.h	/^}DirStatusNode,*DirStatusNodePtr;$/;"	t	typeref:struct:_DirStatusNode
+DirStatusNodePtr	include/Mu_Struct_main.h	/^}DirStatusNode,*DirStatusNodePtr;$/;"	t	typeref:struct:_DirStatusNode
+DownloadID	include/Mu_Struct.h	/^	char * DownloadID;		\/\/ID-download$/;"	m	struct:_DirStatusNode
+DownloadID	include/Mu_Struct_main.h	/^	char *DownloadID;		\/\/ID-download$/;"	m	struct:_DirStatusNode
+EyewearADP	include/Mu_Struct.h	/^}EyewearADP,*EyewearADPPtr;$/;"	t	typeref:struct:_EyewareADP
+EyewearADP	include/Mu_Struct_main.h	/^}EyewearADP,*EyewearADPPtr;$/;"	t	typeref:struct:_EyewareADP
+EyewearADPPtr	include/Mu_Struct.h	/^}EyewearADP,*EyewearADPPtr;$/;"	t	typeref:struct:_EyewareADP
+EyewearADPPtr	include/Mu_Struct_main.h	/^}EyewearADP,*EyewearADPPtr;$/;"	t	typeref:struct:_EyewareADP
+FDDF_2xx_total	parsexml/Mu_Parsexml.c	/^volatile int FDDF_2xx_total = 0;$/;"	v
+FIREWEARE	include/MuFTAD_Util.h	10;"	d
+FIREWEAREVERSION	include/MuFTAD_Init.h	47;"	d
+FddfFile	include/Mu_Struct.h	/^}FddfFile,*FddfFilePtr;$/;"	t	typeref:struct:_EyewareFDDF
+FddfFile	include/Mu_Struct_main.h	/^}FddfFile,*FddfFilePtr;$/;"	t	typeref:struct:_EyewareFDDF
+FddfFilePtr	include/Mu_Struct.h	/^}FddfFile,*FddfFilePtr;$/;"	t	typeref:struct:_EyewareFDDF
+FddfFilePtr	include/Mu_Struct_main.h	/^}FddfFile,*FddfFilePtr;$/;"	t	typeref:struct:_EyewareFDDF
+FddfListHead	include/Mu_Struct.h	/^}FddfListHead,*FddfListHeadPtr;$/;"	t	typeref:struct:_FddfListHead
+FddfListHead	include/Mu_Struct_main.h	/^}FddfListHead,*FddfListHeadPtr;$/;"	t	typeref:struct:_FddfListHead
+FddfListHeadPtr	include/Mu_Struct.h	/^}FddfListHead,*FddfListHeadPtr;$/;"	t	typeref:struct:_FddfListHead
+FddfListHeadPtr	include/Mu_Struct_main.h	/^}FddfListHead,*FddfListHeadPtr;$/;"	t	typeref:struct:_FddfListHead
+FddfListNode	include/Mu_Struct.h	/^}FddfListNode,*FddfListNodePtr;$/;"	t	typeref:struct:_FddfListNode
+FddfListNode	include/Mu_Struct_main.h	/^}FddfListNode,*FddfListNodePtr;$/;"	t	typeref:struct:_FddfListNode
+FddfListNodePtr	include/Mu_Struct.h	/^}FddfListNode,*FddfListNodePtr;$/;"	t	typeref:struct:_FddfListNode
+FddfListNodePtr	include/Mu_Struct_main.h	/^}FddfListNode,*FddfListNodePtr;$/;"	t	typeref:struct:_FddfListNode
+FddfStatusHead	include/Mu_Struct.h	/^}FddfStatusHead,*FddfStatusHeadPtr;$/;"	t	typeref:struct:__anon4
+FddfStatusHead	include/Mu_Struct_main.h	/^}FddfStatusHead,*FddfStatusHeadPtr;$/;"	t	typeref:struct:__anon1
+FddfStatusHeadPtr	include/Mu_Struct.h	/^}FddfStatusHead,*FddfStatusHeadPtr;$/;"	t	typeref:struct:__anon4
+FddfStatusHeadPtr	include/Mu_Struct_main.h	/^}FddfStatusHead,*FddfStatusHeadPtr;$/;"	t	typeref:struct:__anon1
+FddfStatusNode	include/Mu_Struct.h	/^typedef struct FddfStatusNode{$/;"	s
+FddfStatusNode	include/Mu_Struct.h	/^}FddfStatusNode,*FddfStatusNodePtr;$/;"	t	typeref:struct:FddfStatusNode
+FddfStatusNode	include/Mu_Struct_main.h	/^}FddfStatusNode,*FddfStatusNodePtr;$/;"	t	typeref:struct:_FddfStatusNode
+FddfStatusNodePtr	include/Mu_Struct.h	/^}FddfStatusNode,*FddfStatusNodePtr;$/;"	t	typeref:struct:FddfStatusNode
+FddfStatusNodePtr	include/Mu_Struct_main.h	/^}FddfStatusNode,*FddfStatusNodePtr;$/;"	t	typeref:struct:_FddfStatusNode
+FileInfo	include/Mu_Struct.h	/^}FileInfo,*FileInfoPtr;$/;"	t	typeref:struct:_FileInfo
+FileInfo	include/Mu_Struct_main.h	/^}FileInfo,*FileInfoPtr;$/;"	t	typeref:struct:_FileInfo
+FileInfoPtr	include/Mu_Struct.h	/^}FileInfo,*FileInfoPtr;$/;"	t	typeref:struct:_FileInfo
+FileInfoPtr	include/Mu_Struct_main.h	/^}FileInfo,*FileInfoPtr;$/;"	t	typeref:struct:_FileInfo
+Hardwareversion	include/Mu_Struct.h	/^	int Hardwareversion;		\/\/XmlDeviceInfo Hardwareversion$/;"	m	struct:_XmlDeviceInfo
+Hardwareversion	include/Mu_Struct_main.h	/^	int Hardwareversion;		\/\/XmlDeviceInfo Hardwareversion$/;"	m	struct:_XmlDeviceInfo
+INCLUDE	crcmd5/Makefile	/^INCLUDE=..\/include$/;"	m
+INCLUDE	main/Makefile	/^INCLUDE=..\/include$/;"	m
+INCLUDE	network/Makefile	/^INCLUDE=..\/include$/;"	m
+INCLUDE	parsexml/makefile	/^INCLUDE=..\/inlcude$/;"	m
+INSTALLPATH	crcmd5/Makefile	/^INSTALLPATH=$(shell cd ..\/..\/lib; pwd)$/;"	m
+INSTALLPATH	main/Makefile	/^INSTALLPATH=$(shell cd ..\/..\/lib; pwd)$/;"	m
+INSTALLPATH	network/Makefile	/^INSTALLPATH=$(shell cd ..\/..\/lib; pwd)$/;"	m
+INSTALLPATH	parsexml/makefile	/^INSTALLPATH=$(shell cd ..\/..\/lib; pwd)$/;"	m
+IS_DEVICEINFO	include/Mu_Buildxml.h	25;"	d
+IS_DEVICEINFO	include/Mu_Creatxml.h	24;"	d
+IS_FILEDES	include/Mu_Buildxml.h	26;"	d
+IS_FILEDES	include/Mu_Creatxml.h	25;"	d
+IS_RESUMEINFO	include/Mu_Creatxml.h	26;"	d
+IS_SERVINFO	include/Mu_Buildxml.h	23;"	d
+IS_SERVINFO	include/Mu_Creatxml.h	22;"	d
+IS_SIG20X	include/Mu_Buildxml.h	39;"	d
+IS_SIG20X	include/Mu_Creatxml.h	39;"	d
+IS_SIG901	include/Mu_Buildxml.h	36;"	d
+IS_SIG901	include/Mu_Creatxml.h	36;"	d
+IS_SIG902	include/Mu_Buildxml.h	37;"	d
+IS_SIG902	include/Mu_Creatxml.h	37;"	d
+IS_SIG903	include/Mu_Buildxml.h	38;"	d
+IS_SIG903	include/Mu_Creatxml.h	38;"	d
+IS_SIGADP	include/Mu_Buildxml.h	30;"	d
+IS_SIGADP	include/Mu_Creatxml.h	30;"	d
+IS_SIGNAL	include/Mu_Buildxml.h	27;"	d
+IS_SIGNAL	include/Mu_Creatxml.h	27;"	d
+IS_SIGQUE	include/Mu_Buildxml.h	33;"	d
+IS_SIGQUE	include/Mu_Creatxml.h	33;"	d
+IS_SIGUPDN	include/Mu_Buildxml.h	32;"	d
+IS_SIGUPDN	include/Mu_Creatxml.h	32;"	d
+IS_SIGUPFILE	include/Mu_Buildxml.h	31;"	d
+IS_SIGUPFILE	include/Mu_Creatxml.h	31;"	d
+IS_UPDATEINFO	include/Mu_Buildxml.h	24;"	d
+IS_UPDATEINFO	include/Mu_Creatxml.h	23;"	d
+IdInt	include/Mu_Struct.h	/^	int IdInt;			\/\/XmlDeviceInfo IdInt$/;"	m	struct:_XmlDeviceInfo
+IdInt	include/Mu_Struct_main.h	/^	char *IdInt;			\/\/XmlDeviceInfo IdInt$/;"	m	struct:_XmlDeviceInfo
+LIB	crcmd5/Makefile	/^LIB=\/usr\/lib$/;"	m
+LIB	main/Makefile	/^LIB=\/usr\/lib$/;"	m
+LIB	network/Makefile	/^LIB=\/usr\/lib$/;"	m
+LIBCFLAGS	crcmd5/Makefile	/^LIBCFLAGS=$(CFLAGS) -shared -fPCI$/;"	m
+LIBCFLAGS	network/Makefile	/^LIBCFLAGS=$(CFLAGS) -shared -fPCI$/;"	m
+LOGIN	include/MuFTAD_Proc.h	4;"	d
+LOGOUT101	include/MuFTAD_Proc.h	5;"	d
+LOGOUT102	include/MuFTAD_Proc.h	6;"	d
+MAX_ADDR	include/Mu_Struct.h	6;"	d
+MAX_ADDR	include/Mu_Struct_main.h	15;"	d
+MAX_CRC_LEN	include/Mu_crc.h	31;"	d
+MAX_THD	include/Mu_NetIO.h	55;"	d
+MAX_THD_LEN	include/Mu_HttpUtil.h	15;"	d
+MUCNOM	include/Mu_error.h	58;"	d
+MUEAUH	include/Mu_error.h	38;"	d
+MUEBLD	include/Mu_error.h	61;"	d
+MUEBUL	include/Mu_error.h	37;"	d
+MUECNNT	include/Mu_error.h	14;"	d
+MUECON	include/Mu_error.h	54;"	d
+MUEDEL	include/Mu_error.h	41;"	d
+MUEEOF	include/Mu_error.h	47;"	d
+MUEERO	include/Mu_error.h	9;"	d
+MUEFSY	include/Mu_error.h	26;"	d
+MUEMEH	include/Mu_error.h	46;"	d
+MUENSP	include/Mu_error.h	27;"	d
+MUEPRO	include/Mu_error.h	48;"	d
+MUEPST	include/Mu_error.h	53;"	d
+MUEQUE	include/Mu_error.h	55;"	d
+MUEREC	include/Mu_error.h	44;"	d
+MUERED	include/Mu_error.h	43;"	d
+MUEREFUSED	include/Mu_error.h	15;"	d
+MUERLC	include/Mu_error.h	40;"	d
+MUESND	include/Mu_error.h	39;"	d
+MUESSL	include/Mu_error.h	7;"	d
+MUETIMEOUT	include/Mu_error.h	8;"	d
+MUEURL	include/Mu_error.h	45;"	d
+MUEX2XX	include/Mu_error.h	23;"	d
+MUEX4XX	include/Mu_error.h	24;"	d
+MUEXADP	include/Mu_error.h	22;"	d
+MUEXCNT	include/Mu_error.h	19;"	d
+MUEXDOC	include/Mu_error.h	17;"	d
+MUEXNOD	include/Mu_error.h	18;"	d
+MUEXSIN	include/Mu_error.h	21;"	d
+MUFLEN	include/Mu_error.h	57;"	d
+MUFRAD	include/Mu_error.h	59;"	d
+MUMULTI_LIST_MAX	include/Mu_Parsexml.h	6;"	d
+MUMULTI_LIST_MAX	include/Mu_xml_parse.h	6;"	d
+MUNBUF	include/Mu_error.h	12;"	d
+MUNCMP	include/Mu_error.h	42;"	d
+MUNCOK	include/Mu_error.h	34;"	d
+MUNFIL	include/Mu_error.h	49;"	d
+MUNHST	include/Mu_error.h	11;"	d
+MUNLEN	include/Mu_error.h	32;"	d
+MUNLVR	include/Mu_error.h	33;"	d
+MUNNOD	include/Mu_error.h	20;"	d
+MUNPAT	include/Mu_error.h	31;"	d
+MUNPOS	include/Mu_error.h	35;"	d
+MUNPRO	include/Mu_error.h	52;"	d
+MUNPRT	include/Mu_error.h	10;"	d
+MUNSKT	include/Mu_error.h	13;"	d
+MUNXML	include/Mu_error.h	28;"	d
+MUOK	include/Mu_error.h	6;"	d
+MUXML_LENGTH_MAX	include/Mu_Parsexml.h	4;"	d
+MUXML_LENGTH_MAX	include/Mu_xml_parse.h	5;"	d
+MU_DNCMP	include/Mu_Http.h	/^	MU_DNCMP,$/;"	e	enum:_Mu_DnStatCode
+MU_DNCNT	include/Mu_Http.h	/^	MU_DNCNT = 1,$/;"	e	enum:_Mu_DnStatCode
+MU_DNCOMP	include/Mu_error.h	30;"	d
+MU_DNRCV	include/Mu_Http.h	/^	MU_DNRCV,$/;"	e	enum:_Mu_DnStatCode
+MU_DOWNLOAD	include/Mu_Http.h	/^	MU_DOWNLOAD = 2$/;"	e	enum:_Mu_DnType
+MU_GET	include/Mu_Http.h	/^	MU_GET = 1,$/;"	e	enum:_Mu_BuildMethod
+MU_HEAD	include/Mu_Http.h	/^	MU_HEAD,$/;"	e	enum:_Mu_BuildMethod
+MU_HTTP	include/Mu_NetIO.h	/^	MU_HTTP,$/;"	e	enum:_MuNetType
+MU_HTTPS	include/Mu_NetIO.h	/^	MU_HTTPS$/;"	e	enum:_MuNetType
+MU_MAX_HEADER	include/Mu_Http.h	7;"	d
+MU_NAME_MAX	include/Mu_Struct.h	5;"	d
+MU_NAME_MAX	include/Mu_Struct_main.h	14;"	d
+MU_NOMETH	include/Mu_Http.h	/^	MU_NOMETH,$/;"	e	enum:_Mu_BuildMethod
+MU_NONE	include/Mu_NetIO.h	/^	MU_NONE,$/;"	e	enum:_MuNetType
+MU_POST	include/Mu_Http.h	/^	MU_POST$/;"	e	enum:_Mu_BuildMethod
+MU_QUERY	include/Mu_Http.h	/^	MU_QUERY = 1,$/;"	e	enum:_Mu_DnType
+MU_READ	include/Mu_NetIO.h	/^	MU_READ$/;"	e	enum:_MuWR
+MU_RECNT	include/Mu_Http.h	/^	MU_RECNT,$/;"	e	enum:_Mu_DnStatCode
+MU_WRITE	include/Mu_NetIO.h	/^	MU_WRITE,$/;"	e	enum:_MuWR
+MU_WRITE_ELEMENT	include/Mu_Buildxml.h	42;"	d
+MU_WRITE_ELEMENT	include/Mu_Creatxml.h	42;"	d
+Md5Num	include/Mu_Struct.h	/^char * Md5Num;		\/\/Checksum (MD5)$/;"	m	struct:_SRVDeviceInfo
+Md5Num	include/Mu_Struct_main.h	/^    	char *Md5Num;		\/\/Checksum (MD5)$/;"	m	struct:_SRVDeviceInfo
+MuDBIInfo	include/MuFTAD_Init.h	/^DBIInfoPtr MuDBIInfo;$/;"	v
+MuDBUDirt	include/MuFTAD_Init.h	/^DBUDirtPtr MuDBUDirt;$/;"	v
+MuDBUInfo	include/MuFTAD_Init.h	/^DBUInfoPtr MuDBUInfo;$/;"	v
+MuDBURate	include/MuFTAD_Init.h	/^DBURatePtr MuDBURate;$/;"	v
+MuDeviceInfo	include/MuFTAD_Init.h	/^DeviceInfoPtr MuDeviceInfo;$/;"	v
+MuDirStatHead	include/MuFTAD_Init.h	/^DirStatusHeadPtr MuDirStatHead;$/;"	v
+MuEyewearADPrcv	include/MuFTAD_Init.h	/^EyewearADPPtr MuEyewearADPrcv; \/\/\/\/preserver the signal of current$/;"	v
+MuEyewearADPsnd	include/MuFTAD_Init.h	/^EyewearADPPtr MuEyewearADPsnd; \/\/preserver the signal$/;"	v
+MuFTAD_CopyInfoToDBII	main/MuFTAD_App.c	/^int MuFTAD_CopyInfoToDBII(FddfStatusNodePtr Ptr, DBIInfoPtr DbiInfo)$/;"	f
+MuFTAD_CopyInfoToDBUD	main/MuFTAD_App.c	/^int MuFTAD_CopyInfoToDBUD(DirStatusNodePtr Ptr, DBUDirtPtr Dbudirt, int suc)$/;"	f
+MuFTAD_CopyInfoToDBUI	main/MuFTAD_App.c	/^int MuFTAD_CopyInfoToDBUI(DatabaseInfoPtr Ptr, DBUInfoPtr DbuInfo, int suc)$/;"	f
+MuFTAD_CopyInfoToDBUR	main/MuFTAD_App.c	/^int MuFTAD_CopyInfoToDBUR(DatabaseInfoPtr Ptr, DBURatePtr Dburate, int rate)$/;"	f
+MuFTAD_DateInit	main/MuFTAD_Init.c	/^int MuFTAD_DateInit(void)$/;"	f
+MuFTAD_DeleteResum	main/MuFTAD_App.c	/^int MuFTAD_DeleteResum(ResumeInfoPtr resume, int i)$/;"	f
+MuFTAD_DeviceInit	main/MuFTAD_Init.c	/^int MuFTAD_DeviceInit(const char *serverinfo, const char *deviceinfo)$/;"	f
+MuFTAD_DnUpdate	main/MuFTAD_Util.c	/^int MuFTAD_DnUpdate(void)$/;"	f
+MuFTAD_Download2XX	main/MuFTAD_Util.c	/^int MuFTAD_Download2XX(int fd, off_t offset, SegmentNodePtr Ptr, int resume)$/;"	f
+MuFTAD_Download4XX	main/MuFTAD_Util.c	/^int MuFTAD_Download4XX(const char *url, int type, int authmethod)$/;"	f
+MuFTAD_ErrorProc	main/MuFTAD_App.c	/^void MuFTAD_ErrorProc(int ret)$/;"	f
+MuFTAD_EyeADPPost	main/MuFTAD_Proc.c	/^int MuFTAD_EyeADPPost(int opccode)$/;"	f
+MuFTAD_EyeADPSndInit	main/MuFTAD_Util.c	/^int MuFTAD_EyeADPSndInit(void)$/;"	f
+MuFTAD_Free	include/MuFTAD_Init.h	38;"	d
+MuFTAD_GetAPI	main/MuFTAD_Proc.c	/^char *MuFTAD_GetAPI(int opccode)$/;"	f
+MuFTAD_GetStoreFd	main/MuFTAD_Proc.c	/^int MuFTAD_GetStoreFd(int opccode)$/;"	f
+MuFTAD_Login	main/MuFTAD_Util.c	/^int MuFTAD_Login(void)$/;"	f
+MuFTAD_Logout101	main/MuFTAD_Util.c	/^int MuFTAD_Logout101(void)$/;"	f
+MuFTAD_Logout102	main/MuFTAD_Util.c	/^int MuFTAD_Logout102(void)$/;"	f
+MuFTAD_MakeURL	main/MuFTAD_Proc.c	/^int MuFTAD_MakeURL(char **query, int method, char *path)$/;"	f
+MuFTAD_PreLogin	main/MuFTAD_Util.c	/^int MuFTAD_PreLogin(void)$/;"	f
+MuFTAD_Proc200	main/MuFTAD_Proc.c	/^int MuFTAD_Proc200(int opccode)$/;"	f
+MuFTAD_Proc300	main/MuFTAD_Proc.c	/^int MuFTAD_Proc300(void)$/;"	f
+MuFTAD_Proc301	main/MuFTAD_Proc.c	/^int MuFTAD_Proc301(void)$/;"	f
+MuFTAD_ProcLogin200	main/MuFTAD_Proc.c	/^int MuFTAD_ProcLogin200(void)$/;"	f
+MuFTAD_ProcQueryStat200	main/MuFTAD_Proc.c	/^int MuFTAD_ProcQueryStat200(void)$/;"	f
+MuFTAD_Query110	main/MuFTAD_Util.c	/^int MuFTAD_Query110(void)$/;"	f
+MuFTAD_Query110Proc	main/MuFTAD_Util.c	/^int MuFTAD_Query110Proc(void)$/;"	f
+MuFTAD_Query111	main/MuFTAD_Util.c	/^int MuFTAD_Query111((void *) Ptr, int type, int resume)$/;"	f
+MuFTAD_QueryFddf	main/MuFTAD_Util.c	/^int MuFTAD_QueryFddf(const char *url, int authmethod, int resume)$/;"	f
+MuFTAD_QueryListPost	main/MuFTAD_Proc.c	/^int MuFTAD_QueryListPost((void *)Ptr, int type)$/;"	f
+MuFTAD_QueryPost	main/MuFTAD_Proc.c	/^int MuFTAD_QueryPost(int querytype)$/;"	f
+MuFTAD_RecordResum	main/MuFTAD_App.c	/^int MuFTAD_RecordResum(ResumeInfoPtr resume, int type, const char *name, int *i)$/;"	f
+MuFTAD_Resume	main/MuFTAD_Util.c	/^int MuFTAD_Resume(void)$/;"	f
+MuFTAD_Resume2XX	main/MuFTAD_Util.c	/^int MuFTAD_Resume2XX(int i)$/;"	f
+MuFTAD_Resume2XXCheck	main/MuFTAD_Proc.c	/^int MuFTAD_Resume2XXCheck(DatabaseInfoPtr *Ptr, const char *name)$/;"	f
+MuFTAD_Resume4XX	main/MuFTAD_Util.c	/^int MuFTAD_Resume4XX(int i)$/;"	f
+MuFTAD_UpDnPost	main/MuFTAD_Proc.c	/^int MuFTAD_UpDnPost(void *Ptr, int opccode, int type, int suc)$/;"	f
+MuFTAD_UpSRV120	main/MuFTAD_Util.c	/^int MuFTAD_UpSRV120(void)$/;"	f
+MuFTAD_UpSRV120Post	main/MuFTAD_Proc.c	/^int MuFTAD_UpSRV120Post(void)$/;"	f
+MuFTAD_UpSRV121	main/MuFTAD_Util.c	/^int MuFTAD_UpSRV121(void *Ptr, int type, int suc)$/;"	f
+MuFTAD_UpSRV122	main/MuFTAD_Util.c	/^int MuFTAD_UpSRV122(void *Ptr, int type)$/;"	f
+MuFTAD_UpdateConv	main/MuFTAD_App.c	/^int MuFTAD_UpdateConv (ConversationPtr *Ptr)$/;"	f
+MuFTAD_UpdateID	main/MuFTAD_App.c	/^int MuFTAD_UpdateID(const char *IdInit,  const char *IdApp)$/;"	f
+MuFTAD_UpdateTime	main/MuFTAD_App.c	/^int MuFTAD_UpdateTime(char *Time)$/;"	f
+MuFTAD_XmlProc	main/MuFTAD_Proc.c	/^int MuFTAD_XmlProc(int statcode)$/;"	f
+MuFddfFile	include/MuFTAD_Init.h	/^FddfFilePtr MuFddfFile;$/;"	v
+MuFddfListHead	include/MuFTAD_Init.h	/^FddfListHeadPtr MuFddfListHead;$/;"	v
+MuFddfStatHead	include/MuFTAD_Init.h	/^FddfStatusHeadPtr MuFddfStatHead;$/;"	v
+MuFileInfo	include/MuFTAD_Init.h	/^FileInfoPtr MuFileInfo;$/;"	v
+MuIO	include/Mu_NetIO.h	/^MuNetIO MuIO;$/;"	v
+MuNetIO	include/Mu_NetIO.h	/^}MuNetIO, *MuNetIOPtr;$/;"	t	typeref:struct:_MuNetIO
+MuNetIOPtr	include/Mu_NetIO.h	/^}MuNetIO, *MuNetIOPtr;$/;"	t	typeref:struct:_MuNetIO
+MuNetType	include/Mu_NetIO.h	/^}MuNetType;$/;"	t	typeref:enum:_MuNetType
+MuResume	include/MuFTAD_Init.h	/^ResumeInfo MuResume[10];$/;"	v
+MuSegmentHead	include/MuFTAD_Init.h	/^SegmentHeadPtr MuSegmentHead;$/;"	v
+MuServiceInfo	include/MuFTAD_Init.h	/^ServiceInfoPtr MuServiceInfo;$/;"	v
+MuSslTab	include/Mu_NetIO.h	/^}MuSslTab, *MuSslTadPtr;$/;"	t	typeref:struct:_MuSslTab
+MuSslTadPtr	include/Mu_NetIO.h	/^}MuSslTab, *MuSslTadPtr;$/;"	t	typeref:struct:_MuSslTab
+MuWR	include/Mu_NetIO.h	/^}MuWR;$/;"	t	typeref:enum:_MuWR
+Mu_Base64Encode	network/Mu_HttpUtil.c	/^void Mu_Base64Encode(const char *s, char *store, int length)$/;"	f
+Mu_Build	include/Mu_Http.h	/^}Mu_Build, *Mu_BuildPtr;$/;"	t	typeref:struct:_Mu_Build
+Mu_BuildDeviceInfo	parsexml/Mu_createxml.c	/^int Mu_BuildDeviceInfo(int fp, XmlDeviceInfoPtr Ptr1) $/;"	f
+Mu_BuildFileDes	parsexml/Mu_createxml.c	/^int Mu_BuildFileDes(int fp, FddfFilePtr Ptr1) $/;"	f
+Mu_BuildMethod	include/Mu_Http.h	/^}Mu_BuildMethod;$/;"	t	typeref:enum:_Mu_BuildMethod
+Mu_BuildPtr	include/Mu_Http.h	/^}Mu_Build, *Mu_BuildPtr;$/;"	t	typeref:struct:_Mu_Build
+Mu_BuildQuery	network/Mu_HttpBuild.c	/^int Mu_BuildQuery(Mu_Build build, char **Ptr)$/;"	f
+Mu_BuildQueryGet	network/Mu_HttpBuild.c	/^int Mu_BuildQueryGet(Mu_Build build, char **Ptr)$/;"	f
+Mu_BuildQueryHead	network/Mu_HttpBuild.c	/^int Mu_BuildQueryHead(Mu_Build build, char **Ptr)$/;"	f
+Mu_BuildQueryPost	network/Mu_HttpBuild.c	/^int Mu_BuildQueryPost(Mu_Build build, char **Ptr)$/;"	f
+Mu_BuildResume	parsexml/Mu_createxml.c	/^int Mu_BuildResume(int fp, ResumeInfoPtr Ptr1) $/;"	f
+Mu_BuildSignal	parsexml/Mu_createxml.c	/^int Mu_BuildSignal(int type, int fp, void *Ptr1, void *Ptr2) $/;"	f
+Mu_BuildSignalADP	parsexml/Mu_createxml.c	/^int Mu_BuildSignalADP(int fp, EyewearADPPtr Ptr1)$/;"	f
+Mu_BuildSignalQuery	parsexml/Mu_createxml.c	/^int Mu_BuildSignalQuery(int type, int fp, void *Ptr1, void *Ptr2) $/;"	f
+Mu_BuildSignalQuery20X	parsexml/Mu_createxml.c	/^int Mu_BuildSignalQuery20X(int fp, EyewearADPPtr Ptr1, DBIInfoPtr Ptr2) $/;"	f
+Mu_BuildSignalUpDn	parsexml/Mu_createxml.c	/^int Mu_BuildSignalUpDn(int type, int fp, void *Ptr1, void *Ptr2) $/;"	f
+Mu_BuildSignalUpDn902	parsexml/Mu_createxml.c	/^int Mu_BuildSignalUpDn902(int fp, EyewearADPPtr Ptr1, DBUInfoPtr Ptr2) $/;"	f
+Mu_BuildSignalUpDn903	parsexml/Mu_createxml.c	/^int Mu_BuildSignalUpDn903(int fp, EyewearADPPtr Ptr1, DBUDirtPtr Ptr2) $/;"	f
+Mu_BuildSignalUpFile	parsexml/Mu_createxml.c	/^int Mu_BuildSignalUpFile(int fp, EyewearADPPtr Ptr1, DBURatePtr Ptr2) $/;"	f
+Mu_BuildUpdateInfo	parsexml/Mu_createxml.c	/^int Mu_BuildUpdateInfo(int fp, UpdateInfoPtr Ptr1)$/;"	f
+Mu_BuildXML	parsexml/Mu_createxml.c	/^int Mu_BuildXML(int type, int fp, void *Ptr1, void *Ptr2)$/;"	f
+Mu_CheckCA	network/Mu_NetIO.c	/^int Mu_CheckCA()$/;"	f
+Mu_CheckProtoc	network/Mu_HttpUrl.c	/^int Mu_CheckProtoc(const char *url)$/;"	f
+Mu_CheckUser	network/Mu_HttpUrl.c	/^int Mu_CheckUser(const char *url)$/;"	f
+Mu_Close	include/Mu_Util.h	13;"	d
+Mu_Closer	network/Mu_NetIO.c	/^int Mu_Closer(int fd)$/;"	f
+Mu_Connecter	network/Mu_NetIO.c	/^int Mu_Connecter(int *socketfd, const char *host, int port, double timeout)$/;"	f
+Mu_Crc32File	crcmd5/Mu_crc.c	/^int Mu_Crc32File(int fd, unsigned int crc32){$/;"	f
+Mu_Crc32Segment	crcmd5/Mu_crc.c	/^int Mu_Crc32Segment(int fd,off_t seek,size_t char_length,unsigned int crc32){$/;"	f
+Mu_DBIInfoPtrCreate	parsexml/Mu_createxml.c	/^int Mu_DBIInfoPtrCreate(DBIInfoPtr * Ptr)$/;"	f
+Mu_DBIInfoPtrFree	parsexml/Mu_createxml.c	/^int Mu_DBIInfoPtrFree(DBIInfoPtr Ptr)$/;"	f
+Mu_DBIInfoPtrInit	parsexml/Mu_createxml.c	/^int Mu_DBIInfoPtrInit(DBIInfoPtr Ptr)$/;"	f
+Mu_DBUDirtPtrCreate	parsexml/Mu_createxml.c	/^int Mu_DBUDirtPtrCreate(DBUDirtPtr *Ptr)$/;"	f
+Mu_DBUDirtPtrFree	parsexml/Mu_createxml.c	/^int Mu_DBUDirtPtrFree(DBUDirtPtr Ptr)$/;"	f
+Mu_DBUDirtPtrInit	parsexml/Mu_createxml.c	/^int Mu_DBUDirtPtrInit(DBUDirtPtr Ptr)$/;"	f
+Mu_DBUInfoPtrCreate	parsexml/Mu_createxml.c	/^int Mu_DBUInfoPtrCreate(DBUInfoPtr * Ptr)$/;"	f
+Mu_DBUInfoPtrFree	parsexml/Mu_createxml.c	/^int Mu_DBUInfoPtrFree(DBUInfoPtr Ptr)$/;"	f
+Mu_DBUInfoPtrInit	parsexml/Mu_createxml.c	/^int Mu_DBUInfoPtrInit(DBUInfoPtr Ptr)$/;"	f
+Mu_DBURatePtrCreate	parsexml/Mu_createxml.c	/^int Mu_DBURatePtrCreate(DBURatePtr * Ptr)$/;"	f
+Mu_DBURatePtrFree	parsexml/Mu_createxml.c	/^int Mu_DBURatePtrFree(DBURatePtr Ptr)$/;"	f
+Mu_DBURatePtrInit	parsexml/Mu_createxml.c	/^int Mu_DBURatePtrInit(DBURatePtr Ptr)$/;"	f
+Mu_DeviceInfoStrncpy	parsexml/Mu_Struct.c	/^int Mu_DeviceInfoStrncpy(XmlDeviceInfoPtr Ptr, const xmlChar *string, const xmlChar *name)$/;"	f
+Mu_DeviceInfoTravel	parsexml/Mu_Parsexml.c	/^int Mu_DeviceInfoTravel(xmlDocPtr Doc,xmlNodePtr Node,XmlDeviceInfoPtr Ptr)$/;"	f
+Mu_DirDownloadAddrClear	parsexml/Mu_Struct.c	/^int Mu_DirDownloadAddrClear(DirDownloadAddrPtr Ptr) $/;"	f
+Mu_DirDownloadAddrDeleteList	parsexml/Mu_Struct.c	/^int Mu_DirDownloadAddrDeleteList(DirStatusNodePtr Node) $/;"	f
+Mu_DirDownloadAddrDeleteone	parsexml/Mu_Struct.c	/^int Mu_DirDownloadAddrDeleteone(DirStatusNodePtr Node,DirDownloadAddrPtr addrs) $/;"	f
+Mu_DirDownloadAddrInit	parsexml/Mu_Struct.c	/^int Mu_DirDownloadAddrInit(DirDownloadAddrPtr Ptr) $/;"	f
+Mu_DirDownloadAddrInsert	parsexml/Mu_Struct.c	/^int Mu_DirDownloadAddrInsert(DirStatusNodePtr Node, DirDownloadAddrPtr addr)$/;"	f
+Mu_DirDownloadAddrStrncpy	parsexml/Mu_Struct.c	/^int Mu_DirDownloadAddrStrncpy(DirDownloadAddrPtr Node,xmlChar * string)$/;"	f
+Mu_DirStatusAddrCreate	parsexml/Mu_Struct.c	/^int Mu_DirStatusAddrCreate(DirDownloadAddrPtr *Ptr)$/;"	f
+Mu_DirStatusHeadClear	parsexml/Mu_Struct.c	/^int Mu_DirStatusHeadClear(DirStatusHeadPtr Ptr) $/;"	f
+Mu_DirStatusHeadCreate	parsexml/Mu_Struct.c	/^int Mu_DirStatusHeadCreate(DirStatusHeadPtr *Ptr)$/;"	f
+Mu_DirStatusHeadFree	parsexml/Mu_Struct.c	/^int Mu_DirStatusHeadFree(DirStatusHeadPtr Ptr) $/;"	f
+Mu_DirStatusHeadInit	parsexml/Mu_Struct.c	/^int Mu_DirStatusHeadInit(DirStatusHeadPtr Ptr) $/;"	f
+Mu_DirStatusNodeClear	parsexml/Mu_Struct.c	/^int Mu_DirStatusNodeClear(DirStatusNodePtr Ptr) $/;"	f
+Mu_DirStatusNodeCreate	parsexml/Mu_Struct.c	/^int Mu_DirStatusNodeCreate(DirStatusNodePtr * Ptr)	$/;"	f
+Mu_DirStatusNodeDelete	parsexml/Mu_Struct.c	/^int Mu_DirStatusNodeDelete(DirStatusHeadPtr Head, DirStatusNodePtr Node) $/;"	f
+Mu_DirStatusNodeInit	parsexml/Mu_Struct.c	/^int Mu_DirStatusNodeInit(DirStatusNodePtr Ptr) $/;"	f
+Mu_DirStatusNodeInsert	parsexml/Mu_Struct.c	/^int Mu_DirStatusNodeInsert(DirStatusHeadPtr head,DirStatusNodePtr node)$/;"	f
+Mu_DirStatusNodeStrncpy	parsexml/Mu_Struct.c	/^int Mu_DirStatusNodeStrncpy(DirStatusNodePtr Node,const xmlChar * string,const xmlChar *name)$/;"	f
+Mu_DnStat	include/Mu_Http.h	/^}Mu_DnStat, *Mu_DnStatPtr;$/;"	t	typeref:struct:_Mu_DnStat
+Mu_DnStatCode	include/Mu_Http.h	/^}Mu_DnStatCode;$/;"	t	typeref:enum:_Mu_DnStatCode
+Mu_DnStatPtr	include/Mu_Http.h	/^}Mu_DnStat, *Mu_DnStatPtr;$/;"	t	typeref:struct:_Mu_DnStat
+Mu_DnType	include/Mu_Http.h	/^}Mu_DnType;$/;"	t	typeref:enum:_Mu_DnType
+Mu_Download	network/Mu_HttpDown.c	/^void Mu_Download(Mu_HttpStatusPtr Ptr)$/;"	f
+Mu_ErrorPrint	include/Mu_error.h	67;"	d
+Mu_EyewearADPClear	parsexml/Mu_Struct.c	/^int Mu_EyewearADPClear(EyewearADPPtr Ptr) $/;"	f
+Mu_EyewearADPCreate	parsexml/Mu_Struct.c	/^int Mu_EyewearADPCreate(EyewearADPPtr *Ptr) $/;"	f
+Mu_EyewearADPFree	parsexml/Mu_Struct.c	/^int Mu_EyewearADPFree(EyewearADPPtr Ptr) $/;"	f
+Mu_EyewearADPInit	parsexml/Mu_Struct.c	/^int Mu_EyewearADPInit(EyewearADPPtr Ptr) $/;"	f
+Mu_EyewearADPStrncpy	parsexml/Mu_Struct.c	/^int Mu_EyewearADPStrncpy(EyewearADPPtr Ptr, const xmlChar *string, const xmlChar *name) $/;"	f
+Mu_EyewearADPTravel	parsexml/Mu_Parsexml.c	/^void Mu_EyewearADPTravel(xmlDocPtr doc, xmlNodePtr Node, EyewearADPPtr back) $/;"	f
+Mu_EyewearADPTravel2	parsexml/Mu_Parsexml.c	/^int Mu_EyewearADPTravel2(xmlDocPtr doc,xmlNodePtr Node,EyewearADPPtr back)$/;"	f
+Mu_EyewearFDDFTravle	parsexml/Mu_Parsexml.c	/^int Mu_EyewearFDDFTravle(xmlDocPtr Doc,xmlNodePtr Node,FddfFilePtr back)$/;"	f
+Mu_EyewearFDDFTravle1	parsexml/Mu_Parsexml.c	/^int Mu_EyewearFDDFTravle1(xmlDocPtr Doc,xmlNodePtr Node,FddfFilePtr back)$/;"	f
+Mu_FddfFileClear	parsexml/Mu_Struct.c	/^int Mu_FddfFileClear(FddfFilePtr Ptr) $/;"	f
+Mu_FddfFileCreate	parsexml/Mu_Struct.c	/^int Mu_FddfFileCreate(FddfFilePtr *Ptr) $/;"	f
+Mu_FddfFileFree	parsexml/Mu_Struct.c	/^int Mu_FddfFileFree(FddfFilePtr Ptr) $/;"	f
+Mu_FddfFileInit	parsexml/Mu_Struct.c	/^int Mu_FddfFileInit(FddfFilePtr Ptr) $/;"	f
+Mu_FddfFileStrncpy	parsexml/Mu_Struct.c	/^int Mu_FddfFileStrncpy(FddfFilePtr Ptr, const xmlChar *string, const xmlChar *name) $/;"	f
+Mu_FddfLisitHeadStrncpy	parsexml/Mu_Struct.c	/^int Mu_FddfLisitHeadStrncpy(FddfListHeadPtr Head, const xmlChar *string, const xmlChar *name) $/;"	f
+Mu_FddfListHeadClear	parsexml/Mu_Struct.c	/^int Mu_FddfListHeadClear(FddfListHeadPtr Ptr) $/;"	f
+Mu_FddfListHeadCreate	parsexml/Mu_Struct.c	/^int Mu_FddfListHeadCreate(FddfListHeadPtr *Ptr) $/;"	f
+Mu_FddfListHeadFree	parsexml/Mu_Struct.c	/^int Mu_FddfListHeadFree(FddfListHeadPtr Ptr) $/;"	f
+Mu_FddfListHeadInit	parsexml/Mu_Struct.c	/^int Mu_FddfListHeadInit(FddfListHeadPtr Ptr) $/;"	f
+Mu_FddfListNodeClear	parsexml/Mu_Struct.c	/^int Mu_FddfListNodeClear(FddfListNodePtr Ptr) $/;"	f
+Mu_FddfListNodeCreate	parsexml/Mu_Struct.c	/^int Mu_FddfListNodeCreate(FddfListNodePtr *Ptr) $/;"	f
+Mu_FddfListNodeDelete	parsexml/Mu_Struct.c	/^int Mu_FddfListNodeDelete(FddfListHeadPtr Head) $/;"	f
+Mu_FddfListNodeInit	parsexml/Mu_Struct.c	/^int Mu_FddfListNodeInit(FddfListNodePtr Ptr) $/;"	f
+Mu_FddfListNodeInsert	parsexml/Mu_Struct.c	/^int Mu_FddfListNodeInsert(FddfListHeadPtr Head, FddfListNodePtr Node) $/;"	f
+Mu_FddfListNodeStrncpy	parsexml/Mu_Struct.c	/^int Mu_FddfListNodeStrncpy(FddfListNodePtr Node, xmlChar *string, const xmlChar *name) $/;"	f
+Mu_FddfStatusHeadClear	parsexml/Mu_Struct.c	/^int Mu_FddfStatusHeadClear(FddfStatusHeadPtr Ptr)$/;"	f
+Mu_FddfStatusHeadCreate	parsexml/Mu_Struct.c	/^int Mu_FddfStatusHeadCreate(FddfStatusHeadPtr * Ptr) $/;"	f
+Mu_FddfStatusHeadFree	parsexml/Mu_Struct.c	/^int Mu_FddfStatusHeadFree(FddfStatusHeadPtr Ptr)$/;"	f
+Mu_FddfStatusHeadInit	parsexml/Mu_Struct.c	/^int Mu_FddfStatusHeadInit(FddfStatusHeadPtr Ptr)$/;"	f
+Mu_FddfStatusNodeClear	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeClear(FddfStatusNodePtr Ptr)$/;"	f
+Mu_FddfStatusNodeCreate	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeCreate(FddfStatusNodePtr *Ptr)$/;"	f
+Mu_FddfStatusNodeDelete	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeDelete(FddfStatusHeadPtr Head,FddfStatusNodePtr Node) $/;"	f
+Mu_FddfStatusNodeFree	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeFree(FddfStatusNodePtr Ptr)$/;"	f
+Mu_FddfStatusNodeInit	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeInit(FddfStatusNodePtr Ptr)$/;"	f
+Mu_FddfStatusNodeInsert	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeInsert(FddfStatusHeadPtr Head, FddfStatusNodePtr Node)$/;"	f
+Mu_FddfStatusNodeStrncpy	parsexml/Mu_Struct.c	/^int Mu_FddfStatusNodeStrncpy(FddfStatusNodePtr Node, const xmlChar *string, const xmlChar *name)$/;"	f
+Mu_FetchHeader	network/Mu_HttpParse.c	/^int Mu_FetchHeader(int socket, char **hdr)$/;"	f
+Mu_FileInfoClear	parsexml/Mu_Struct.c	/^int Mu_FileInfoClear(FileInfoPtr Ptr)$/;"	f
+Mu_FileInfoCreate	parsexml/Mu_Struct.c	/^int Mu_FileInfoCreate(FileInfoPtr *Ptr)$/;"	f
+Mu_FileInfoFree	parsexml/Mu_Struct.c	/^int Mu_FileInfoFree(FileInfoPtr Ptr)$/;"	f
+Mu_FileInfoInit	parsexml/Mu_Struct.c	/^int Mu_FileInfoInit(FileInfoPtr Ptr)$/;"	f
+Mu_FileInfoStrncpy	parsexml/Mu_Struct.c	/^int Mu_FileInfoStrncpy(FileInfoPtr Ptr, xmlChar *string, const xmlChar *name)$/;"	f
+Mu_FileInfoTravel	parsexml/Mu_Parsexml.c	/^int Mu_FileInfoTravel(xmlDocPtr Doc,xmlNodePtr Node,FileInfoPtr Ptr)$/;"	f
+Mu_FindSsl	include/Mu_NetIO.h	70;"	d
+Mu_Free	include/Mu_Struct.h	260;"	d
+Mu_Free	include/Mu_Struct_main.h	270;"	d
+Mu_Free	include/Mu_Util.h	5;"	d
+Mu_GetBasicAuth	network/Mu_HttpUtil.c	/^char *Mu_GetBasicAuth(const char *user, const char *passwd)$/;"	f
+Mu_GetContentLen	network/Mu_HttpParse.c	/^off_t Mu_GetContentLen(const char *hdr)$/;"	f
+Mu_GetCookies	network/Mu_HttpParse.c	/^int Mu_GetCookies(const char *hdr){$/;"	f
+Mu_GetCookiesForHead	network/Mu_HttpUtil.c	/^char *Mu_GetCookiesForHead()$/;"	f
+Mu_GetHostPort	network/Mu_HttpUrl.c	/^int Mu_GetHostPort(const char *url)$/;"	f
+Mu_GetLoop	network/Mu_HttpDown.c	/^int Mu_GetLoop(Mu_DnStatPtr Ptr)$/;"	f
+Mu_GetPathFile	network/Mu_HttpUrl.c	/^int Mu_GetPathFile(const char *url)$/;"	f
+Mu_GetRelocation	network/Mu_HttpParse.c	/^int Mu_GetRelocation(const char *hdr)$/;"	f
+Mu_GetStatusCode	network/Mu_HttpParse.c	/^int Mu_GetStatusCode(const char *hdr)$/;"	f
+Mu_HttpPlus	network/Mu_HttpDown.c	/^int Mu_HttpPlus(const char *url, int method, Mu_DnStatPtr Ptr)$/;"	f
+Mu_HttpStatus	include/Mu_Http.h	/^}Mu_HttpStatus, *Mu_HttpStatusPtr;$/;"	t	typeref:struct:_Mu_Httpstatus
+Mu_HttpStatusPtr	include/Mu_Http.h	/^}Mu_HttpStatus, *Mu_HttpStatusPtr;$/;"	t	typeref:struct:_Mu_Httpstatus
+Mu_InitBuild	network/Mu_HttpUtil.c	/^void Mu_InitBuild(Mu_BuildPtr build)$/;"	f
+Mu_InitDnStat	network/Mu_HttpUtil.c	/^void Mu_InitDnStat(Mu_DnStatPtr MuDnStat)$/;"	f
+Mu_InitHttpStat	network/Mu_HttpUtil.c	/^void Mu_InitHttpStat(Mu_HttpStatusPtr Ptr)$/;"	f
+Mu_InitNetIO	network/Mu_NetIO.c	/^int Mu_InitNetIO(MuNetIOPtr IO)$/;"	f
+Mu_InitSslTab	network/Mu_NetIO.c	/^void  Mu_InitSslTab(int num)$/;"	f
+Mu_InitThreads	network/Mu_HttpUtil.c	/^int Mu_InitThreads(off_t length)$/;"	f
+Mu_InitURL	network/Mu_HttpUtil.c	/^void Mu_InitURL(Mu_URLPtr mu_url)$/;"	f
+Mu_Md5File	crcmd5/Mu_md5.c	/^int Mu_Md5File(int fd, char *md5){$/;"	f
+Mu_Md5Segment	crcmd5/Mu_md5.c	/^int Mu_Md5Segment(int fd, off_t seek, size_t char_length, char *md5){$/;"	f
+Mu_OpensslCloser	network/Mu_NetIO.c	/^int Mu_OpensslCloser(int fd)$/;"	f
+Mu_OpensslConnect	network/Mu_NetIO.c	/^int Mu_OpensslConnect(int socket)$/;"	f
+Mu_OpensslPeeker	network/Mu_NetIO.c	/^int Mu_OpensslPeeker(int fd, char *buf, int bufsize)$/;"	f
+Mu_OpensslRead	network/Mu_NetIO.c	/^int Mu_OpensslRead(int fd, char *buf, int len)$/;"	f
+Mu_OpensslSelect	network/Mu_NetIO.c	/^int Mu_OpensslSelect(int fd, int wr, double timeout)$/;"	f
+Mu_OpensslWrite	network/Mu_NetIO.c	/^int Mu_OpensslWrite(int fd, char *buf, int len)$/;"	f
+Mu_Parse	parsexml/Mu_Parsexml.c	/^int Mu_Parse (int type, const int fd , xmlChar *xpath, void ** back)$/;"	f
+Mu_ParseDeviceInfo	parsexml/Mu_Parsexml.c	/^int Mu_ParseDeviceInfo(xmlDocPtr Doc,XmlDeviceInfoPtr back)$/;"	f
+Mu_ParseEyewearADP	parsexml/Mu_Parsexml.c	/^int Mu_ParseEyewearADP(xmlDocPtr doc, EyewearADPPtr back) $/;"	f
+Mu_ParseEyewearFDDF	parsexml/Mu_Parsexml.c	/^int Mu_ParseEyewearFDDF(xmlDocPtr Doc,FddfFilePtr back)$/;"	f
+Mu_ParseFDDFList	parsexml/Mu_Parsexml.c	/^int Mu_ParseFDDFList(xmlXPathObjectPtr Ptr, FddfListHeadPtr back)$/;"	f
+Mu_ParseFDDFsegment	parsexml/Mu_Parsexml.c	/^int Mu_ParseFDDFsegment(xmlXPathObjectPtr Ptr,SegmentHeadPtr back)$/;"	f
+Mu_ParseFileInfo	parsexml/Mu_Parsexml.c	/^int Mu_ParseFileInfo(xmlDocPtr Doc,FileInfoPtr back)$/;"	f
+Mu_ParseHeader	network/Mu_HttpParse.c	/^int Mu_ParseHeader(int socket,Mu_HttpStatusPtr Ptr){$/;"	f
+Mu_ParseMulti	parsexml/Mu_Parsexml.c	/^int Mu_ParseMulti(xmlXPathObjectPtr Ptr,ServerHeadPtr back)$/;"	f
+Mu_ParseMulti1XX	parsexml/Mu_Parsexml.c	/^int Mu_ParseMulti1XX(xmlXPathObjectPtr Ptr, SRV_SvrInfPtr back) $/;"	f
+Mu_ParseMulti2XX	parsexml/Mu_Parsexml.c	/^int Mu_ParseMulti2XX(xmlXPathObjectPtr Ptr, FddfStatusHeadPtr back) $/;"	f
+Mu_ParseMulti4XX	parsexml/Mu_Parsexml.c	/^int Mu_ParseMulti4XX(xmlXPathObjectPtr Ptr, DirStatusHeadPtr back) $/;"	f
+Mu_ParseMultiFDDF	parsexml/Mu_Parsexml.c	/^int Mu_ParseMultiFDDF(xmlXPathObjectPtr Ptr, FddfStatusHeadPtr back) $/;"	f
+Mu_ParsePayload	parsexml/Mu_Parsexml.c	/^int Mu_ParsePayload(xmlDocPtr Doc,SRV_SvrInfPtr srv)$/;"	f
+Mu_ParseResumeInfo	parsexml/Mu_Parsexml.c	/^int Mu_ParseResumeInfo(xmlDocPtr Doc,ResumeInfoPtr back)$/;"	f
+Mu_ParseServiceInfo	parsexml/Mu_Parsexml.c	/^int Mu_ParseServiceInfo(xmlDocPtr doc, ServiceInfoPtr back) $/;"	f
+Mu_ParseSingle	parsexml/Mu_Parsexml.c	/^int Mu_ParseSingle(xmlXPathObjectPtr Ptr, void **back) $/;"	f
+Mu_ParseUpdateInfo	parsexml/Mu_Parsexml.c	/^int Mu_ParseUpdateInfo(xmlDocPtr Doc,UpdateInfoPtr back)$/;"	f
+Mu_ParseUrl	network/Mu_HttpUrl.c	/^int Mu_ParseUrl(const char *url)$/;"	f
+Mu_ParseXML	parsexml/Mu_Parsexml.c	/^int Mu_ParseXML(int type, xmlDocPtr doc, void ** back) $/;"	f
+Mu_ParseXpathXML	parsexml/Mu_Parsexml.c	/^int Mu_ParseXpathXML(int type, xmlDocPtr Doc, xmlChar *xpath, void ** back) $/;"	f
+Mu_PayloadTrave2	parsexml/Mu_Parsexml.c	/^int Mu_PayloadTrave2(xmlDocPtr Doc,xmlNodePtr Node,SRV_SvrInfPtr Ptr)$/;"	f
+Mu_PayloadTravel	parsexml/Mu_Parsexml.c	/^int Mu_PayloadTravel(xmlDocPtr Doc,xmlNodePtr Node,SRV_SvrInfPtr Ptr)$/;"	f
+Mu_Peeker	network/Mu_NetIO.c	/^int Mu_Peeker(int fd, char *buf, int bufsize)$/;"	f
+Mu_PostSignal	network/Mu_HttpQuery.c	/^int Mu_PostSignal(int socket, int xmlfd)$/;"	f
+Mu_Query	network/Mu_HttpQuery.c	/^int Mu_Query(Mu_DnStatPtr Ptr){$/;"	f
+Mu_ReadFromRec	network/Mu_HttpDown.c	/^int Mu_ReadFromRec(const char *name)$/;"	f
+Mu_Reader	network/Mu_NetIO.c	/^int Mu_Reader(int fd, char *buf, int len)$/;"	f
+Mu_RecToFile	network/Mu_HttpDown.c	/^int Mu_RecToFile(void)$/;"	f
+Mu_ResumeInfoCreate	parsexml/Mu_Struct.c	/^int Mu_ResumeInfoCreate(ResumeInfoPtr * Ptr,int num) $/;"	f
+Mu_ResumeInfoInit	parsexml/Mu_Struct.c	/^int Mu_ResumeInfoInit(ResumeInfoPtr Ptr, int num) $/;"	f
+Mu_ResumeInfoTravel	parsexml/Mu_Parsexml.c	/^int Mu_ResumeInfoTravel(xmlDocPtr Doc,xmlNodePtr Node,ResumeInfoPtr Ptr)$/;"	f
+Mu_ResumeInsert	parsexml/Mu_Struct.c	/^int Mu_ResumeInsert(ResumeInfoPtr Ptr,int type,xmlChar *name,int num,const xmlChar* string) $/;"	f
+Mu_SRV_FirmSFCreate	parsexml/Mu_Struct.c	/^int Mu_SRV_FirmSFCreate(SRV_FirmSFPtr *Ptr)$/;"	f
+Mu_SRV_FirmSFinit	parsexml/Mu_Struct.c	/^int Mu_SRV_FirmSFinit(SRV_FirmSFPtr Ptr)$/;"	f
+Mu_SRV_SvrInfClear	parsexml/Mu_Struct.c	/^int Mu_SRV_SvrInfClear(SRV_SvrInfPtr Ptr)$/;"	f
+Mu_SRV_SvrInfCreate	parsexml/Mu_Struct.c	/^int Mu_SRV_SvrInfCreate(SRV_SvrInfPtr *Ptr)$/;"	f
+Mu_SRV_SvrInfFree	parsexml/Mu_Struct.c	/^int Mu_SRV_SvrInfFree(SRV_SvrInfPtr Ptr)$/;"	f
+Mu_SRV_SvrInfInit	parsexml/Mu_Struct.c	/^int Mu_SRV_SvrInfInit(SRV_SvrInfPtr Ptr)$/;"	f
+Mu_SRV_SvrInfStrncpy	parsexml/Mu_Struct.c	/^int Mu_SRV_SvrInfStrncpy(SRV_SvrInfPtr Node, const xmlChar * string, const xmlChar * name)$/;"	f
+Mu_SegmentHeadClear	parsexml/Mu_Struct.c	/^int Mu_SegmentHeadClear(SegmentHeadPtr Ptr) $/;"	f
+Mu_SegmentHeadCreate	parsexml/Mu_Struct.c	/^int Mu_SegmentHeadCreate(SegmentHeadPtr *Ptr) $/;"	f
+Mu_SegmentHeadFree	parsexml/Mu_Struct.c	/^int Mu_SegmentHeadFree(SegmentHeadPtr Ptr) $/;"	f
+Mu_SegmentHeadInit	parsexml/Mu_Struct.c	/^int Mu_SegmentHeadInit(SegmentHeadPtr Ptr) $/;"	f
+Mu_SegmentNodeClear	parsexml/Mu_Struct.c	/^int Mu_SegmentNodeClear(SegmentNodePtr Ptr) $/;"	f
+Mu_SegmentNodeCreate	parsexml/Mu_Struct.c	/^int Mu_SegmentNodeCreate(SegmentNodePtr *Ptr) $/;"	f
+Mu_SegmentNodeDelete	parsexml/Mu_Struct.c	/^int Mu_SegmentNodeDelete(SegmentHeadPtr Head) $/;"	f
+Mu_SegmentNodeInit	parsexml/Mu_Struct.c	/^int Mu_SegmentNodeInit(SegmentNodePtr Ptr) $/;"	f
+Mu_SegmentNodeInsert	parsexml/Mu_Struct.c	/^int Mu_SegmentNodeInsert(SegmentHeadPtr Head, SegmentNodePtr Node) $/;"	f
+Mu_SegmentNodeStrncpy	parsexml/Mu_Struct.c	/^int Mu_SegmentNodeStrncpy(SegmentNodePtr Ptr, const xmlChar *string, const xmlChar *name)$/;"	f
+Mu_Selecter	network/Mu_NetIO.c	/^int Mu_Selecter(int fd, int wr, double timeout)$/;"	f
+Mu_ServerHeadClear	parsexml/Mu_Struct.c	/^int Mu_ServerHeadClear(ServerHeadPtr Ptr)$/;"	f
+Mu_ServerHeadInit	parsexml/Mu_Struct.c	/^int Mu_ServerHeadInit(ServerHeadPtr Ptr)$/;"	f
+Mu_ServerNodeClear	parsexml/Mu_Struct.c	/^int Mu_ServerNodeClear(ServerNodePtr Ptr)$/;"	f
+Mu_ServerNodeCreate	parsexml/Mu_Struct.c	/^int Mu_ServerNodeCreate(ServerNodePtr * Node)$/;"	f
+Mu_ServerNodeInit	parsexml/Mu_Struct.c	/^int Mu_ServerNodeInit(ServerNodePtr Ptr)$/;"	f
+Mu_ServerNodeInsert	parsexml/Mu_Struct.c	/^int Mu_ServerNodeInsert(ServerHeadPtr Ptr,ServerNodePtr Node)$/;"	f
+Mu_ServerNodeStrncpy	parsexml/Mu_Struct.c	/^int Mu_ServerNodeStrncpy(ServerNodePtr Ptr,const xmlChar * string,const xmlChar * name)$/;"	f
+Mu_ServiceInfoClear	parsexml/Mu_Struct.c	/^int Mu_ServiceInfoClear(ServiceInfoPtr Ptr) $/;"	f
+Mu_ServiceInfoCreate	parsexml/Mu_Struct.c	/^int Mu_ServiceInfoCreate(ServiceInfoPtr * Ptr)$/;"	f
+Mu_ServiceInfoFree	parsexml/Mu_Struct.c	/^int Mu_ServiceInfoFree(ServiceInfoPtr Ptr) $/;"	f
+Mu_ServiceInfoInit	parsexml/Mu_Struct.c	/^int Mu_ServiceInfoInit(ServiceInfoPtr Ptr) $/;"	f
+Mu_ServiceInfoStrncpy	parsexml/Mu_Struct.c	/^int Mu_ServiceInfoStrncpy(ServiceInfoPtr Ptr,const xmlChar * string,const xmlChar * name)$/;"	f
+Mu_ServiceInfoTravel	parsexml/Mu_Parsexml.c	/^void Mu_ServiceInfoTravel(xmlDocPtr doc,xmlNodePtr Node, ServiceInfoPtr back) $/;"	f
+Mu_SocketCloser	network/Mu_NetIO.c	/^int Mu_SocketCloser(int fd)$/;"	f
+Mu_SocketConnect	network/Mu_NetIO.c	/^int Mu_SocketConnect(int socketfd, struct sockaddr_in server, const char *host, int port, double timeout)$/;"	f
+Mu_SocketPeeker	network/Mu_NetIO.c	/^int Mu_SocketPeeker(int fd, char *buf, int bufsize)$/;"	f
+Mu_SocketRead	network/Mu_NetIO.c	/^int Mu_SocketRead(int fd, char *buf, int len)$/;"	f
+Mu_SocketSelect	network/Mu_NetIO.c	/^int Mu_SocketSelect(int fd, int wr, double timeout)$/;"	f
+Mu_SocketWrite	network/Mu_NetIO.c	/^int Mu_SocketWrite(int fd, char *buf, int len)$/;"	f
+Mu_SslInit	network/Mu_NetIO.c	/^int Mu_SslInit (){$/;"	f
+Mu_Strlen	network/Mu_Util.c	/^int Mu_Strlen(const char *Ptr)$/;"	f
+Mu_StrncpyInt	include/Mu_Struct.h	269;"	d
+Mu_StrncpyInt	include/Mu_Struct_main.h	279;"	d
+Mu_StrncpyLong	include/Mu_Struct.h	275;"	d
+Mu_StrncpyLong	include/Mu_Struct_main.h	285;"	d
+Mu_StrncpyStr	include/Mu_Struct.h	280;"	d
+Mu_StrncpyStr	include/Mu_Struct_main.h	291;"	d
+Mu_TruncateInfo	parsexml/Mu_Parsexml.c	/^int Mu_TruncateInfo(xmlChar *value, int len) $/;"	f
+Mu_URL	include/Mu_Http.h	/^}Mu_URL, *Mu_URLPtr;$/;"	t	typeref:struct:_Mu_URL
+Mu_URLPtr	include/Mu_Http.h	/^}Mu_URL, *Mu_URLPtr;$/;"	t	typeref:struct:_Mu_URL
+Mu_UpdateInfoClear	parsexml/Mu_Struct.c	/^int Mu_UpdateInfoClear(UpdateInfoPtr Ptr)$/;"	f
+Mu_UpdateInfoCreate	parsexml/Mu_Struct.c	/^int Mu_UpdateInfoCreate(UpdateInfoPtr *Ptr)$/;"	f
+Mu_UpdateInfoDelete	parsexml/Mu_Struct.c	/^int Mu_UpdateInfoDelete(UpdateInfoPtr Ptr)$/;"	f
+Mu_UpdateInfoFree	parsexml/Mu_Struct.c	/^int Mu_UpdateInfoFree(UpdateInfoPtr Ptr)$/;"	f
+Mu_UpdateInfoInit	parsexml/Mu_Struct.c	/^int Mu_UpdateInfoInit(UpdateInfoPtr Ptr)$/;"	f
+Mu_UpdateInfoStrncpy	parsexml/Mu_Struct.c	/^int Mu_UpdateInfoStrncpy(UpdateInfoPtr Ptr, const xmlChar *string, const xmlChar *name)$/;"	f
+Mu_UpdateInfoTravel	parsexml/Mu_Parsexml.c	/^int Mu_UpdateInfoTravel(xmlDocPtr Doc,xmlNodePtr Node,UpdateInfoPtr Ptr)$/;"	f
+Mu_Urlscheme	include/Mu_Http.h	/^}Mu_Urlscheme;$/;"	t	typeref:enum:_Mu_Urlscheme
+Mu_WriteIntToXML	parsexml/Mu_createxml.c	/^int Mu_WriteIntToXML(int class, int fp, const char *element, int val) $/;"	f
+Mu_WriteStrToXML	parsexml/Mu_createxml.c	/^int Mu_WriteStrToXML(int class, int fp, const char *element, const char *val) $/;"	f
+Mu_Writer	network/Mu_NetIO.c	/^int Mu_Writer(int fd, char *buf, int len)$/;"	f
+Mu_XmlDeviceInfoClear	parsexml/Mu_Struct.c	/^int Mu_XmlDeviceInfoClear(XmlDeviceInfoPtr Ptr)$/;"	f
+Mu_XmlDeviceInfoCreate	parsexml/Mu_Struct.c	/^int Mu_XmlDeviceInfoCreate(XmlDeviceInfoPtr *Ptr)$/;"	f
+Mu_XmlDeviceInfoFree	parsexml/Mu_Struct.c	/^int Mu_XmlDeviceInfoFree(XmlDeviceInfoPtr Ptr)$/;"	f
+Mu_XmlDeviceInfoInit	parsexml/Mu_Struct.c	/^int Mu_XmlDeviceInfoInit(XmlDeviceInfoPtr Ptr)$/;"	f
+Mu_itoa	network/Mu_Util.c	/^char *Mu_itoa(int p)$/;"	f
+Mu_xmlFree	include/Mu_Parsexml.h	28;"	d
+Mu_xmlFree	include/Mu_xml_parse.h	36;"	d
+NonDefaultServer	include/Mu_Struct.h	/^	char * NonDefaultServer;	\/\/FddfFile NonDefaultServer$/;"	m	struct:_EyewareFDDF
+NonDefaultServer	include/Mu_Struct_main.h	/^	char *NonDefaultServer;	\/\/FddfFile NonDefaultServer$/;"	m	struct:_EyewareFDDF
+OBJ	crcmd5/Makefile	/^OBJ=libMuCrcMd5.so$/;"	m
+OBJ	main/Makefile	/^OBJ=MuFTAD$/;"	m
+OBJ	network/Makefile	/^OBJ=libMuHttpPlus.so$/;"	m
+OBJ	parsexml/makefile	/^OBJ=libMuStruct.so$/;"	m
+PARSE_DEVICE_INFO	include/Mu_Parsexml.h	20;"	d
+PARSE_DEVICE_INFO	include/Mu_xml_parse.h	21;"	d
+PARSE_EYEWEAR_ADP	include/Mu_Parsexml.h	16;"	d
+PARSE_EYEWEAR_ADP	include/Mu_xml_parse.h	17;"	d
+PARSE_EYEWEAR_FDDF	include/Mu_Parsexml.h	17;"	d
+PARSE_EYEWEAR_FDDF	include/Mu_xml_parse.h	18;"	d
+PARSE_FDDF_LIST	include/Mu_Parsexml.h	9;"	d
+PARSE_FDDF_LIST	include/Mu_xml_parse.h	9;"	d
+PARSE_FILE_INFO	include/Mu_Parsexml.h	22;"	d
+PARSE_FILE_INFO	include/Mu_xml_parse.h	23;"	d
+PARSE_MULTI	include/Mu_Parsexml.h	10;"	d
+PARSE_MULTI	include/Mu_xml_parse.h	10;"	d
+PARSE_MULTI_1XX	include/Mu_xml_parse.h	11;"	d
+PARSE_MULTI_2XX	include/Mu_Parsexml.h	11;"	d
+PARSE_MULTI_2XX	include/Mu_xml_parse.h	12;"	d
+PARSE_MULTI_4XX	include/Mu_Parsexml.h	12;"	d
+PARSE_MULTI_4XX	include/Mu_xml_parse.h	13;"	d
+PARSE_MULTI_FDDF	include/Mu_Parsexml.h	13;"	d
+PARSE_MULTI_FDDF	include/Mu_xml_parse.h	14;"	d
+PARSE_RESUME_INFO	include/Mu_Parsexml.h	21;"	d
+PARSE_RESUME_INFO	include/Mu_xml_parse.h	22;"	d
+PARSE_SEGMENT	include/Mu_Parsexml.h	14;"	d
+PARSE_SEGMENT	include/Mu_xml_parse.h	15;"	d
+PARSE_SERVICE_INFO	include/Mu_Parsexml.h	18;"	d
+PARSE_SERVICE_INFO	include/Mu_xml_parse.h	19;"	d
+PARSE_SINGLE	include/Mu_Parsexml.h	8;"	d
+PARSE_SINGLE	include/Mu_xml_parse.h	8;"	d
+PARSE_SRV_SVRINF	include/Mu_xml_parse.h	24;"	d
+PARSE_UPDATE_INFO	include/Mu_Parsexml.h	19;"	d
+PARSE_UPDATE_INFO	include/Mu_xml_parse.h	20;"	d
+PROCVERSION	include/MuFTAD_Init.h	46;"	d
+PreLogin	include/Mu_Struct.h	/^}PreLogin,*PreLoginPtr;$/;"	t	typeref:struct:_PreLogin
+PreLogin	include/Mu_Struct_main.h	/^}PreLogin,*PreLoginPtr;$/;"	t	typeref:struct:_PreLogin
+PreLoginPtr	include/Mu_Struct.h	/^}PreLogin,*PreLoginPtr;$/;"	t	typeref:struct:_PreLogin
+PreLoginPtr	include/Mu_Struct_main.h	/^}PreLogin,*PreLoginPtr;$/;"	t	typeref:struct:_PreLogin
+ProtocolOPC	include/Mu_Struct.h	/^	int ProtocolOPC;		\/\/EyewearADP ProtocolOPC$/;"	m	struct:_EyewareADP
+ProtocolOPC	include/Mu_Struct_main.h	/^	int ProtocolOPC;		\/\/EyewearADP ProtocolOPC$/;"	m	struct:_EyewareADP
+Protocolver	include/Mu_Struct.h	/^	int Protocolver;		\/\/EyewearADP Protocolver$/;"	m	struct:_EyewareADP
+Protocolver	include/Mu_Struct.h	/^	int Protocolver;		\/\/serviceinfo protocolversion$/;"	m	struct:_ServiceInfo
+Protocolver	include/Mu_Struct_main.h	/^	int Protocolver;		\/\/EyewearADP Protocolver$/;"	m	struct:_EyewareADP
+Protocolver	include/Mu_Struct_main.h	/^	int Protocolver;		\/\/serviceinfo protocolversion$/;"	m	struct:_ServiceInfo
+QUERY110	include/MuFTAD_Proc.h	7;"	d
+QUERY111	include/MuFTAD_Proc.h	8;"	d
+QUERY_BOUNDARY	include/Mu_Http.h	10;"	d
+QUERY_BOUNDARY_END	include/Mu_Http.h	11;"	d
+QUERY_CONTENT	include/Mu_Http.h	9;"	d
+RESUME_FILE	include/MuFTAD_Util.h	6;"	d
+ResumeInfo	include/Mu_Struct.h	/^}ResumeInfo,*ResumeInfoPtr;$/;"	t	typeref:struct:_ResumeInfo
+ResumeInfo	include/Mu_Struct_main.h	/^}ResumeInfo,*ResumeInfoPtr;$/;"	t	typeref:struct:_ResumeInfo
+ResumeInfoPtr	include/Mu_Struct.h	/^}ResumeInfo,*ResumeInfoPtr;$/;"	t	typeref:struct:_ResumeInfo
+ResumeInfoPtr	include/Mu_Struct_main.h	/^}ResumeInfo,*ResumeInfoPtr;$/;"	t	typeref:struct:_ResumeInfo
+SERVICEINFO	include/MuFTAD_Util.h	9;"	d
+SERVICEINFO	main/MuFTAD_main.c	10;"	d	file:
+SIZE	include/Mu_Struct.h	4;"	d
+SIZE	include/Mu_Struct_main.h	13;"	d
+SRVDateTime	include/Mu_Struct.h	/^	char * SRVDateTime;		\/\/DeviceInfo SRVDateTime$/;"	m	struct:_DeviceInfo
+SRVDateTime	include/Mu_Struct_main.h	/^	char *SRVDateTime;		\/\/DeviceInfo SRVDateTime$/;"	m	struct:_DeviceInfo
+SRVFirmSF	include/Mu_Struct.h	/^}SRVFirmSF,*SRVFirmSFPtr;$/;"	t	typeref:struct:_SRVFirmSF
+SRVFirmSF	include/Mu_Struct_main.h	/^}SRVFirmSF,*SRVFirmSFPtr;$/;"	t	typeref:struct:_SRVFirmSF
+SRVFirmSFPtr	include/Mu_Struct.h	/^}SRVFirmSF,*SRVFirmSFPtr;$/;"	t	typeref:struct:_SRVFirmSF
+SRVFirmSFPtr	include/Mu_Struct_main.h	/^}SRVFirmSF,*SRVFirmSFPtr;$/;"	t	typeref:struct:_SRVFirmSF
+SRVSvrInfo	include/Mu_Struct.h	/^}SRVSvrInfo,*SRVSvrInfoPtr;$/;"	t	typeref:struct:_SRVSvrInfo
+SRVSvrInfo	include/Mu_Struct_main.h	/^}SRVSvrInfo,*SRVSvrInfoPtr;$/;"	t	typeref:struct:_SRVSvrInfo
+SRVSvrInfoPtr	include/Mu_Struct.h	/^}SRVSvrInfo,*SRVSvrInfoPtr;$/;"	t	typeref:struct:_SRVSvrInfo
+SRVSvrInfoPtr	include/Mu_Struct_main.h	/^}SRVSvrInfo,*SRVSvrInfoPtr;$/;"	t	typeref:struct:_SRVSvrInfo
+SRV_FirmSF	include/Mu_Struct.h	/^}SRV_SvrInf,SRV_FirmSF;$/;"	t	typeref:struct:_SRVDeviceInfo
+SRV_FirmSF	include/Mu_Struct_main.h	/^}SRV_SvrInf,SRV_FirmSF;$/;"	t	typeref:struct:_SRVDeviceInfo
+SRV_FirmSFPtr	include/Mu_Struct.h	/^typedef SRV_FirmSF *SRV_FirmSFPtr;$/;"	t
+SRV_FirmSFPtr	include/Mu_Struct_main.h	/^typedef SRV_FirmSF *SRV_FirmSFPtr;$/;"	t
+SRV_SvrInf	include/Mu_Struct.h	/^}SRV_SvrInf,SRV_FirmSF;$/;"	t	typeref:struct:_SRVDeviceInfo
+SRV_SvrInf	include/Mu_Struct_main.h	/^}SRV_SvrInf,SRV_FirmSF;$/;"	t	typeref:struct:_SRVDeviceInfo
+SRV_SvrInfPtr	include/Mu_Struct.h	/^typedef SRV_SvrInf *SRV_SvrInfPtr;$/;"	t
+SRV_SvrInfPtr	include/Mu_Struct_main.h	/^typedef SRV_SvrInf *SRV_SvrInfPtr;$/;"	t
+SSLVER23	include/Mu_NetIO.h	12;"	d
+SegmentHead	include/Mu_Struct.h	/^}SegmentHead,*SegmentHeadPtr;$/;"	t	typeref:struct:_SegmentHead
+SegmentHead	include/Mu_Struct_main.h	/^}SegmentHead,*SegmentHeadPtr;$/;"	t	typeref:struct:_SegmentHead
+SegmentHeadPtr	include/Mu_Struct.h	/^}SegmentHead,*SegmentHeadPtr;$/;"	t	typeref:struct:_SegmentHead
+SegmentHeadPtr	include/Mu_Struct_main.h	/^}SegmentHead,*SegmentHeadPtr;$/;"	t	typeref:struct:_SegmentHead
+SegmentNode	include/Mu_Struct.h	/^}SegmentNode,*SegmentNodePtr;$/;"	t	typeref:struct:_SegmentNode
+SegmentNode	include/Mu_Struct_main.h	/^}SegmentNode,*SegmentNodePtr;$/;"	t	typeref:struct:_SegmentNode
+SegmentNodePtr	include/Mu_Struct.h	/^}SegmentNode,*SegmentNodePtr;$/;"	t	typeref:struct:_SegmentNode
+SegmentNodePtr	include/Mu_Struct_main.h	/^}SegmentNode,*SegmentNodePtr;$/;"	t	typeref:struct:_SegmentNode
+ServerHead	include/Mu_Struct.h	/^}ServerHead, *ServerHeadPtr;	 $/;"	t	typeref:struct:_ServerHead
+ServerHead	include/Mu_Struct_main.h	/^}ServerHead, *ServerHeadPtr;	$/;"	t	typeref:struct:_ServerHead
+ServerHeadPtr	include/Mu_Struct.h	/^}ServerHead, *ServerHeadPtr;	 $/;"	t	typeref:struct:_ServerHead
+ServerHeadPtr	include/Mu_Struct_main.h	/^}ServerHead, *ServerHeadPtr;	$/;"	t	typeref:struct:_ServerHead
+ServerInfo	include/Mu_Struct.h	/^char * ServerInfo;	\/\/File Path and Name (@Server)$/;"	m	struct:_SRVDeviceInfo
+ServerInfo	include/Mu_Struct_main.h	/^    	char *ServerInfo;	\/\/File Path and Name (@Server)$/;"	m	struct:_SRVDeviceInfo
+ServerNode	include/Mu_Struct.h	/^}ServerNode,*ServerNodePtr;$/;"	t	typeref:struct:_ServerAddr
+ServerNode	include/Mu_Struct_main.h	/^}ServerNode,*ServerNodePtr;$/;"	t	typeref:struct:_ServerAddr
+ServerNodePtr	include/Mu_Struct.h	/^}ServerNode,*ServerNodePtr;$/;"	t	typeref:struct:_ServerAddr
+ServerNodePtr	include/Mu_Struct_main.h	/^}ServerNode,*ServerNodePtr;$/;"	t	typeref:struct:_ServerAddr
+ServiceInfo	include/Mu_Struct.h	/^}ServiceInfo,*ServiceInfoPtr;$/;"	t	typeref:struct:_ServiceInfo
+ServiceInfo	include/Mu_Struct_main.h	/^}ServiceInfo,*ServiceInfoPtr;$/;"	t	typeref:struct:_ServiceInfo
+ServiceInfoPtr	include/Mu_Struct.h	/^}ServiceInfo,*ServiceInfoPtr;$/;"	t	typeref:struct:_ServiceInfo
+ServiceInfoPtr	include/Mu_Struct_main.h	/^}ServiceInfo,*ServiceInfoPtr;$/;"	t	typeref:struct:_ServiceInfo
+TIMEOUT	include/Mu_NetIO.h	56;"	d
+ToUpper	crcmd5/Mu_md5.c	/^static void ToUpper(char s[]){$/;"	f	file:
+UPDATEFILE	include/MuFTAD_Util.h	8;"	d
+UPDATEPATH	include/MuFTAD_Util.h	7;"	d
+UPDN121	include/MuFTAD_Proc.h	10;"	d
+UPFILE122	include/MuFTAD_Proc.h	11;"	d
+UPSTAT120	include/MuFTAD_Proc.h	9;"	d
+URL_HTTP	include/Mu_Http.h	/^	URL_HTTP,$/;"	e	enum:_Mu_Urlscheme
+URL_HTTPS	include/Mu_Http.h	/^	URL_HTTPS$/;"	e	enum:_Mu_Urlscheme
+URL_NONE	include/Mu_Http.h	/^	URL_NONE,$/;"	e	enum:_Mu_Urlscheme
+USER_AGENT	include/Mu_Http.h	8;"	d
+UpdateInfo	include/Mu_Struct.h	/^}UpdateInfo,*UpdateInfoPtr;$/;"	t	typeref:struct:_UpdateInfo
+UpdateInfo	include/Mu_Struct_main.h	/^}UpdateInfo,*UpdateInfoPtr;$/;"	t	typeref:struct:_UpdateInfo
+UpdateInfoPtr	include/Mu_Struct.h	/^}UpdateInfo,*UpdateInfoPtr;$/;"	t	typeref:struct:_UpdateInfo
+UpdateInfoPtr	include/Mu_Struct_main.h	/^}UpdateInfo,*UpdateInfoPtr;$/;"	t	typeref:struct:_UpdateInfo
+WAIT_FOR_READ	include/Mu_NetIO.h	/^  WAIT_FOR_READ = 1,$/;"	e	enum:__anon3
+WAIT_FOR_WRITE	include/Mu_NetIO.h	/^  WAIT_FOR_WRITE = 2$/;"	e	enum:__anon3
+WRITE_HEAD	include/Mu_Buildxml.h	48;"	d
+WRITE_HEAD	include/Mu_Creatxml.h	48;"	d
+XmlDeviceInfo	include/Mu_Struct.h	/^}XmlDeviceInfo,*XmlDeviceInfoPtr;$/;"	t	typeref:struct:_XmlDeviceInfo
+XmlDeviceInfo	include/Mu_Struct_main.h	/^}XmlDeviceInfo,*XmlDeviceInfoPtr;$/;"	t	typeref:struct:_XmlDeviceInfo
+XmlDeviceInfoPtr	include/Mu_Struct.h	/^}XmlDeviceInfo,*XmlDeviceInfoPtr;$/;"	t	typeref:struct:_XmlDeviceInfo
+XmlDeviceInfoPtr	include/Mu_Struct_main.h	/^}XmlDeviceInfo,*XmlDeviceInfoPtr;$/;"	t	typeref:struct:_XmlDeviceInfo
+_Apipathlist	include/Mu_Struct.h	/^typedef struct _Apipathlist{$/;"	s
+_Apipathlist	include/Mu_Struct_main.h	/^typedef struct _Apipathlist{$/;"	s
+_Coversation	include/Mu_Struct.h	/^typedef struct _Coversation{$/;"	s
+_Coversation	include/Mu_Struct_main.h	/^typedef struct _Coversation{$/;"	s
+_DBIInfo	include/Mu_Struct.h	/^typedef struct _DBIInfo{$/;"	s
+_DBIInfo	include/Mu_Struct_main.h	/^typedef struct _DBIInfo{$/;"	s
+_DBUDirt	include/Mu_Struct.h	/^typedef struct _DBUDirt{ $/;"	s
+_DBUDirt	include/Mu_Struct_main.h	/^typedef struct _DBUDirt{$/;"	s
+_DBUInfo	include/Mu_Struct.h	/^typedef struct _DBUInfo{ $/;"	s
+_DBUInfo	include/Mu_Struct_main.h	/^typedef struct _DBUInfo{$/;"	s
+_DBURate	include/Mu_Struct.h	/^typedef struct _DBURate{ $/;"	s
+_DBURate	include/Mu_Struct_main.h	/^typedef struct _DBURate{$/;"	s
+_DatabaseInfo	include/Mu_Struct.h	/^typedef struct _DatabaseInfo{$/;"	s
+_DatabaseInfo	include/Mu_Struct_main.h	/^typedef struct _DatabaseInfo{$/;"	s
+_DeviceInfo	include/Mu_Struct.h	/^typedef struct _DeviceInfo{$/;"	s
+_DeviceInfo	include/Mu_Struct_main.h	/^typedef struct _DeviceInfo{$/;"	s
+_DirDownloadAddr	include/Mu_Struct.h	/^typedef struct _DirDownloadAddr{$/;"	s
+_DirDownloadAddr	include/Mu_Struct_main.h	/^typedef struct _DirDownloadAddr{$/;"	s
+_DirStatusNode	include/Mu_Struct.h	/^typedef struct _DirStatusNode{$/;"	s
+_DirStatusNode	include/Mu_Struct_main.h	/^typedef struct _DirStatusNode{$/;"	s
+_EyewareADP	include/Mu_Struct.h	/^typedef struct _EyewareADP{$/;"	s
+_EyewareADP	include/Mu_Struct_main.h	/^typedef struct _EyewareADP{$/;"	s
+_EyewareFDDF	include/Mu_Struct.h	/^typedef struct _EyewareFDDF{$/;"	s
+_EyewareFDDF	include/Mu_Struct_main.h	/^typedef struct _EyewareFDDF{$/;"	s
+_FddfListHead	include/Mu_Struct.h	/^typedef struct _FddfListHead{$/;"	s
+_FddfListHead	include/Mu_Struct_main.h	/^typedef struct _FddfListHead{$/;"	s
+_FddfListNode	include/Mu_Struct.h	/^typedef struct _FddfListNode{$/;"	s
+_FddfListNode	include/Mu_Struct_main.h	/^typedef struct _FddfListNode{$/;"	s
+_FddfStatusNode	include/Mu_Struct_main.h	/^typedef struct _FddfStatusNode{$/;"	s
+_FileInfo	include/Mu_Struct.h	/^typedef struct _FileInfo{$/;"	s
+_FileInfo	include/Mu_Struct_main.h	/^typedef struct _FileInfo{$/;"	s
+_MuNetIO	include/Mu_NetIO.h	/^typedef struct _MuNetIO{$/;"	s
+_MuNetType	include/Mu_NetIO.h	/^typedef enum _MuNetType{$/;"	g
+_MuSslTab	include/Mu_NetIO.h	/^typedef struct _MuSslTab{$/;"	s
+_MuWR	include/Mu_NetIO.h	/^typedef enum _MuWR{$/;"	g
+_Mu_Build	include/Mu_Http.h	/^typedef struct _Mu_Build$/;"	s
+_Mu_BuildMethod	include/Mu_Http.h	/^typedef enum _Mu_BuildMethod{$/;"	g
+_Mu_DnStat	include/Mu_Http.h	/^typedef struct _Mu_DnStat{$/;"	s
+_Mu_DnStatCode	include/Mu_Http.h	/^typedef enum _Mu_DnStatCode$/;"	g
+_Mu_DnType	include/Mu_Http.h	/^typedef enum _Mu_DnType$/;"	g
+_Mu_Httpstatus	include/Mu_Http.h	/^typedef struct _Mu_Httpstatus{$/;"	s
+_Mu_URL	include/Mu_Http.h	/^typedef struct _Mu_URL$/;"	s
+_Mu_Urlscheme	include/Mu_Http.h	/^typedef enum _Mu_Urlscheme$/;"	g
+_PreLogin	include/Mu_Struct.h	/^typedef struct _PreLogin{$/;"	s
+_PreLogin	include/Mu_Struct_main.h	/^typedef struct _PreLogin{$/;"	s
+_ResumeInfo	include/Mu_Struct.h	/^typedef struct _ResumeInfo{$/;"	s
+_ResumeInfo	include/Mu_Struct_main.h	/^typedef struct _ResumeInfo{$/;"	s
+_SRVDeviceInfo	include/Mu_Struct.h	/^typedef struct	_SRVDeviceInfo{$/;"	s
+_SRVDeviceInfo	include/Mu_Struct_main.h	/^typedef struct	_SRVDeviceInfo{$/;"	s
+_SRVFirmSF	include/Mu_Struct.h	/^typedef struct _SRVFirmSF{$/;"	s
+_SRVFirmSF	include/Mu_Struct_main.h	/^typedef struct _SRVFirmSF{$/;"	s
+_SRVSvrInfo	include/Mu_Struct.h	/^typedef struct _SRVSvrInfo{$/;"	s
+_SRVSvrInfo	include/Mu_Struct_main.h	/^typedef struct _SRVSvrInfo{$/;"	s
+_SegmentHead	include/Mu_Struct.h	/^typedef struct _SegmentHead{$/;"	s
+_SegmentHead	include/Mu_Struct_main.h	/^typedef struct _SegmentHead{$/;"	s
+_SegmentNode	include/Mu_Struct.h	/^typedef struct _SegmentNode{$/;"	s
+_SegmentNode	include/Mu_Struct_main.h	/^typedef struct _SegmentNode{$/;"	s
+_ServerAddr	include/Mu_Struct.h	/^typedef struct _ServerAddr{$/;"	s
+_ServerAddr	include/Mu_Struct_main.h	/^typedef struct _ServerAddr{$/;"	s
+_ServerHead	include/Mu_Struct.h	/^typedef struct _ServerHead{$/;"	s
+_ServerHead	include/Mu_Struct_main.h	/^typedef struct _ServerHead{$/;"	s
+_ServiceInfo	include/Mu_Struct.h	/^typedef struct _ServiceInfo{$/;"	s
+_ServiceInfo	include/Mu_Struct_main.h	/^typedef struct _ServiceInfo{$/;"	s
+_UpdateInfo	include/Mu_Struct.h	/^typedef struct _UpdateInfo{$/;"	s
+_UpdateInfo	include/Mu_Struct_main.h	/^typedef struct _UpdateInfo{$/;"	s
+_XmlDeviceInfo	include/Mu_Struct.h	/^typedef struct _XmlDeviceInfo{$/;"	s
+_XmlDeviceInfo	include/Mu_Struct_main.h	/^typedef struct _XmlDeviceInfo{$/;"	s
+__MUFTAD_INIT_H__	include/MuFTAD_Init.h	2;"	d
+__MUFTAD_PROC_H__	include/MuFTAD_Proc.h	2;"	d
+__MUFTAD_UTIL_H__	include/MuFTAD_Util.h	2;"	d
+__MUTFAD_APP_H__	include/MuFTAD_App.h	2;"	d
+__MU_ERROR_H__	include/Mu_error.h	2;"	d
+__MU_HTTPBUILD_H__	include/Mu_HttpBuild.h	2;"	d
+__MU_HTTPDOWN_H__	include/Mu_HttpDown.h	2;"	d
+__MU_HTTPQUERY_H__	include/Mu_HttpQuery.h	2;"	d
+__MU_HTTPURL_H__	include/Mu_HttpUrl.h	2;"	d
+__MU_HTTPUTIL_H__	include/Mu_HttpUtil.h	2;"	d
+__MU_HTTP_H__	include/Mu_Http.h	2;"	d
+__MU_MD5_H__	include/Mu_md5.h	28;"	d
+__MU_NETIO_H__	include/Mu_NetIO.h	2;"	d
+__MU_PARSE_H__	include/Mu_HttpParse.h	2;"	d
+__MU_STRUCT_MAIN_H__	include/Mu_Struct.h	2;"	d
+__MU_STRUCT_MAIN_H__	include/Mu_Struct_main.h	2;"	d
+__MU_UTIL_H__	include/Mu_Util.h	2;"	d
+__MU_XML_PARSE_H__	include/Mu_Parsexml.h	2;"	d
+__MU_XML_PARSE_H__	include/Mu_xml_parse.h	2;"	d
+__Mu_CRC_H__	include/Mu_crc.h	29;"	d
+__Mu_CREATXML_H__	include/Mu_Buildxml.h	2;"	d
+__Mu_CREATXML_H__	include/Mu_Creatxml.h	2;"	d
+addr	include/Mu_Struct.h	/^	char * addr;			\/\/FddflistNode addr$/;"	m	struct:_FddfListNode
+addr	include/Mu_Struct.h	/^	char * addr;			\/\/pointer, point to some heap, store the address$/;"	m	struct:_DirDownloadAddr
+addr	include/Mu_Struct.h	/^	char * addr;			\/\/pointer, point to some heap, store the address$/;"	m	struct:_ServerAddr
+addr	include/Mu_Struct_main.h	/^	char *addr;			\/\/FddflistNode addr$/;"	m	struct:_FddfListNode
+addr	include/Mu_Struct_main.h	/^	char *addr;			\/\/pointer, point to some heap, store the address$/;"	m	struct:_DirDownloadAddr
+addr	include/Mu_Struct_main.h	/^	char *addr;			\/\/pointer, point to some heap, store the address$/;"	m	struct:_ServerAddr
+addrlast	include/Mu_Struct.h	/^	DirDownloadAddrPtr  addrlast;$/;"	m	struct:_DirStatusNode
+addrlast	include/Mu_Struct_main.h	/^	DirDownloadAddrPtr  addrlast;$/;"	m	struct:_DirStatusNode
+addrnext	include/Mu_Struct.h	/^	DirDownloadAddrPtr  addrnext;	$/;"	m	struct:_DirStatusNode
+addrnext	include/Mu_Struct_main.h	/^	DirDownloadAddrPtr  addrnext;	$/;"	m	struct:_DirStatusNode
+apipathlist	include/Mu_Struct.h	/^	ApiPathListPtr apipathlist;$/;"	m	struct:_ServiceInfo
+apipathlist	include/Mu_Struct_main.h	/^	ApiPathListPtr apipathlist;$/;"	m	struct:_ServiceInfo
+authmethod	include/Mu_Struct.h	/^	int authmethod;			\/\/Authorization Method$/;"	m	struct:_DirStatusNode
+authmethod	include/Mu_Struct.h	/^	int authmethod;			\/\/FddfListHead authmethod$/;"	m	struct:_FddfListHead
+authmethod	include/Mu_Struct_main.h	/^	int authmethod;			\/\/Authorization Method$/;"	m	struct:_DirStatusNode
+authmethod	include/Mu_Struct_main.h	/^	int authmethod;			\/\/FddfListHead authmethod$/;"	m	struct:_FddfListHead
+bytesexcept	include/Mu_Http.h	/^	off_t bytesexcept;	\/\/NEED to download bytes, the thread will be$/;"	m	struct:_Mu_Httpstatus
+bytesleft	include/Mu_Http.h	/^	off_t bytesleft;	\/\/left bytes, the thread left$/;"	m	struct:_Mu_Httpstatus
+challenge	include/Mu_Struct.h	/^	char * challenge;		\/\/PreLogin challenge$/;"	m	struct:_PreLogin
+challenge	include/Mu_Struct_main.h	/^	char *challenge;		\/\/PreLogin challenge$/;"	m	struct:_PreLogin
+check_protoc	network/Mu_HttpUrl.c	/^char *check_protoc[] = {"http:", "https:", NULL};$/;"	v
+checksum	include/Mu_Struct.h	/^	char * checksum;		\/\/SRVSvrInfo checksum$/;"	m	struct:_SRVSvrInfo
+checksum	include/Mu_Struct_main.h	/^	char *checksum;		\/\/SRVSvrInfo checksum$/;"	m	struct:_SRVSvrInfo
+closer	include/Mu_NetIO.h	/^	mu_closer closer;$/;"	m	struct:_MuNetIO
+connecter	include/Mu_NetIO.h	/^	mu_connecter connecter;		\/\/connect to server$/;"	m	struct:_MuNetIO
+conversation	include/Mu_Struct.h	/^	ConversationPtr conversation;	$/;"	m	struct:_EyewareADP
+conversation	include/Mu_Struct_main.h	/^	ConversationPtr conversation;	$/;"	m	struct:_EyewareADP
+cookies	include/Mu_HttpParse.h	/^char *cookies;$/;"	v
+crc	include/Mu_Struct.h	/^	char * crc;			\/\/FddfFile crc$/;"	m	struct:_EyewareFDDF
+crc	include/Mu_Struct.h	/^	char * crc;			\/\/FileInfo crc$/;"	m	struct:_FileInfo
+crc	include/Mu_Struct.h	/^	char * crc;			\/\/SegmentNode crc$/;"	m	struct:_SegmentNode
+crc	include/Mu_Struct_main.h	/^	char *crc;			\/\/FddfFile crc$/;"	m	struct:_EyewareFDDF
+crc	include/Mu_Struct_main.h	/^	char *crc;			\/\/FileInfo crc$/;"	m	struct:_FileInfo
+crc	include/Mu_Struct_main.h	/^	char *crc;			\/\/SegmentNode crc$/;"	m	struct:_SegmentNode
+cur	include/Mu_Struct.h	/^	ServerNodePtr cur;$/;"	m	struct:_ServerHead
+cur	include/Mu_Struct_main.h	/^	ServerNodePtr cur;$/;"	m	struct:_ServerHead
+d_ConvertCharset	parsexml/Mu_Struct.c	/^char *d_ConvertCharset(char *cpEncodeFrom, char *cpEncodeTo, char *cpInput)$/;"	f
+dat2	include/Mu_Struct.h	/^	char *dat2; 	\/\/Reserved		$/;"	m	struct:_DBUDirt
+dat2	include/Mu_Struct_main.h	/^	char *dat2; 	\/\/Reserved		$/;"	m	struct:_DBUDirt
+dat3	include/Mu_Struct.h	/^	char *dat3; 	\/\/Reserved$/;"	m	struct:_DBUDirt
+dat3	include/Mu_Struct_main.h	/^	char *dat3; 	\/\/Reserved$/;"	m	struct:_DBUDirt
+dat4	include/Mu_Struct.h	/^	char *dat4; 	\/\/Reserved$/;"	m	struct:_DBUDirt
+dat4	include/Mu_Struct_main.h	/^	char *dat4; 	\/\/Reserved$/;"	m	struct:_DBUDirt
+dat5	include/Mu_Struct.h	/^	char *dat5; 	\/\/Reserved$/;"	m	struct:_DBUDirt
+dat5	include/Mu_Struct_main.h	/^	char *dat5; 	\/\/Reserved$/;"	m	struct:_DBUDirt
+databaseinfo	include/Mu_Struct.h	/^	DatabaseInfoPtr databaseinfo;	$/;"	m	struct:_EyewareFDDF
+databaseinfo	include/Mu_Struct_main.h	/^	DatabaseInfoPtr databaseinfo;	$/;"	m	struct:_EyewareFDDF
+datebaseinfo	include/Mu_Struct.h	/^	DatabaseInfoPtr datebaseinfo;	\/\/FileInfo datebaseinfo$/;"	m	struct:_FileInfo
+datebaseinfo	include/Mu_Struct_main.h	/^	DatabaseInfoPtr datebaseinfo;	\/\/FileInfo datebaseinfo$/;"	m	struct:_FileInfo
+description	include/Mu_Struct.h	/^	char * description;		\/\/FddfFile description$/;"	m	struct:_EyewareFDDF
+description	include/Mu_Struct.h	/^	char * description;		\/\/FileInfo description$/;"	m	struct:_FileInfo
+description	include/Mu_Struct_main.h	/^	char *description;		\/\/FddfFile description$/;"	m	struct:_EyewareFDDF
+description	include/Mu_Struct_main.h	/^	char *description;		\/\/FileInfo description$/;"	m	struct:_FileInfo
+device_info	include/Mu_Struct.h	/^	DeviceInfoPtr device_info;$/;"	m	struct:_EyewareADP
+device_info	include/Mu_Struct_main.h	/^	DeviceInfoPtr device_info;$/;"	m	struct:_EyewareADP
+devicestatus	include/Mu_Struct.h	/^	int devicestatus;		\/\/DeviceInfo devicestatus$/;"	m	struct:_DeviceInfo
+devicestatus	include/Mu_Struct_main.h	/^	int devicestatus;		\/\/DeviceInfo devicestatus$/;"	m	struct:_DeviceInfo
+displayname	include/Mu_Struct.h	/^	char * displayname;		\/\/FddfFile displayname$/;"	m	struct:_EyewareFDDF
+displayname	include/Mu_Struct.h	/^	char * displayname;		\/\/FileInfo displayname$/;"	m	struct:_FileInfo
+displayname	include/Mu_Struct_main.h	/^	char *displayname;		\/\/FddfFile displayname$/;"	m	struct:_EyewareFDDF
+displayname	include/Mu_Struct_main.h	/^	char *displayname;		\/\/FileInfo displayname$/;"	m	struct:_FileInfo
+dltime	include/Mu_Http.h	/^	struct timeval dltime;	\/\/the endtime of the thread cancell the downloading$/;"	m	struct:_Mu_Httpstatus	typeref:struct:_Mu_Httpstatus::timeval
+download	include/Mu_Struct.h	/^	char *download; \/\/ID-Download$/;"	m	struct:_DBUDirt
+download	include/Mu_Struct_main.h	/^	char *download; \/\/ID-Download$/;"	m	struct:_DBUDirt
+encryptionmethod	include/Mu_Struct.h	/^	int encryptionmethod;		\/\/PreLogin encryptionmethod$/;"	m	struct:_PreLogin
+encryptionmethod	include/Mu_Struct_main.h	/^	int encryptionmethod;		\/\/PreLogin encryptionmethod$/;"	m	struct:_PreLogin
+endops	include/Mu_Http.h	/^	off_t endops;$/;"	m	struct:_Mu_Build
+fd	include/Mu_Http.h	/^	int fd;			\/\/the file descriptor, the thread will write into$/;"	m	struct:_Mu_Httpstatus
+fd	include/Mu_Http.h	/^	int fd;		\/\/the file descriptor we will write into$/;"	m	struct:_Mu_DnStat
+fd	include/Mu_Http.h	/^	int fd;$/;"	m	struct:_Mu_Build
+fd	include/Mu_NetIO.h	/^	int fd;$/;"	m	struct:_MuSslTab
+file	include/Mu_Http.h	/^	char *file;$/;"	m	struct:_Mu_URL
+filelen	include/Mu_Http.h	/^	int filelen;$/;"	m	struct:_Mu_URL
+filename	include/Mu_Http.h	/^char *filename;$/;"	v
+filerate	include/Mu_Struct.h	/^	int filerate; $/;"	m	struct:_DBURate
+filerate	include/Mu_Struct_main.h	/^	int filerate;$/;"	m	struct:_DBURate
+filesegmentnum	include/Mu_Struct.h	/^	int filesegmentnum;		\/\/FddfFile filesegment$/;"	m	struct:_EyewareFDDF
+filesegmentnum	include/Mu_Struct_main.h	/^	int filesegmentnum;		\/\/FddfFile filesegment$/;"	m	struct:_EyewareFDDF
+firmwarechecksum	include/Mu_Struct.h	/^	char * firmwarechecksum;	\/\/SRVFirmSF firmwarechecksum$/;"	m	struct:_SRVFirmSF
+firmwarechecksum	include/Mu_Struct_main.h	/^	char *firmwarechecksum;	\/\/SRVFirmSF firmwarechecksum$/;"	m	struct:_SRVFirmSF
+firmwareversion	include/Mu_Struct.h	/^	int firmwareversion;		\/\/DeviceInfo firmwareversion$/;"	m	struct:_DeviceInfo
+firmwareversion	include/Mu_Struct.h	/^	int firmwareversion;		\/\/SRVFirmSF firmwareversion$/;"	m	struct:_SRVFirmSF
+firmwareversion	include/Mu_Struct_main.h	/^	int firmwareversion;		\/\/DeviceInfo firmwareversion$/;"	m	struct:_DeviceInfo
+firmwareversion	include/Mu_Struct_main.h	/^	int firmwareversion;		\/\/SRVFirmSF firmwareversion$/;"	m	struct:_SRVFirmSF
+func	crcmd5/Makefile	/^func=$(wildcard *.c)$/;"	m
+func	main/Makefile	/^func=$(wildcard *.c)$/;"	m
+func	network/Makefile	/^func=$(wildcard *.c)$/;"	m
+group	include/Mu_Struct.h	/^	char * group;			\/\/DatabaseInfo group$/;"	m	struct:_DatabaseInfo
+group	include/Mu_Struct.h	/^	char * group;		\/\/ID-group$/;"	m	struct:FddfStatusNode
+group	include/Mu_Struct.h	/^	char * group;$/;"	m	struct:_DBIInfo
+group	include/Mu_Struct.h	/^	char *group; $/;"	m	struct:_DBUInfo
+group	include/Mu_Struct.h	/^	char *group; $/;"	m	struct:_DBURate
+group	include/Mu_Struct_main.h	/^	char *group;			\/\/DatabaseInfo group$/;"	m	struct:_DatabaseInfo
+group	include/Mu_Struct_main.h	/^	char *group;		\/\/ID-group$/;"	m	struct:_FddfStatusNode
+group	include/Mu_Struct_main.h	/^	char *group;$/;"	m	struct:_DBIInfo
+group	include/Mu_Struct_main.h	/^	char *group;$/;"	m	struct:_DBUInfo
+group	include/Mu_Struct_main.h	/^	char *group;$/;"	m	struct:_DBURate
+hardwareversion	include/Mu_Struct.h	/^	int hardwareversion;		\/\/DeviceInfo hardwareversion$/;"	m	struct:_DeviceInfo
+hardwareversion	include/Mu_Struct.h	/^	int hardwareversion;		\/\/SRVFirmSF hardwareversion$/;"	m	struct:_SRVFirmSF
+hardwareversion	include/Mu_Struct_main.h	/^	int hardwareversion;		\/\/DeviceInfo hardwareversion$/;"	m	struct:_DeviceInfo
+hardwareversion	include/Mu_Struct_main.h	/^	int hardwareversion;		\/\/SRVFirmSF hardwareversion$/;"	m	struct:_SRVFirmSF
+host	include/Mu_Http.h	/^	char *host;$/;"	m	struct:_Mu_URL
+hostlen	include/Mu_Http.h	/^	int hostlen;$/;"	m	struct:_Mu_URL
+hs	include/Mu_Http.h	/^Mu_HttpStatus hs[MAX_THD];$/;"	v
+index	include/Mu_Struct.h	/^	int index;			\/\/DatabaseInfo index$/;"	m	struct:_DatabaseInfo
+index	include/Mu_Struct.h	/^	int index;			\/\/SegmentNode index$/;"	m	struct:_SegmentNode
+index	include/Mu_Struct.h	/^	int index; $/;"	m	struct:_DBURate
+index	include/Mu_Struct_main.h	/^	int index;			\/\/DatabaseInfo index$/;"	m	struct:_DatabaseInfo
+index	include/Mu_Struct_main.h	/^	int index;			\/\/SegmentNode index$/;"	m	struct:_SegmentNode
+index	include/Mu_Struct_main.h	/^	int index;$/;"	m	struct:_DBURate
+last	include/Mu_Struct.h	/^	FddfListNodePtr last;$/;"	m	struct:_FddfListHead
+last	include/Mu_Struct.h	/^	SegmentNodePtr last;$/;"	m	struct:_SegmentHead
+last	include/Mu_Struct.h	/^	ServerNodePtr last;$/;"	m	struct:_ServerHead
+last	include/Mu_Struct_main.h	/^	FddfListNodePtr last;$/;"	m	struct:_FddfListHead
+last	include/Mu_Struct_main.h	/^	SegmentNodePtr last;$/;"	m	struct:_SegmentHead
+last	include/Mu_Struct_main.h	/^	ServerNodePtr last;$/;"	m	struct:_ServerHead
+lastserver	include/Mu_Struct.h	/^	char * lastserver;		\/\/serviceinfo lastserver$/;"	m	struct:_ServiceInfo
+lastserver	include/Mu_Struct_main.h	/^	char *lastserver;		\/\/serviceinfo lastserver$/;"	m	struct:_ServiceInfo
+length	include/Mu_Http.h	/^	off_t length;	\/\/the length of the file$/;"	m	struct:_Mu_DnStat
+list_fd	include/MuFTAD_Init.h	/^int list_fd;$/;"	v
+location	include/Mu_HttpParse.h	/^char *location;$/;"	v
+lock	include/Mu_Http.h	/^pthread_mutex_t lock;$/;"	v
+login	include/Mu_Struct.h	/^	char * login;			\/\/apipathlist login$/;"	m	struct:_Apipathlist
+login	include/Mu_Struct_main.h	/^	char *login;			\/\/apipathlist login$/;"	m	struct:_Apipathlist
+logout	include/Mu_Struct.h	/^	char * logout;			\/\/apipathlist logout$/;"	m	struct:_Apipathlist
+logout	include/Mu_Struct_main.h	/^	char *logout;			\/\/apipathlist logout$/;"	m	struct:_Apipathlist
+main	main/MuFTAD_main.c	/^int main(void)$/;"	f
+md5	include/Mu_Struct.h	/^	char * md5;			\/\/FddfFile md5$/;"	m	struct:_EyewareFDDF
+md5	include/Mu_Struct.h	/^	char * md5;			\/\/FileInfo md5$/;"	m	struct:_FileInfo
+md5	include/Mu_Struct.h	/^	char * md5;			\/\/SegmentNode md5$/;"	m	struct:_SegmentNode
+md5	include/Mu_Struct_main.h	/^	char *md5;			\/\/FddfFile md5$/;"	m	struct:_EyewareFDDF
+md5	include/Mu_Struct_main.h	/^	char *md5;			\/\/FileInfo md5$/;"	m	struct:_FileInfo
+md5	include/Mu_Struct_main.h	/^	char *md5;			\/\/SegmentNode md5$/;"	m	struct:_SegmentNode
+method	include/Mu_Http.h	/^	Mu_BuildMethod method;$/;"	m	struct:_Mu_Build
+method	include/Mu_Struct.h	/^int method;		\/\/Authorization Method$/;"	m	struct:_SRVDeviceInfo
+method	include/Mu_Struct_main.h	/^    	int method;		\/\/Authorization Method$/;"	m	struct:_SRVDeviceInfo
+mu_closer	include/Mu_NetIO.h	/^typedef int (*mu_closer)(int);$/;"	t
+mu_connecter	include/Mu_NetIO.h	/^typedef int (*mu_connecter)(int *, const char *, int ,double);$/;"	t
+mu_peeker	include/Mu_NetIO.h	/^typedef int (*mu_peeker)(int, char *, int);$/;"	t
+mu_poller	include/Mu_NetIO.h	/^typedef int (*mu_poller)(int, char *, int);$/;"	t
+mu_reader	include/Mu_NetIO.h	/^typedef int (*mu_reader)(int, char *, int);$/;"	t
+mu_selecter	include/Mu_NetIO.h	/^typedef int (*mu_selecter)(int, int, double);$/;"	t
+mu_url	include/Mu_Http.h	/^ Mu_URL mu_url ;$/;"	v
+mu_writer	include/Mu_NetIO.h	/^typedef int (*mu_writer)(int, char *, int);$/;"	t
+mussltab	include/Mu_NetIO.h	/^MuSslTab mussltab[MAX_THD];$/;"	v
+name	include/Mu_Struct.h	/^	char * name;			\/\/FddfFile name$/;"	m	struct:_EyewareFDDF
+name	include/Mu_Struct.h	/^	char * name;			\/\/FileInfo name$/;"	m	struct:_FileInfo
+name	include/Mu_Struct.h	/^	char * name;			\/\/SegmentNode name$/;"	m	struct:_SegmentNode
+name	include/Mu_Struct.h	/^	char name[MU_NAME_MAX+1];	\/\/ResumeInfo resumename$/;"	m	struct:_ResumeInfo
+name	include/Mu_Struct_main.h	/^	char *name;			\/\/FddfFile name$/;"	m	struct:_EyewareFDDF
+name	include/Mu_Struct_main.h	/^	char *name;			\/\/FileInfo name$/;"	m	struct:_FileInfo
+name	include/Mu_Struct_main.h	/^	char *name;			\/\/SegmentNode name$/;"	m	struct:_SegmentNode
+name	include/Mu_Struct_main.h	/^	char name[MU_NAME_MAX+1];	\/\/ResumeInfo resumename$/;"	m	struct:_ResumeInfo
+need_retry	include/MuFTAD_Proc.h	/^volatile int need_retry; \/\/must be set to 1$/;"	v
+newer	include/Mu_Struct.h	/^	int newer;		\/\/index new$/;"	m	struct:FddfStatusNode
+newer	include/Mu_Struct.h	/^	int newer; $/;"	m	struct:_DBUInfo
+newer	include/Mu_Struct.h	/^	int newer;$/;"	m	struct:_DBIInfo
+newer	include/Mu_Struct_main.h	/^	int newer;		\/\/index new$/;"	m	struct:_FddfStatusNode
+newer	include/Mu_Struct_main.h	/^	int newer;$/;"	m	struct:_DBIInfo
+newer	include/Mu_Struct_main.h	/^	int newer;$/;"	m	struct:_DBUInfo
+next	include/Mu_Struct.h	/^	DirStatusNodePtr next;$/;"	m	struct:__anon5
+next	include/Mu_Struct.h	/^	FddfListNodePtr next;		$/;"	m	struct:_FddfListHead
+next	include/Mu_Struct.h	/^	FddfStatusNodePtr next;$/;"	m	struct:__anon4
+next	include/Mu_Struct.h	/^	SegmentNodePtr next;$/;"	m	struct:_SegmentHead
+next	include/Mu_Struct.h	/^	ServerNodePtr next;$/;"	m	struct:_ServerHead
+next	include/Mu_Struct.h	/^	struct FddfStatusNode *next;	$/;"	m	struct:FddfStatusNode	typeref:struct:FddfStatusNode::FddfStatusNode
+next	include/Mu_Struct.h	/^	struct _DirDownloadAddr *next;$/;"	m	struct:_DirDownloadAddr	typeref:struct:_DirDownloadAddr::_DirDownloadAddr
+next	include/Mu_Struct.h	/^	struct _DirStatusNode * next;$/;"	m	struct:_DirStatusNode	typeref:struct:_DirStatusNode::_DirStatusNode
+next	include/Mu_Struct.h	/^	struct _FddfListNode * next;$/;"	m	struct:_FddfListNode	typeref:struct:_FddfListNode::_FddfListNode
+next	include/Mu_Struct.h	/^	struct _SegmentNode * next;$/;"	m	struct:_SegmentNode	typeref:struct:_SegmentNode::_SegmentNode
+next	include/Mu_Struct.h	/^	struct _ServerAddr * next;	$/;"	m	struct:_ServerAddr	typeref:struct:_ServerAddr::_ServerAddr
+next	include/Mu_Struct_main.h	/^	FddfListNodePtr next;		$/;"	m	struct:_FddfListHead
+next	include/Mu_Struct_main.h	/^	FddfStatusNodePtr next;$/;"	m	struct:__anon1
+next	include/Mu_Struct_main.h	/^	SegmentNodePtr next;$/;"	m	struct:_SegmentHead
+next	include/Mu_Struct_main.h	/^	ServerNodePtr next;$/;"	m	struct:_ServerHead
+next	include/Mu_Struct_main.h	/^	struct _DirDownloadAddr *next;$/;"	m	struct:_DirDownloadAddr	typeref:struct:_DirDownloadAddr::_DirDownloadAddr
+next	include/Mu_Struct_main.h	/^	struct _DirStatusNode * next;$/;"	m	struct:_DirStatusNode	typeref:struct:_DirStatusNode::_DirStatusNode
+next	include/Mu_Struct_main.h	/^	struct _FddfListNode * next;$/;"	m	struct:_FddfListNode	typeref:struct:_FddfListNode::_FddfListNode
+next	include/Mu_Struct_main.h	/^	struct _FddfStatusNode *next;	$/;"	m	struct:_FddfStatusNode	typeref:struct:_FddfStatusNode::_FddfStatusNode
+next	include/Mu_Struct_main.h	/^	struct _SegmentNode *next;$/;"	m	struct:_SegmentNode	typeref:struct:_SegmentNode::_SegmentNode
+next	include/Mu_Struct_main.h	/^	struct _ServerAddr * next;	$/;"	m	struct:_ServerAddr	typeref:struct:_ServerAddr::_ServerAddr
+nodenext	include/Mu_Struct_main.h	/^	DirStatusNodePtr nodenext;$/;"	m	struct:__anon2
+obj	parsexml/makefile	/^obj =  Mu_Struct.c Mu_createxml.c Mu_Parsexml.c$/;"	m
+objects	crcmd5/Makefile	/^objects=$(patsubst %.c,%.o,$(func))$/;"	m
+objects	main/Makefile	/^objects=$(patsubst %.c,%.o,$(func))$/;"	m
+objects	network/Makefile	/^objects=$(patsubst %.c,%.o,$(func))$/;"	m
+older	include/Mu_Struct.h	/^	int older;		\/\/index older$/;"	m	struct:FddfStatusNode
+older	include/Mu_Struct.h	/^	int older; $/;"	m	struct:_DBUInfo
+older	include/Mu_Struct.h	/^	int older;$/;"	m	struct:_DBIInfo
+older	include/Mu_Struct_main.h	/^	int older;		\/\/index older$/;"	m	struct:_FddfStatusNode
+older	include/Mu_Struct_main.h	/^	int older;$/;"	m	struct:_DBIInfo
+older	include/Mu_Struct_main.h	/^	int older;$/;"	m	struct:_DBUInfo
+owner	include/Mu_Struct.h	/^	char * owner;			\/\/DatabaseInfo owner$/;"	m	struct:_DatabaseInfo
+owner	include/Mu_Struct.h	/^	char * owner;		\/\/ID-owner$/;"	m	struct:FddfStatusNode
+owner	include/Mu_Struct.h	/^	char * owner;$/;"	m	struct:_DBIInfo
+owner	include/Mu_Struct.h	/^	char *owner; $/;"	m	struct:_DBUInfo
+owner	include/Mu_Struct.h	/^	char *owner; $/;"	m	struct:_DBURate
+owner	include/Mu_Struct_main.h	/^	char *owner;			\/\/DatabaseInfo owner$/;"	m	struct:_DatabaseInfo
+owner	include/Mu_Struct_main.h	/^	char *owner;		\/\/ID-owner$/;"	m	struct:_FddfStatusNode
+owner	include/Mu_Struct_main.h	/^	char *owner;$/;"	m	struct:_DBIInfo
+owner	include/Mu_Struct_main.h	/^	char *owner;$/;"	m	struct:_DBUInfo
+owner	include/Mu_Struct_main.h	/^	char *owner;$/;"	m	struct:_DBURate
+password	include/Mu_Http.h	/^	char *password;$/;"	m	struct:_Mu_URL
+passwordlen	include/Mu_Http.h	/^	int passwordlen;$/;"	m	struct:_Mu_URL
+path	include/Mu_Http.h	/^	char *path;$/;"	m	struct:_Mu_URL
+pathlen	include/Mu_Http.h	/^	int pathlen;$/;"	m	struct:_Mu_URL
+peeker	include/Mu_NetIO.h	/^	mu_peeker peeker;$/;"	m	struct:_MuNetIO
+ping	include/Mu_Struct.h	/^	char * ping;			\/\/serviceinfo ping$/;"	m	struct:_ServiceInfo
+ping	include/Mu_Struct_main.h	/^	char *ping;			\/\/serviceinfo ping$/;"	m	struct:_ServiceInfo
+poller	include/Mu_NetIO.h	/^	mu_poller poller;		\/\/for poller$/;"	m	struct:_MuNetIO
+port	include/Mu_Http.h	/^	int port;$/;"	m	struct:_Mu_URL
+prelogin	include/Mu_Struct.h	/^	PreLoginPtr prelogin;		$/;"	m	struct:_EyewareADP
+prelogin	include/Mu_Struct.h	/^	char * prelogin;		\/\/apipathlist prelogin$/;"	m	struct:_Apipathlist
+prelogin	include/Mu_Struct_main.h	/^	PreLoginPtr prelogin;		$/;"	m	struct:_EyewareADP
+prelogin	include/Mu_Struct_main.h	/^	char *prelogin;		\/\/apipathlist prelogin$/;"	m	struct:_Apipathlist
+priority	include/Mu_Struct.h	/^	int priority;			\/\/Download priority$/;"	m	struct:_DirStatusNode
+priority	include/Mu_Struct.h	/^	int priority;			\/\/FddfListHead priority$/;"	m	struct:_FddfListHead
+priority	include/Mu_Struct.h	/^	int priority;		\/\/Download Priority$/;"	m	struct:FddfStatusNode
+priority	include/Mu_Struct.h	/^	int priority;$/;"	m	struct:_DBIInfo
+priority	include/Mu_Struct_main.h	/^	int priority;			\/\/Download priority$/;"	m	struct:_DirStatusNode
+priority	include/Mu_Struct_main.h	/^	int priority;			\/\/FddfListHead priority$/;"	m	struct:_FddfListHead
+priority	include/Mu_Struct_main.h	/^	int priority;		\/\/Download Priority$/;"	m	struct:_FddfStatusNode
+priority	include/Mu_Struct_main.h	/^	int priority;$/;"	m	struct:_DBIInfo
+program	include/Mu_Struct.h	/^	char * program;			\/\/DatabaseInfo program$/;"	m	struct:_DatabaseInfo
+program	include/Mu_Struct.h	/^	char * program;		\/\/ID-program$/;"	m	struct:FddfStatusNode
+program	include/Mu_Struct.h	/^	char * program;$/;"	m	struct:_DBIInfo
+program	include/Mu_Struct.h	/^	char *program; $/;"	m	struct:_DBUInfo
+program	include/Mu_Struct.h	/^	char *program; $/;"	m	struct:_DBURate
+program	include/Mu_Struct_main.h	/^	char *program;			\/\/DatabaseInfo program$/;"	m	struct:_DatabaseInfo
+program	include/Mu_Struct_main.h	/^	char *program;		\/\/ID-program$/;"	m	struct:_FddfStatusNode
+program	include/Mu_Struct_main.h	/^	char *program;$/;"	m	struct:_DBIInfo
+program	include/Mu_Struct_main.h	/^	char *program;$/;"	m	struct:_DBUInfo
+program	include/Mu_Struct_main.h	/^	char *program;$/;"	m	struct:_DBURate
+queryfddflist	include/Mu_Struct.h	/^	char * queryfddflist;		\/\/apipathlist queryfddflist$/;"	m	struct:_Apipathlist
+queryfddflist	include/Mu_Struct_main.h	/^	char *queryfddflist;		\/\/apipathlist queryfddflist$/;"	m	struct:_Apipathlist
+querystatus	include/Mu_Struct.h	/^	char * querystatus;		\/\/apipathlist querystatus$/;"	m	struct:_Apipathlist
+querystatus	include/Mu_Struct_main.h	/^	char *querystatus;		\/\/apipathlist querystatus$/;"	m	struct:_Apipathlist
+rand_sed	network/Mu_NetIO.c	/^static const char rand_sed[] = "the string use to create the encrypt,  Use for MuFTAD!";$/;"	v	file:
+rate	include/Mu_Struct.h	/^	int rate;			\/\/FddfFile rate$/;"	m	struct:_EyewareFDDF
+rate	include/Mu_Struct.h	/^	int rate;			\/\/FileInfo rate$/;"	m	struct:_FileInfo
+rate	include/Mu_Struct_main.h	/^	int rate;			\/\/FddfFile rate$/;"	m	struct:_EyewareFDDF
+rate	include/Mu_Struct_main.h	/^	int rate;			\/\/FileInfo rate$/;"	m	struct:_FileInfo
+rates	include/Mu_Http.h	/^	int rates;		\/\/the rate of downloading$/;"	m	struct:_Mu_Httpstatus
+rcv_fd	include/MuFTAD_Init.h	/^int rcv_fd;$/;"	v
+reader	include/Mu_NetIO.h	/^	mu_reader reader;	\/\/for reader$/;"	m	struct:_MuNetIO
+relocate	include/Mu_Http.h	/^char *relocate;$/;"	v
+resume	include/Mu_Http.h	/^	int resume;	\/\/wether resuming downloading$/;"	m	struct:_Mu_DnStat
+retry	include/Mu_Http.h	/^	int retry;		\/\/the retry times$/;"	m	struct:_Mu_Httpstatus
+s_strBufOut	parsexml/Mu_Struct.c	/^static char s_strBufOut[1024];$/;"	v	file:
+scheme	include/Mu_Http.h	/^	Mu_Urlscheme scheme;$/;"	m	struct:_Mu_URL
+seeknew	include/Mu_Http.h	/^	off_t seeknew;	\/\/use to resume, when thread downloading, It must change the value$/;"	m	struct:_Mu_Httpstatus
+seekstart	include/Mu_Http.h	/^	off_t seekstart;	\/\/the space, where theread will wirte into$/;"	m	struct:_Mu_Httpstatus
+selecter	include/Mu_NetIO.h	/^	mu_selecter selecter;	\/\/for selecter$/;"	m	struct:_MuNetIO
+server	include/Mu_Struct.h	/^	ServerHeadPtr server;		$/;"	m	struct:_ServiceInfo
+server	include/Mu_Struct_main.h	/^	ServerHeadPtr server;		$/;"	m	struct:_ServiceInfo
+serverfilepath	include/Mu_Struct.h	/^	char * serverfilepath;		\/\/FddfFile serverfilepath$/;"	m	struct:_EyewareFDDF
+serverfilepath	include/Mu_Struct_main.h	/^	char *serverfilepath;		\/\/FddfFile serverfilepath$/;"	m	struct:_EyewareFDDF
+serverinfostep	include/Mu_Struct.h	/^	int serverinfostep;		\/\/DeviceInfo serverinfostep$/;"	m	struct:_DeviceInfo
+serverinfostep	include/Mu_Struct_main.h	/^	int serverinfostep;		\/\/DeviceInfo serverinfostep$/;"	m	struct:_DeviceInfo
+size	include/Mu_Struct.h	/^	int size;		\/\/fddf node size$/;"	m	struct:FddfStatusNode
+size	include/Mu_Struct.h	/^	unsigned long size;		\/\/FddfFile size$/;"	m	struct:_EyewareFDDF
+size	include/Mu_Struct.h	/^	unsigned long size;		\/\/FileInfo size$/;"	m	struct:_FileInfo
+size	include/Mu_Struct.h	/^	unsigned long size;		\/\/SegmentNode size$/;"	m	struct:_SegmentNode
+size	include/Mu_Struct_main.h	/^	int size;		\/\/fddf node size$/;"	m	struct:_FddfStatusNode
+size	include/Mu_Struct_main.h	/^	int size;$/;"	m	struct:_FddfListHead
+size	include/Mu_Struct_main.h	/^	int size;$/;"	m	struct:_SRVDeviceInfo
+size	include/Mu_Struct_main.h	/^	unsigned long size;		\/\/FddfFile size$/;"	m	struct:_EyewareFDDF
+size	include/Mu_Struct_main.h	/^	unsigned long size;		\/\/FileInfo size$/;"	m	struct:_FileInfo
+size	include/Mu_Struct_main.h	/^	unsigned long size;		\/\/SegmentNode size$/;"	m	struct:_SegmentNode
+snd_fd	include/MuFTAD_Init.h	/^int snd_fd;$/;"	v
+srvfirmsf	include/Mu_Struct.h	/^	SRVFirmSFPtr srvfirmsf;$/;"	m	struct:_UpdateInfo
+srvfirmsf	include/Mu_Struct_main.h	/^	SRVFirmSFPtr srvfirmsf;$/;"	m	struct:_UpdateInfo
+srvsvrinfo	include/Mu_Struct.h	/^	SRVSvrInfoPtr srvsvrinfo;$/;"	m	struct:_UpdateInfo
+srvsvrinfo	include/Mu_Struct_main.h	/^	SRVSvrInfoPtr srvsvrinfo;$/;"	m	struct:_UpdateInfo
+ssl	include/Mu_NetIO.h	/^	SSL *ssl;$/;"	m	struct:_MuSslTab
+ssl_ctx	include/Mu_NetIO.h	/^SSL_CTX *ssl_ctx;$/;"	v
+startops	include/Mu_Http.h	/^	off_t startops;$/;"	m	struct:_Mu_Build
+startops	include/Mu_Http.h	/^	off_t startops;\/\/the start opsition of the file$/;"	m	struct:_Mu_DnStat
+starttime	include/Mu_Http.h	/^	struct timeval starttime;	\/\/the start time of the thread start downloading$/;"	m	struct:_Mu_Httpstatus	typeref:struct:_Mu_Httpstatus::timeval
+stat_fd	include/MuFTAD_Init.h	/^int stat_fd;$/;"	v
+statcode	include/Mu_Http.h	/^	int statcode;		\/\/when the thread running, it's the statcode of http or https$/;"	m	struct:_Mu_Httpstatus
+status	include/Mu_Struct.h	/^	int status; 	\/\/status flag$/;"	m	struct:_DBUDirt
+status	include/Mu_Struct.h	/^	int status; $/;"	m	struct:_DBUInfo
+status	include/Mu_Struct_main.h	/^	int status; 	\/\/status flag$/;"	m	struct:_DBUDirt
+status	include/Mu_Struct_main.h	/^	int status;$/;"	m	struct:_DBUInfo
+stepping	include/Mu_Struct.h	/^	int stepping;			\/\/serviceinfo setpping$/;"	m	struct:_ServiceInfo
+stepping	include/Mu_Struct_main.h	/^	int stepping;			\/\/serviceinfo setpping$/;"	m	struct:_ServiceInfo
+tempfd	include/Mu_Http.h	/^	int tempfd;$/;"	m	struct:_Mu_Httpstatus
+text	include/Mu_Struct.h	/^	char * text;			\/\/FddfListHead text$/;"	m	struct:_FddfListHead
+text	include/Mu_Struct.h	/^	char * text;$/;"	m	struct:_DBIInfo
+text	include/Mu_Struct.h	/^	char *text;		\/\/fddf node text$/;"	m	struct:FddfStatusNode
+text	include/Mu_Struct_main.h	/^	char *text;			\/\/FddfListHead text$/;"	m	struct:_FddfListHead
+text	include/Mu_Struct_main.h	/^	char *text;		\/\/fddf node text$/;"	m	struct:_FddfStatusNode
+text	include/Mu_Struct_main.h	/^	char *text;$/;"	m	struct:_DBIInfo
+text	include/Mu_Struct_main.h	/^	char *text;$/;"	m	struct:_SRVDeviceInfo
+threadnum	include/Mu_Http.h	/^int threadnum ;$/;"	v
+threadnumber	include/Mu_Http.h	/^	pthread_t threadnumber;\/\/the number of thread$/;"	m	struct:_Mu_Httpstatus
+threadstatuse	include/Mu_Http.h	/^	int threadstatuse;	\/\/statuse of the thread$/;"	m	struct:_Mu_Httpstatus
+total	include/Mu_Struct.h	/^	int total;			\/\/FddfListHead node num$/;"	m	struct:_FddfListHead
+total	include/Mu_Struct.h	/^	int total;			\/\/SegmentHead Node num$/;"	m	struct:_SegmentHead
+total	include/Mu_Struct.h	/^	int total;			\/\/total number of the type(DirStatusNode)$/;"	m	struct:__anon5
+total	include/Mu_Struct.h	/^	int total;			\/\/total number of this Item Type$/;"	m	struct:__anon4
+total	include/Mu_Struct.h	/^	int total;			\/\/total numbers of address$/;"	m	struct:_DirStatusNode
+total	include/Mu_Struct.h	/^	int total;	\/\/total number of the address$/;"	m	struct:_ServerHead
+total	include/Mu_Struct_main.h	/^	int total;			\/\/FddfListHead node num$/;"	m	struct:_FddfListHead
+total	include/Mu_Struct_main.h	/^	int total;			\/\/SegmentHead Node num$/;"	m	struct:_SegmentHead
+total	include/Mu_Struct_main.h	/^	int total;			\/\/total number of the type(DirStatusNode)$/;"	m	struct:__anon2
+total	include/Mu_Struct_main.h	/^	int total;			\/\/total number of this Item Type$/;"	m	struct:__anon1
+total	include/Mu_Struct_main.h	/^	int total;			\/\/total numbers of address$/;"	m	struct:_DirStatusNode
+total	include/Mu_Struct_main.h	/^	int total;	\/\/total number of the address$/;"	m	struct:_ServerHead
+trigresource	include/Mu_Struct.h	/^	int trigresource;		\/\/DeviceInfo trigresource$/;"	m	struct:_DeviceInfo
+trigresource	include/Mu_Struct_main.h	/^	int trigresource;		\/\/DeviceInfo trigresource$/;"	m	struct:_DeviceInfo
+type	include/Mu_Http.h	/^	Mu_BuildMethod type; \/\/the type of Query$/;"	m	struct:_Mu_DnStat
+type	include/Mu_NetIO.h	/^	volatile int type;		\/\/MuNetType$/;"	m	struct:_MuNetIO
+type	include/Mu_Struct.h	/^	int type;			\/\/FddfFile type$/;"	m	struct:_EyewareFDDF
+type	include/Mu_Struct.h	/^	int type;			\/\/FddfListHead type$/;"	m	struct:_FddfListHead
+type	include/Mu_Struct.h	/^	int type;			\/\/FileInfo type$/;"	m	struct:_FileInfo
+type	include/Mu_Struct.h	/^	int type;			\/\/Item Type of the DIR download$/;"	m	struct:_DirStatusNode
+type	include/Mu_Struct.h	/^	int type;			\/\/Item Type of the FDDF$/;"	m	struct:__anon4
+type	include/Mu_Struct.h	/^	int type;			\/\/ResumeInfo type$/;"	m	struct:_ResumeInfo
+type	include/Mu_Struct.h	/^	int type;			\/\/item type$/;"	m	struct:__anon5
+type	include/Mu_Struct.h	/^	int type;		\/\/mark the Item type of the FDDF$/;"	m	struct:FddfStatusNode
+type	include/Mu_Struct.h	/^	int type;$/;"	m	struct:_DBIInfo
+type	include/Mu_Struct.h	/^int type;		\/\/Item Payload type$/;"	m	struct:_SRVDeviceInfo
+type	include/Mu_Struct_main.h	/^	int type;			\/\/FddfFile type$/;"	m	struct:_EyewareFDDF
+type	include/Mu_Struct_main.h	/^	int type;			\/\/FddfListHead type$/;"	m	struct:_FddfListHead
+type	include/Mu_Struct_main.h	/^	int type;			\/\/FileInfo type$/;"	m	struct:_FileInfo
+type	include/Mu_Struct_main.h	/^	int type;			\/\/Item Type of the DIR download$/;"	m	struct:_DirStatusNode
+type	include/Mu_Struct_main.h	/^	int type;			\/\/Item Type of the FDDF$/;"	m	struct:__anon1
+type	include/Mu_Struct_main.h	/^	int type;			\/\/ResumeInfo type$/;"	m	struct:_ResumeInfo
+type	include/Mu_Struct_main.h	/^	int type;			\/\/item type$/;"	m	struct:__anon2
+type	include/Mu_Struct_main.h	/^	int type;		\/\/mark the Item type of the FDDF$/;"	m	struct:_FddfStatusNode
+type	include/Mu_Struct_main.h	/^	int type;$/;"	m	struct:_DBIInfo
+type	include/Mu_Struct_main.h	/^    	int type;		\/\/Item Payload type$/;"	m	struct:_SRVDeviceInfo
+updatestatus	include/Mu_Struct.h	/^	char * updatestatus;		\/\/apipathlist updatestatus$/;"	m	struct:_Apipathlist
+updatestatus	include/Mu_Struct_main.h	/^	char *updatestatus;		\/\/apipathlist updatestatus$/;"	m	struct:_Apipathlist
+url	include/Mu_Http.h	/^	char *url;$/;"	m	struct:_Mu_URL
+urllen	include/Mu_Http.h	/^	int urllen;$/;"	m	struct:_Mu_URL
+userfreq	include/Mu_Struct.h	/^	int userfreq;			\/\/FileInfo userfreq$/;"	m	struct:_FileInfo
+userfreq	include/Mu_Struct_main.h	/^	int userfreq;			\/\/FileInfo userfreq$/;"	m	struct:_FileInfo
+username	include/Mu_Http.h	/^	char *username;$/;"	m	struct:_Mu_URL
+usernamelen	include/Mu_Http.h	/^	int usernamelen;$/;"	m	struct:_Mu_URL
+userrate	include/Mu_Struct.h	/^	int userrate;			\/\/FileInfo userrate$/;"	m	struct:_FileInfo
+userrate	include/Mu_Struct_main.h	/^	int userrate;			\/\/FileInfo userrate$/;"	m	struct:_FileInfo
+validafterwatch	include/Mu_Struct.h	/^	char * validafterwatch;		\/\/FddfFile validafterwatch$/;"	m	struct:_EyewareFDDF
+validafterwatch	include/Mu_Struct.h	/^	char * validafterwatch;		\/\/FileInfo validafterwatch$/;"	m	struct:_FileInfo
+validafterwatch	include/Mu_Struct_main.h	/^	char *validafterwatch;		\/\/FddfFile validafterwatch$/;"	m	struct:_EyewareFDDF
+validafterwatch	include/Mu_Struct_main.h	/^	char *validafterwatch;		\/\/FileInfo validafterwatch$/;"	m	struct:_FileInfo
+validbeforedate	include/Mu_Struct.h	/^	char * validbeforedate;		\/\/FddfFile validbeforedate$/;"	m	struct:_EyewareFDDF
+validbeforedate	include/Mu_Struct.h	/^	char * validbeforedate;		\/\/FileInfo validbeforedate$/;"	m	struct:_FileInfo
+validbeforedate	include/Mu_Struct_main.h	/^	char *validbeforedate;		\/\/FddfFile validbeforedate$/;"	m	struct:_EyewareFDDF
+validbeforedate	include/Mu_Struct_main.h	/^	char *validbeforedate;		\/\/FileInfo validbeforedate$/;"	m	struct:_FileInfo
+version	include/Mu_Struct.h	/^	int version;			\/\/SRVSvrInfo version$/;"	m	struct:_SRVSvrInfo
+version	include/Mu_Struct_main.h	/^	int version;			\/\/SRVSvrInfo version$/;"	m	struct:_SRVSvrInfo
+version1	include/Mu_Struct.h	/^int version1;		\/\/File Stepping	or Firmware version$/;"	m	struct:_SRVDeviceInfo
+version1	include/Mu_Struct_main.h	/^    	char *version1;		\/\/File Stepping	or Firmware version$/;"	m	struct:_SRVDeviceInfo
+version2	include/Mu_Struct.h	/^int version2;		\/\/Reserved number or Hardware Version$/;"	m	struct:_SRVDeviceInfo
+version2	include/Mu_Struct_main.h	/^    	char *version2;		\/\/Reserved number or Hardware Version$/;"	m	struct:_SRVDeviceInfo
+writer	include/Mu_NetIO.h	/^	mu_writer writer; 		\/\/for writer$/;"	m	struct:_MuNetIO
+xmlfd	include/Mu_Http.h	/^	int xmlfd;	\/\/POST signal$/;"	m	struct:_Mu_DnStat

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+    <Protocol_Ver>1</Protocol_Ver>
+    <Protocol_OPC>200</Protocol_OPC>
+
+    /*  <PreLogin> 被服务器删除  */
+
+    <Device_Info>
+        /*  这两个被服务器置空为随机数，示例为0  */
+        <Device_ID_Int>0</Device_ID_Int>
+        <Device_ID_App>0</Device_ID_App>
+        /*  服务器返回的日期和时间  */
+        <SRV_Date_Time>20080523130523</SRV_Date_Time>
+        /*  其余的字段服务器吃掉，不返回  */
+    </Device_Info>
+
+    <Conversation>
+        /*   服务器返回的ID信息，一个字符串  */
+        <ConversationID>0</ConversationID>
+
+        /*  由于没有Auth信息，因此该字段返回空  */
+        /*  此时，设备生成的地址肯定不会有 http(s)://aa:bb@host 的形式  */
+        <AuthUsername/>
+        <AuthPassword/>
+    </Conversation>
+</Eyewear_ADP>

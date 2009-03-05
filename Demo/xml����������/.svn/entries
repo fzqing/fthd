@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="194"
+   name=""
+   committed-date="2008-05-27T10:32:57.040405Z"
+   url="svn://10.147.6.15/FTHDM/Demo/xml%E8%A7%A3%E6%9E%90%E4%B8%8E%E7%94%9F%E6%88%90"
+   last-author="wyj"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="173"
+   name="xml创建.txt"
+   text-time="2008-05-26T01:52:04.000000Z"
+   committed-date="2008-05-19T13:50:33.182612Z"
+   checksum="5f3f11d0af19f48d2c90323f3d13b52c"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-26T01:52:04.000000Z"/>
+<entry
+   committed-rev="173"
+   name="main"
+   text-time="2008-05-26T01:52:04.000000Z"
+   committed-date="2008-05-19T13:50:33.182612Z"
+   checksum="291aff92ec8f909c7ae2e2d270826a3c"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-26T01:52:04.000000Z"/>
+<entry
+   committed-rev="156"
+   name="xml解析.txt"
+   text-time="2008-05-13T02:42:42.000000Z"
+   committed-date="2008-05-12T18:58:13.017992Z"
+   checksum="949ba925cbfba76933eaf804e70e9b59"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-13T02:42:42.000000Z"/>
+<entry
+   committed-rev="194"
+   name="main.c"
+   text-time="2008-05-27T02:34:10.000000Z"
+   committed-date="2008-05-27T10:32:57.040405Z"
+   checksum="b126666a30e72fa0d6f981bf6b1d2b69"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-27T02:34:10.000000Z"/>
+</wc-entries>

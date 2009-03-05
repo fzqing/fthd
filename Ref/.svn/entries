@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="50"
+   name=""
+   committed-date="2008-05-04T13:35:47.095389Z"
+   url="svn://10.147.6.15/FTHDM/Ref"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   name="Http"
+   kind="dir"/>
+<entry
+   name="SSL"
+   kind="dir"/>
+<entry
+   name="CRC"
+   kind="dir"/>
+<entry
+   name="libxml"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+    <Protocol_Ver>1</Protocol_Ver>
+    /*  Need device update its Device ID  */
+    <Protocol_OPC>300</Protocol_OPC>
+
+    /*  <PreLogin> 被服务器删除  */
+
+    <Device_Info>
+        /*  这个被服务器置空为随机数，示例为0  */
+        <Device_ID_Int>0</Device_ID_Int>
+		/*  服务器设定的新的ID-APP  */
+        <Device_ID_App>NewAPP</Device_ID_App>
+        /*  服务器返回的日期和时间  */
+        <SRV_Date_Time>20080523130523</SRV_Date_Time>
+        /*  其余的字段服务器吃掉，不返回  */
+    </Device_Info>
+
+    <Conversation>
+        /*   服务器返回的ID信息，一个字符串  */
+        <ConversationID>0</ConversationID>
+        <AuthUsername/>
+        <AuthPassword/>
+    </Conversation>
+
+    <Payload>
+        <Item>
+            <Type>190</Type>
+            <Text>SRV_Delays</Text>
+            <Size>1</Size>
+            /*  具体数值可能不定，目前范例是1000ms  */
+            <Dat1>1000</Dat1>
+        </Item>
+    </Payload>
+
+</Eyewear_ADP>

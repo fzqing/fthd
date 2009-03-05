@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="45"
+   name=""
+   committed-date="2008-05-04T10:51:09.778654Z"
+   url="svn://10.147.6.15/FTHDM/Doc/MuFTAD%E9%9C%80%E6%B1%82%E8%AF%B4%E6%98%8E%E4%B9%A6"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="28"
+   name="Feasibility Study for HMD-MP4-I－2007.8.28－3.doc"
+   text-time="2007-10-24T00:45:00.000000Z"
+   committed-date="2008-05-03T17:42:38.586638Z"
+   checksum="ad8ad603fe26e40f8d5ce13824aab692"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:41:16.000000Z"/>
+<entry
+   committed-rev="30"
+   name="FTHMD-IP-DC说明书v1.1.doc"
+   text-time="2007-12-03T04:31:26.000000Z"
+   committed-date="2008-05-03T17:43:08.928588Z"
+   checksum="103fe8dfee0193dd558828c77edd0154"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:41:48.000000Z"/>
+<entry
+   committed-rev="45"
+   name="法电项目显示信息内容列表.xls"
+   text-time="2008-04-16T08:00:28.000000Z"
+   committed-date="2008-05-04T10:51:09.778654Z"
+   checksum="fe38378889cb964c646f072b5057ed7e"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T02:44:52.000000Z"/>
+<entry
+   committed-rev="38"
+   name="Vi-glass Video Downloading Solution.doc"
+   text-time="2007-12-11T06:38:12.000000Z"
+   committed-date="2008-05-03T17:46:22.418787Z"
+   checksum="b4da44f273b3f29223e5fb9246b26e52"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:45:04.000000Z"/>
+<entry
+   committed-rev="37"
+   name="法电IP-DC-12-11-ver2.doc"
+   text-time="2007-12-11T07:32:08.000000Z"
+   committed-date="2008-05-03T17:45:47.487539Z"
+   checksum="d3ad4703df300a9dc73b3589d9a546e1"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:44:30.000000Z"/>
+<entry
+   committed-rev="38"
+   name="Video Downloading Requirement of ViGlass-v0[1].1.doc"
+   text-time="2007-11-01T07:07:42.000000Z"
+   committed-date="2008-05-03T17:46:22.418787Z"
+   checksum="62cd2728e1c8513454c8dca2b071b681"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:45:04.000000Z"/>
+<entry
+   committed-rev="31"
+   name="FTHMD-MP4-IP硬件设计需求书-1.doc"
+   text-time="2007-11-05T02:32:22.000000Z"
+   committed-date="2008-05-03T17:43:20.545467Z"
+   checksum="8797a3928b6332429490485ebd5e3173"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:42:00.000000Z"/>
+<entry
+   committed-rev="29"
+   name="Feasibility Study for HMD-MP4-I－2008.1.15.pdf"
+   text-time="2008-04-16T03:02:14.000000Z"
+   committed-date="2008-05-03T17:42:52.732568Z"
+   checksum="de9d2079e6b460f1e7048098d177ce12"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="32"
+   name="MuFTAD需求说明书ver1.3.1.pdf"
+   text-time="2008-04-28T02:37:58.000000Z"
+   committed-date="2008-05-03T17:43:45.519759Z"
+   checksum="3e5cccb1cf7b828866f956d329644df3"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:42:26.000000Z"/>
+</wc-entries>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="50"
+   name=""
+   committed-date="2008-05-04T13:35:47.095389Z"
+   url="svn://10.147.6.15/FTHDM/Ref/SSL"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="50"
+   name="SSL及使用OpenSSL实现证书的签发和管理.pdf"
+   text-time="2008-03-27T01:50:52.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="ebac0f5fac8062932c456d060201b922"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="O&apos;Reilly.Network.Security.with.OpenSSL.pdf"
+   text-time="2008-03-29T13:44:24.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="cc3a939bdeda2f7799339be9b1226f2b"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="基于OpenSSL的安全密码平台的设计与实现.pdf"
+   text-time="2008-03-27T01:50:46.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="5baaa58fced06c6c79dc61fa6b29ab59"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="rfc2246.pdf"
+   text-time="2008-03-27T01:23:30.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="c42bca3a0c5a30353c6c2e9a923b5c13"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="mttest.c"
+   text-time="2008-04-01T01:26:00.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="c1b0a0ffebeb11e5168cb632f6bff324"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="rfc2617.pdf"
+   text-time="2008-03-27T13:30:38.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="f58af2f1b29494020779ff2c1d2de6a7"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="基于OpenSSL的嵌入式网络安全通信设计与实现.pdf"
+   text-time="2008-03-27T01:43:18.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="732e3444feb81b9016e61211db1fdc43"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="An Introduction To Openssl Programming 1.pdf"
+   text-time="2008-03-26T10:44:54.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="246bfba8c4036bb8ea4d3c8302f1a07c"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="OpenSSL在网络安全传输中的应用研究.pdf"
+   text-time="2008-03-27T01:50:56.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="62533269825d88ef1b3abd8bb43b70f2"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="simco_core.c"
+   text-time="2008-03-29T06:57:32.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="fc0e35e01b0ef9a1e4d5fd807d516936"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="SSL.ppt"
+   text-time="2007-01-20T23:36:14.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="408b5021bbf543cf4df1e78e4c2155ec"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="An Introduction To Openssl Programming 2.pdf"
+   text-time="2008-03-26T10:49:54.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="bdbcad439e2895290377312bf3894d97"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="rfc1738.pdf"
+   text-time="2008-03-27T06:16:00.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="825549498ab565a1a26dda4b5121e09b"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="OpenSSL的C_S安全通信.pdf"
+   text-time="2008-03-27T01:51:18.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="352dc91cc1cd0bdbefa1d54d751ee20e"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="用OpenSSL进行TLS_SSL编程.pdf"
+   text-time="2008-03-27T01:43:38.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="1089f2241986066e287a433aaf51ba0b"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="50"
+   name="OpenSSL程序设计.pdf"
+   text-time="2008-03-27T01:51:20.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="b5dcac5aa46d68075faa7d5823b3ec1e"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+<entry
+   committed-rev="50"
+   name="openssl编程.pdf"
+   text-time="2008-01-24T07:41:50.000000Z"
+   committed-date="2008-05-04T13:35:47.095389Z"
+   checksum="42661fb3b450133714627baa9ba61e99"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:58.000000Z"/>
+</wc-entries>

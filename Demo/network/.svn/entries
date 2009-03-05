@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="175"
+   name=""
+   committed-date="2008-05-26T09:55:04.061016Z"
+   url="svn://10.147.6.15/FTHDM/Demo/network"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   name="testxml"
+   kind="dir"/>
+<entry
+   committed-rev="175"
+   name="main.c"
+   text-time="2008-05-23T08:22:42.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="559b78e7a8a84a8bf7814cab88d677d7"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="175"
+   name="Makefile"
+   text-time="2008-05-23T07:05:00.000000Z"
+   committed-date="2008-05-26T09:55:04.061016Z"
+   checksum="aee41ef2afa0090cad6ea34a07c24b75"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

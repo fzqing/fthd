@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+/*  PreLogin时，设备使用GET方法访问服务器API，一定会得到以下的文件  */
+<Eyewear_ADP>
+	/*  这两个字段空  */
+	<Protocol_Ver/>
+	<Protocol_OPC/>
+
+	<PreLogin>
+		/*  目前只可能为0，设备需要检测该字段值  */
+		/*  目前如果该值不为0，则认为出现错误，无法登陆服务器  */
+		<EncryptionMethod>0</EncryptionMethod>
+		/*  当上一行的值为0时，Challenge的数据被忽略，默认该字段为空  */
+		<Challenge/>
+	</PreLogin>
+
+	/*  以下字段就是这样放着，均空  */
+	<Device_Info>
+		<Device_ID_Int/>
+		<Device_ID_App/>
+		<Device_Status/>
+		<Trig_Resource/>
+		<SRV_Date_Time/>
+		<FirmwareVersion/>
+		<HardwareVersion/>
+		<ServerInfo_Step/>
+	</Device_Info>
+
+	<Conversation>
+		<ConversationID/>
+		<AuthUsername/>
+		<AuthPassword/>
+	</Conversation>
+</Eyewear_ADP>

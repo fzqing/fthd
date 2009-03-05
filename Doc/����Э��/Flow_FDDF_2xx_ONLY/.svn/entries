@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="43"
+   name=""
+   committed-date="2008-05-03T17:48:29.185917Z"
+   url="svn://10.147.6.15/FTHDM/Doc/%E6%B3%95%E7%94%B5%E5%8D%8F%E8%AE%AE/Flow_FDDF_2xx_ONLY"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="43"
+   name="07_After_QueryFDDF.xml"
+   text-time="2008-02-29T09:25:52.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="c13ac416fc86a46e27ad9104620608c1"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="06_Before_QueryFDDF.xml"
+   text-time="2008-02-29T09:22:14.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="1a0f8dac4675052799cde6cc29a04d6d"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="00_ServerInfo.XML"
+   text-time="2008-03-06T08:57:18.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="213560674a73e02318a169e96ea828d1"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="FDDF_1.xml"
+   text-time="2008-02-29T09:35:14.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="a6c34fa2c679b0f8c54bc548d8c9c2c6"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="FDDF_2.xml"
+   text-time="2008-03-20T02:52:24.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="2c349fb0b9697b5a62fbefa40434f91a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="resuming.xml"
+   text-time="2008-03-12T10:53:08.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="45113caa14536151c615f5b50f3eba8a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="file_info.xml"
+   text-time="2008-03-13T05:00:18.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="c1c453539ce0d53aefe6ca1b767209f2"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="05_After_Query.xml"
+   text-time="2008-02-29T09:21:16.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="cc01377f8fad837a0a78f568c765f170"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="04_Before_Query.xml"
+   text-time="2008-02-29T09:17:54.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="139dc0e6f1e89752009f66f0cf39594f"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="03_After_Login.xml"
+   text-time="2008-02-19T01:52:22.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="626ed7c1404eec356112b7f23f9ec404"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="02_Before_Login.xml"
+   text-time="2008-02-19T01:52:22.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="b599ee75fa48f526e1a0c34446c066c0"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="device information.xml"
+   text-time="2008-03-12T10:55:24.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="1f594a089309a04873a652463183570a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="_Readme.txt"
+   text-time="2008-02-29T09:37:30.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="920b7d200a184d52ee7f3d7a19a04dee"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="09_After_Update.xml"
+   text-time="2008-02-29T09:29:26.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="fe579938590bf9cfba1df2fb92e33b4d"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="08_Before_Update.xml"
+   text-time="2008-02-29T09:28:48.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="a8de41baffbc74bde1c400f4e95ac84e"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="update SRV.xml"
+   text-time="2008-03-12T07:22:20.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="fd8be9dc73683f4cf5918317f67eeceb"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="43"
+   name="01_PreLogin.xml"
+   text-time="2008-03-06T09:01:08.000000Z"
+   committed-date="2008-05-03T17:48:29.185917Z"
+   checksum="811471a8f9d791332213761453f03a55"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

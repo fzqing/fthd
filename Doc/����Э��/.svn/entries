@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2008-05-26T15:22:29.816032Z"
+   url="svn://10.147.6.15/FTHDM/Doc/%E6%B3%95%E7%94%B5%E5%8D%8F%E8%AE%AE"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="42"
+   name="doc00_SoftProtocol_0.1.1.doc"
+   text-time="2008-03-13T03:13:08.000000Z"
+   committed-date="2008-05-03T17:47:51.475531Z"
+   checksum="04b534ea86a9eba0b80d90a251184542"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:46:36.000000Z"/>
+<entry
+   committed-rev="145"
+   name="~$c00_SoftProtocol_0.1.0_RC1.doc"
+   text-time="2008-05-10T08:58:04.000000Z"
+   committed-date="2008-05-10T16:56:25.285492Z"
+   checksum="0f028e5f984101831a72a1fff9fb9305"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-10T08:55:56.000000Z"/>
+<entry
+   committed-rev="40"
+   name="doc00_SoftProtocol_0.1.0_RC1.doc"
+   text-time="2008-02-21T04:32:16.000000Z"
+   committed-date="2008-05-03T17:47:11.725833Z"
+   checksum="d72c12e81c3964cd0ae587972fc978d2"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:45:56.000000Z"/>
+<entry
+   committed-rev="41"
+   name="APM_XE.7z"
+   text-time="2008-03-25T06:32:54.000000Z"
+   committed-date="2008-05-03T17:47:29.272000Z"
+   checksum="acdf2cb46b53651afe987caa4d78c7b8"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:46:10.000000Z"/>
+<entry
+   name="login"
+   kind="dir"/>
+<entry
+   committed-rev="42"
+   name="readme.txt"
+   text-time="2008-05-03T09:32:30.000000Z"
+   committed-date="2008-05-03T17:47:51.475531Z"
+   checksum="b2073dca04a90145fc7ee8aacdaa8fbd"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   name="Flow_FDDF_2xx_ONLY"
+   kind="dir"/>
+<entry
+   committed-rev="42"
+   name="doc00_SoftProtocol_0.1.0_DBG.doc"
+   text-time="2008-03-17T05:39:26.000000Z"
+   committed-date="2008-05-03T17:47:51.475531Z"
+   checksum="fb820bbbf46d1ada3cd1a8f77c3b6a47"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:46:36.000000Z"/>
+</wc-entries>

@@ -1,0 +1,26 @@
+#make file for build the libray of NetIO
+CC=gcc
+AR=ar
+CFLAGS+=-Wall -g 
+#LIBCFLAGS=$(CFLAGS) -shared -fPCI
+INSTALLPATH=$(shell cd ../lib; pwd)
+LIB=/usr/lib
+INCLUDE=../include
+
+OBJ=libMuNetIO.a
+func=$(wildcard *.c)
+objects=$(patsubst %.c,%.o,$(func))
+
+all:$(OBJ)
+	mv -f $(OBJ) $(INSTALLPATH)
+#	ln -fs $(INSTALLPATH)/$(OBJ) $(LIB)/$(OBJ)
+	rm -rf *.o
+$(OBJ):$(objects)
+	$(AR) -r  $(OBJ) $(objects)
+$(objects):$(func) $(INCLUDE)/Mu_NetIO.h $(INCLUDE)/Mu_error.h
+	$(CC) $(CFLAGS) -c $(func)
+
+.PHONY:clean
+clean:
+	rm -rf *.o
+

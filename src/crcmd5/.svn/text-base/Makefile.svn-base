@@ -1,0 +1,25 @@
+#make file for build the libray of NetIO
+CC=gcc
+AR=ar
+CFLAGS+=-Wall -g 
+LIBCFLAGS=$(CFLAGS) -shared -fPCI
+INSTALLPATH=$(shell cd ../../lib; pwd)
+LIB=/usr/lib
+INCLUDE=../include
+
+OBJ=libMuCrcMd5.so
+func=$(wildcard *.c)
+objects=$(patsubst %.c,%.o,$(func))
+
+all:$(OBJ)
+	mv -f $(OBJ) $(INSTALLPATH)
+	ln -fs $(INSTALLPATH)/$(OBJ) $(LIB)/$(OBJ)
+	rm -rf *.o
+$(OBJ):$(objects)
+#	$(AR) -r  $(OBJ) $(objects)
+	$(CC) $(LIBCFLAGS)  -o $(OBJ) $(objects)
+
+.PHONY:clean
+clean:
+	rm -rf *.o
+

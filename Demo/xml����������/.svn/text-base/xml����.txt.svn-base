@@ -1,0 +1,75 @@
+﻿Mu_Parse：解析文件的总接口
+1：
+	发生在预登录时间,从服务器接收到一个XML,存储在rcv_fd中,将XML内容解析至EyewearADPPtr
+	其中EyewearADPPtr结构已被创建
+	rcv_fd为打开文件句柄	参考XML可以参考任一XML信令文件,带有<Eyewear_ADP>根节点的
+	Mu_Parse(PARSE_EYEWEAR_ADP, rcv_fd, NULL, &EyewearADPPtr);
+2:
+	当以OPCCODE = 111请求服务器时,接收从服务器返回的XML文件,从其中解析出payload中的所有信息,存
+	储在FddfListHeadPtr为头的链表中	
+	FddfListHeadPtr已创建
+	list_fd为打开的文件句柄
+	待解析XML文件可以参考07_After_QueryFDDF.xml
+	Mu_Parse(PARSE_FDDF_LIST, list_fd, "//Item", &FddfListHeadPtr);
+3：	
+	将XML内容解析至UpdateInfoPtr	
+	UpdateInfoPtr已创建
+	fd为打开的文件句柄
+	Mu_Parse(PARSE_UPDATE_INFO,fd,NULL, &UpdateInfoPtr);
+4:
+	当以OPC=110查询服务器后,得到已订阅的节目信息,该列表中包括2xx和4xx内容,将2XX内容解析至FddfStatusHeadPtr为头的链表中	
+	注意:FddfStatusHeadPtr已创建, 一次解析最多只解析有限个2XX
+	stat_fd为打开的文件句柄
+	待解析XML文件可以参考带payload=2XX的05_After_Query.xml
+	Mu_Parse(PARSE_MULTI_2XX, stat_fd, "//Item", &FddfStatusHeadPtr)
+	类似的有:
+	待解析XML文件可以参考带payload=4XX的05_After_Query.xml
+	DirStatusHeadPtr已创建,将4XX内容解析至DirStatusHeadPtr为头的链表中	
+	stat_fd为打开的文件句柄
+	Mu_Parse(PARSE_MULTI_4XX, stat_fd, "//Item", &DirStatusHeadPtr);
+5:
+	FDDF文件,包含了文件的描述信息,函数解析payload以外的内容至FddfFilePtr结构中;
+	注意:FddfFilePtr已创建
+	待解析XML文件可以参考带FDDF_1.xml FDDF_2.xml
+	Mu_Parse(PARSE_EYEWEAR_FDDF, rcv_fd,NULL, &FddfFilePtr);
+6:
+	FDDF文件,解析其中的分段信息至以SegmentHeadPtr为表头的链表中
+	注意:SegmentHeadPtr已创建
+	待解析XML文件可以参考带FDDF_1.xml FDDF_2.xml
+	Mu_Parse(PARSE_SEGMENT, rcv_fd,"//Segment", &SegmentHeadPtr);
+7:
+	PARSE_SINGLE这个宏调用用于解析指定XPATH的第一个节点之间的内容
+	single_fd为打开文件句柄
+	Mu_Parse(PARSE_SINGLE, single_fd,"//指定PATH", &接收结构);
+	接收结构已创建
+8:
+	解析serviceinfo.xml，把解析结果存在ServiceInfoPtr中
+	ServiceInfoPtr已创建
+	fd为打开文件句柄
+	Mu_Parse(PARSE_SERVICE_INFO, fd, NULL, &ServiceInfoPtr);
+9：
+	解析update SRV.xml,把解析结果存在UpdateInfoPtr中
+	UpdateInfoPtr已创建	
+	fd为打开文件句柄
+	Mu_Parse(PARSE_UPDATE_INFO, fd, NULL, &UpdateInfoPtr);	
+10：
+	解析resuming.xml，把解析结果存在ResumeInfoPtr
+	ResumeInfoPtr已创建
+	fd为打开文件句柄
+	Mu_Parse(PARSE_RESUME_INFO, fd, NULL, &ResumeInfoPtr);	
+11：
+	解析fileinfo.xml，把解析结果存在FileInfoPtr
+	FileInfoPtr已创建
+	fd为打开文件句柄
+	Mu_Parse(PARSE_FILE_INFO, fd, NULL, &FileInfoPtr);
+12：
+	解析deviceinformation.xml，把解析结果存在XmlDeviceInfoPtr中
+	XmlDeviceInfoPtr已创建
+	fd为打开文件句柄
+	Mu_Parse(PARSE_DEVICE_INFO, fd, NULL, &XmlDeviceInfoPtr）;
+13:
+	待解析XML文件可以参考带payload 的03_After_Login.xml
+	解析03xml文件中payload字段，把解析结果存在SRV_SvrInfPtr中
+	SRV_SvrInfPtr已创建
+	fd为打开文件句柄
+	Mu_Parse(PARSE_SRV_SVRINF, fd, NULL, &SRV_SvrInfPtr）;

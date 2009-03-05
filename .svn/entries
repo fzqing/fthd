@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="194"
+   name=""
+   committed-date="2008-05-27T10:32:57.040405Z"
+   url="svn://10.147.6.15/FTHDM"
+   last-author="wyj"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   name="Demo"
+   kind="dir"/>
+<entry
+   committed-rev="164"
+   name="自动下载进度表ver2.xls"
+   text-time="2008-05-26T01:52:06.000000Z"
+   committed-date="2008-05-15T09:12:18.846824Z"
+   checksum="0b472488df656efc6e97de2229088a92"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-26T01:52:04.000000Z"/>
+<entry
+   name="Doc"
+   kind="dir"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="Ref"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+	<Protocol_Ver>1</Protocol_Ver>
+	<Protocol_OPC>200</Protocol_OPC>
+
+	<Device_Info>
+		<Device_ID_Int>DEV_INT_1234</Device_ID_Int>
+		<Device_ID_App>0</Device_ID_App>
+	</Device_Info>
+
+	<Conversation>
+		<ConversationID>xRandomID</ConversationID>
+		<AuthUsername/>
+		<AuthPassword/>
+	</Conversation>
+
+	<Payload>
+		<Item>
+			<Type>301</Type>
+			<Text>FDF_Video</Text>
+			<Size>6</Size>
+			<Dat1>0</Dat1>
+			<Dat2>0</Dat2>
+			<Dat3/>
+			<Dat4/>
+			<Dat5>/FDDF/FDDF_1.xml</Dat5>
+			<Dat6>/FDDF/FDDF_2.xml</Dat6>
+		</Item>
+	</Payload>
+</Eyewear_ADP>

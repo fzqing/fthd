@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+	<Protocol_Ver>1</Protocol_Ver>
+	<Protocol_OPC>100</Protocol_OPC>
+
+	<PreLogin>
+		<EncryptionMethod>0</EncryptionMethod>
+		<Challenge>Challenge_RandomID</Challenge>
+	</PreLogin>
+
+	<Device_Info>
+		<Device_ID_Int>DEV_INT_1234</Device_ID_Int>
+		<Device_ID_App>0</Device_ID_App>
+		<Device_Status>0</Device_Status>
+		<Trig_Resource>0</Trig_Resource>
+		<SRV_Date_Time/>
+		<FirmwareVersion>1</FirmwareVersion>
+		<HardwareVersion>1</HardwareVersion>
+		<ServerInfo_Step>1</ServerInfo_Step>
+	</Device_Info>
+
+	<Conversation>
+		<ConversationID/>
+		<AuthUsername/>
+		<AuthPassword/>
+	</Conversation>
+</Eyewear_ADP>

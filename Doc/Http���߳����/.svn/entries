@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="114"
+   name=""
+   committed-date="2008-05-09T08:31:07.371248Z"
+   url="svn://10.147.6.15/FTHDM/Doc/Http%E5%A4%9A%E7%BA%BF%E7%A8%8B%E8%AE%BE%E8%AE%A1"
+   last-author="wkx"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="25"
+   name="MuFTAD多线程下载需求分析ver1.0.pdf"
+   text-time="2008-04-01T02:45:54.000000Z"
+   committed-date="2008-05-03T17:41:43.553576Z"
+   checksum="f03c6db7c2550cb59b9241eaa3b58c56"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="114"
+   name="MU_HTTP(s)模块代码结构.txt"
+   text-time="2008-05-09T03:03:02.000000Z"
+   committed-date="2008-05-09T08:31:07.371248Z"
+   checksum="ec032e3639a4b7311131ad6d6710c575"
+   last-author="wkx"
+   kind="file"
+   prop-time="2008-05-09T03:03:02.000000Z"/>
+<entry
+   committed-rev="24"
+   name="MuFTAD HTTP下载详细设计ver1.1.pdf"
+   text-time="2008-04-10T02:46:40.000000Z"
+   committed-date="2008-05-03T17:41:31.993902Z"
+   checksum="4178615bf09c7aa600174bf4134c7b36"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

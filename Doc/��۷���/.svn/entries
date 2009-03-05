@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="39"
+   name=""
+   committed-date="2008-05-03T17:46:46.892714Z"
+   url="svn://10.147.6.15/FTHDM/Doc/%E5%A4%96%E8%A7%82%E6%96%B9%E6%A1%88"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="39"
+   name="readme.txt"
+   text-time="2008-05-03T09:33:12.000000Z"
+   committed-date="2008-05-03T17:46:46.892714Z"
+   checksum="163b3d88afbc2ebe1e587d132ffecbe0"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:45:24.000000Z"/>
+<entry
+   committed-rev="39"
+   name="头带显示器外观提案.ppt"
+   text-time="2007-10-29T06:56:32.000000Z"
+   committed-date="2008-05-03T17:46:46.892714Z"
+   checksum="a295305eb239d1b28d5b53b147db2abe"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-03T09:45:24.000000Z"/>
+</wc-entries>

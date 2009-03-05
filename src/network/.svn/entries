@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="207"
+   name=""
+   committed-date="2008-05-29T15:44:20.900405Z"
+   url="svn://10.147.6.15/FTHDM/src/network"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="208"/>
+<entry
+   committed-rev="182"
+   name="Mu_HttpUtil.c"
+   text-time="2008-05-23T07:55:34.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="ac690dc938f1068ea92e680ab8ae6ec1"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="182"
+   name="Mu_Util.c"
+   text-time="2008-05-23T07:05:00.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="065f8ee8a442b9d4835943c689939ef0"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="179"
+   name="Mu_NetIO.c"
+   text-time="2008-05-23T08:38:38.000000Z"
+   committed-date="2008-05-26T10:18:35.877547Z"
+   checksum="cb80d0c449193c8505e0c6daa99c593e"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="182"
+   name="Mu_HttpBuild.c"
+   text-time="2008-05-23T07:36:26.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="6d9aa34b06e78157c638ab70dc14d151"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="182"
+   name="Mu_HttpUrl.c"
+   text-time="2008-05-23T07:44:14.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="b432efcb8b0f227c77fd28972735669e"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="182"
+   name="Mu_HttpQuery.c"
+   text-time="2008-05-23T07:40:50.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="284bc4aa05ed7f5682529946422c5cb5"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="182"
+   name="Mu_HttpDown.c"
+   text-time="2008-05-23T08:48:32.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="55a4718cd788efb3bb83708f16401102"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="182"
+   name="Mu_HttpParse.c"
+   text-time="2008-05-23T07:46:48.000000Z"
+   committed-date="2008-05-26T10:24:41.390176Z"
+   checksum="aa0c232177cf20e91ecd238092764b8a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="207"
+   name="Makefile"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:44:20.900405Z"
+   checksum="31a4c334bcccec79a9380e1e2c41c3dc"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

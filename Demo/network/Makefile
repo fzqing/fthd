@@ -1,0 +1,15 @@
+#make the program for test Parse URL
+CC=gcc
+CFLAGS+= -O0 -g -Wall 
+OBJ=Test
+
+funcs=$(patsubst %.c,%.o,$(wildcard *.c))
+
+$(OBJ):$(funcs)
+	$(CC) $(CFLAGS) -o $(OBJ) $(funcs) -lMuHttpPlus -lssl -lpthread
+	rm -rf *.o
+
+.PHONY:clean
+clean:
+	rm -rf *.o
+	rm -rf 5*

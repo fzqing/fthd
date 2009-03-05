@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="118"
+   name=""
+   committed-date="2008-05-09T17:32:30.968107Z"
+   url="svn://10.147.6.15/FTHDM/Doc/CRC32MD5"
+   last-author="wkx"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="23"
+   name="CRC-32 MD5详细设计ver1.1.pdf"
+   text-time="2008-04-11T06:18:02.000000Z"
+   committed-date="2008-05-03T17:41:05.882804Z"
+   checksum="11243bc704b929f727cf38b92d90bb00"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="118"
+   name="CRC-32 MD5详细设计ver1.2.pdf"
+   text-time="2008-05-10T08:53:56.000000Z"
+   committed-date="2008-05-09T17:32:30.968107Z"
+   checksum="1a239da6ab3af01f3e68dc30849eb5a1"
+   last-author="wkx"
+   kind="file"
+   prop-time="2008-05-10T08:53:56.000000Z"/>
+<entry
+   committed-rev="22"
+   name="CRC-32 MD5概要设计ver1.0.pdf"
+   text-time="2008-03-21T11:41:32.000000Z"
+   committed-date="2008-05-03T17:40:04.695969Z"
+   checksum="757ae1fa27f0c88553a965cf744380eb"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

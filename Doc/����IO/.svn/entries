@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="56"
+   name=""
+   committed-date="2008-05-05T14:50:47.176049Z"
+   url="svn://10.147.6.15/FTHDM/Doc/%E7%BD%91%E7%BB%9CIO"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="13"
+   name="网络IO详细设计ver1.1.pdf"
+   text-time="2008-04-11T06:33:30.000000Z"
+   committed-date="2008-05-03T17:36:41.068773Z"
+   checksum="6b15e028485e03825931ecea6b900af7"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="56"
+   name="网络IO详细设计ver1.2.pdf"
+   text-time="2008-05-05T06:48:20.000000Z"
+   committed-date="2008-05-05T14:50:47.176049Z"
+   checksum="832d0114fb5e6b3e16ba74848b02b011"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

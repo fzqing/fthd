@@ -1,0 +1,35 @@
+所有的注释均使用 /*    */ 包含，方便使用各种替换等手段更换。
+
+测试用Device使用的数据：
+注册或其它情况需要使用的ID
+    ID_EXT      EW0000000010    共12位，其中10位为有效数据
+设备登录使用
+    ID_INT      0A000000001020012345678901234567890123456789021000
+    ID_APP      NULL
+
+目前协议版本号均固定为1。
+
+00_ServerInfo.XML
+    保存在设备端的服务器地址和API信息。
+
+01_PreLogin.xml
+    PreLogin步骤，设备使用GET方法访问服务器，不向服务器提交任何信息。
+    服务器返回的xml信令文件目前有且只有该文件描述的可能。
+
+目录02_Login_Process
+Q_Loging.xml
+    有且只有这一种情况的Login。
+
+目前默认不使用AuthUsername和AuthPassword。
+A_200_wo_Auth.xml   回复状态200，没有认证用户名和密码的情况
+A_200_wt_Auth.xml   回复状态200，  有认证用户名和密码的情况
+
+A_200_wt_100.xml    回复状态200，没有认证用户名和密码的情况, 带有100的Payload
+A_200_wt_100.xml    回复状态200，没有认证用户名和密码的情况, 带有101的Payload
+
+A_200_wt_100101.xml 什么都带的情况
+
+A_4xx5xx.xml        4xx 5xx错误情况下的回复
+
+A_300.xml			更新Devide的ID-APP。
+A_301.xml			更新Device的Status（即显示状态，可以让用户看到的指示）

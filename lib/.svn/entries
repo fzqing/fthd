@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="187"
+   name=""
+   committed-date="2008-05-27T10:12:52.455604Z"
+   url="svn://10.147.6.15/FTHDM/lib"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="187"
+   name="libMuCrcMd5.so"
+   text-time="2008-05-27T02:04:38.000000Z"
+   committed-date="2008-05-27T10:12:52.455604Z"
+   checksum="ca55615b307ef56cb0bdea62018dff6c"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-27T02:13:10.000000Z"/>
+<entry
+   committed-rev="187"
+   name="libMuNetIO.so"
+   text-time="2008-05-27T01:29:44.000000Z"
+   committed-date="2008-05-27T10:12:52.455604Z"
+   checksum="8c6a8cc8ef97cc2c8514047b44ad6dc1"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-05T06:17:30.000000Z"/>
+<entry
+   committed-rev="187"
+   name="libMuHttpPlus.so"
+   text-time="2008-05-27T01:35:36.000000Z"
+   committed-date="2008-05-27T10:12:52.455604Z"
+   checksum="50e34d993640a9c4936312072ced36c9"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-27T02:13:10.000000Z"/>
+</wc-entries>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="205"
+   name=""
+   committed-date="2008-05-29T15:43:46.981849Z"
+   url="svn://10.147.6.15/FTHDM/src/include"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="208"/>
+<entry
+   committed-rev="201"
+   name="Mu_Struct_main.h"
+   text-time="2008-05-29T07:04:58.000000Z"
+   committed-date="2008-05-29T14:09:29.867542Z"
+   checksum="5a6c484f0fdb7816d5ed0beba6b62724"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-29T07:04:14.000000Z"/>
+<entry
+   committed-rev="204"
+   name="Mu_error.h"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:43:26.632724Z"
+   checksum="3b346c21034f649c67d77da6aa0b73a3"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-26T01:46:18.000000Z"/>
+<entry
+   committed-rev="190"
+   name="Mu_xml_parse.h"
+   text-time="2008-05-27T02:34:10.000000Z"
+   committed-date="2008-05-27T10:29:32.689726Z"
+   checksum="1801da22da5b77a380981455e23e9c9d"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-27T02:34:10.000000Z"/>
+<entry
+   committed-rev="177"
+   name="Mu_HttpBuild.h"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="a3464747b49ef6721b7839eeb1ee9348"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="204"
+   name="MuFTAD_Init.h"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:43:26.632724Z"
+   checksum="6203e312abd406b89374de7c19e5e9e8"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="204"
+   name="MuFTAD_Proc.h"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:43:26.632724Z"
+   checksum="308dacf18b08bf314d175fc7efbe13a0"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="177"
+   name="Mu_HttpUrl.h"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="3286bf3712774ee18d553e8c7d25676a"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="177"
+   name="Mu_HttpQuery.h"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="aa105d844730786ddbb830d64b791264"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="177"
+   name="Mu_HttpDown.h"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="2578a4ba7f3066ba0402d1a1bbcfcecd"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="187"
+   name="Mu_crc.h"
+   text-time="2008-05-27T01:58:08.000000Z"
+   committed-date="2008-05-27T10:12:52.455604Z"
+   checksum="9bc1ff29540a2a17c80ec631ceb9ed44"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-07T08:13:04.000000Z"/>
+<entry
+   committed-rev="177"
+   name="Mu_HttpParse.h"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="2fbc45b77bb8f9ba439bed75a125944c"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="204"
+   name="MuFTAD_Util.h"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:43:26.632724Z"
+   checksum="13678ae5986c16860a17d12b65af57d8"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="177"
+   name="Mu_HttpUtil.h"
+   text-time="2008-05-23T07:53:12.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="28e6b6f40fdc9750ef26825a4bf034a8"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="177"
+   name="Mu_Util.h"
+   text-time="2008-05-23T07:05:02.000000Z"
+   committed-date="2008-05-26T09:58:31.387547Z"
+   checksum="3a4085d603ba37f756103f8fac54d8cb"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-10T08:53:56.000000Z"/>
+<entry
+   committed-rev="187"
+   name="Mu_NetIO.h"
+   text-time="2008-05-27T01:11:22.000000Z"
+   committed-date="2008-05-27T10:12:52.455604Z"
+   checksum="6cb90814f557918f0779e1dd6b87f063"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-26T01:52:04.000000Z"/>
+<entry
+   committed-rev="204"
+   name="MuFTAD_App.h"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:43:26.632724Z"
+   checksum="1dc5cc407960f0ec8353c8df19f08e8f"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="198"
+   name="Mu_Creatxml.h"
+   text-time="2008-05-29T07:04:14.000000Z"
+   committed-date="2008-05-27T14:08:57.318269Z"
+   checksum="dc639f4ce844847be414733f1d2aed03"
+   last-author="wyj"
+   kind="file"
+   prop-time="2008-05-29T07:02:56.000000Z"/>
+<entry
+   committed-rev="181"
+   name="Mu_Http.h"
+   text-time="2008-05-23T08:04:46.000000Z"
+   committed-date="2008-05-26T10:23:17.023250Z"
+   checksum="12a98782ed78078bacb9787ef62b48b8"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="205"
+   name="main.h"
+   text-time="2008-05-29T07:01:36.000000Z"
+   committed-date="2008-05-29T15:43:46.981849Z"
+   checksum="73ae20d43dc77ab6835d76d8ac33acad"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="187"
+   name="Mu_md5.h"
+   text-time="2008-05-27T01:57:50.000000Z"
+   committed-date="2008-05-27T10:12:52.455604Z"
+   checksum="3b0af13ce08110a7966c813829bd6ebc"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-07T08:13:04.000000Z"/>
+</wc-entries>

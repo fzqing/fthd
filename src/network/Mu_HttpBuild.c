@@ -1,0 +1,350 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/times.h>
+#include <sys/time.h>
+#include <sys/vfs.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+#include "../include/Mu_HttpBuild.h"
+
+int Mu_BuildQuery(Mu_Build build, char **Ptr)
+{
+	int ret = MUOK;
+	switch(build.method)
+	{
+		case MU_GET:
+			ret = Mu_BuildQueryGet(build, Ptr);
+#ifdef DEBUG
+			printf("Mu_BuildQueryGet\n");
+#endif
+			break;
+			
+		case MU_HEAD:
+			ret = Mu_BuildQueryHead(build, Ptr);
+#ifdef DEBUG
+			printf("Mu_BuildQueryHead\n");
+#endif
+			break;
+			
+		case MU_POST:
+			ret = Mu_BuildQueryPost(build, Ptr);
+#ifdef DEBUG
+			printf("Mu_BuildQueryPost\n");
+#endif
+			break;
+			
+		default:
+			return MUEBUL;
+	}
+	return ret;
+}
+
+/*****************************************************************
+Description:
+		BuilD the Query URL, for download the files
+Input:
+		Build: contain the info of building signal
+		Ptr: return strings
+Output:
+		MUOK: no error
+		MUEAUH: auth the username and password error
+		MUNPOS: no file store the singnal, we will post to server
+		MUNBUF: error happended when malloc buffer for query
+Lock:
+		None
+******************************************************************/
+int Mu_BuildQueryGet(Mu_Build build, char **Ptr)
+{
+	int reqlen = 0;
+	char *authuser = NULL;
+	char *endpointstr = NULL;
+	char *checkcookie = NULL;
+
+	//get the auth
+	if(Mu_Strlen(mu_url.username) || Mu_Strlen(mu_url.password)){
+		if(NULL == (authuser = Mu_GetBasicAuth(mu_url.username, mu_url.password)))
+			return MUEAUH;
+	}
+	
+	//make cookies
+	if(cookies){
+		if(NULL == (checkcookie = Mu_GetCookiesForHead())){
+			Mu_ErrorPrint();
+			return MUEAUH;
+		}
+	}
+	
+	//define the format of the request packet
+	const char reqfmt[]=
+	{
+		"GET %s%s/%s HTTP/1.1\r\n"
+		"User-Agent: %s\r\n"
+		"Host: %s\r\n"
+		"Accept: */*\r\n"
+		"%s%s"
+		"Range: bytes=%ld-%s \r\n"
+		"Connection: Keep-Alive\r\n"
+		"\r\n"
+	};
+
+	endpointstr = Mu_itoa(build.endops);
+	//get the length of the query buffer
+	reqlen = snprintf(NULL, 0,
+					reqfmt,
+					mu_url.path?"/":"",
+					mu_url.path? mu_url.path:"",
+					mu_url.file,
+					USER_AGENT, mu_url.host,
+					authuser?authuser:"",
+					checkcookie?checkcookie:"",
+					build.startops,
+					endpointstr? endpointstr: "");
+
+	if(reqlen <= 0){
+		Mu_ErrorPrint();
+		goto error;
+	}
+	
+	reqlen ++;
+	if(NULL == ((*Ptr) = (char *)malloc(reqlen))){
+		Mu_ErrorPrint();
+		goto error;
+	}
+	memset(*Ptr, 0, reqlen);
+	snprintf(*Ptr, reqlen,
+			reqfmt,
+			mu_url.path? "/":"",
+			mu_url.path? mu_url.path:"",	
+			mu_url.file,
+			USER_AGENT, mu_url.host,
+			authuser?authuser:"",
+			checkcookie?checkcookie:"",
+			build.startops,
+			endpointstr? endpointstr: "");
+	
+#ifdef DEBUG
+	printf("req = \n%s\nthe length is %d\n",*Ptr, strlen(*Ptr));
+#endif
+
+	Mu_Free(endpointstr);
+	Mu_Free(checkcookie);
+	Mu_Free(authuser);
+	return MUOK;
+
+error:
+	Mu_Free(endpointstr);	
+	Mu_Free(checkcookie);
+	Mu_Free(authuser);
+	return MUNBUF;
+}
+
+
+/*****************************************************************
+Description:
+		BuilD the URL, for get the file size
+Input:
+		Build: contain the info of building signal
+		Ptr: return strings
+Output:
+		MUOK: no error
+		MUEAUH: auth the username and password error
+		MUNPOS: no file store the singnal, we will post to server
+		MUNBUF: error happended when malloc buffer for query
+Lock:
+		None
+******************************************************************/
+
+int Mu_BuildQueryHead(Mu_Build build, char **Ptr)
+{
+	int reqlen = 0;
+	char *authuser = NULL;
+	char *endpointstr = NULL;
+	char *checkcookie = NULL;
+	
+	//get the auth
+	if(Mu_Strlen(mu_url.username) || Mu_Strlen(mu_url.password)){
+		if(NULL == (authuser = Mu_GetBasicAuth(mu_url.username, mu_url.password))){
+			Mu_ErrorPrint();
+			return MUEAUH;
+		}
+	}
+	//make cookies
+	if(cookies){
+		if(NULL == (checkcookie = Mu_GetCookiesForHead())){
+			Mu_ErrorPrint();
+			return MUEAUH;
+		}
+	}
+	
+
+	endpointstr = Mu_itoa(build.endops);
+	
+	//define the format of the request packet
+	const char reqfmt[]=
+	{
+		"HEAD %s%s/%s HTTP/1.0\r\n"
+		"User-Agent: %s\r\n"
+		"Host: %s\r\n"
+		"Accept: */*\r\n"
+		"%s%s"
+		"Range: bytes=%ld-%s \r\n"
+		"Connection: Keep-Alive\r\n"
+		"\r\n"
+	};
+	
+	//get the length of the query buffer
+	reqlen = snprintf(NULL, 0,
+					reqfmt,
+					mu_url.path?"/":"",
+					mu_url.path?mu_url.path:"",
+					mu_url.file,
+					USER_AGENT, mu_url.host,
+					checkcookie? checkcookie: "",
+					authuser? authuser: "",
+					build.startops,
+					endpointstr? endpointstr: "");
+	
+	if(reqlen <= 0){
+		Mu_ErrorPrint();
+		goto error;
+	}
+	
+	reqlen ++;
+	if(NULL == ((*Ptr) = (char *)malloc(reqlen))){
+		Mu_ErrorPrint();
+		goto error;
+	}
+	memset(*Ptr, 0, reqlen);
+	
+	snprintf(*Ptr, reqlen,
+			reqfmt,
+			mu_url.path?"/":"",
+			mu_url.path?mu_url.path:"",
+			mu_url.file,
+			USER_AGENT, mu_url.host,
+			checkcookie? checkcookie: "",
+			authuser? authuser: "",
+			build.startops,
+			endpointstr? endpointstr: "");
+	
+#ifdef DEBUG
+	printf("req = \n%s\n",*Ptr);
+#endif
+
+	Mu_Free(endpointstr);
+	Mu_Free(authuser);
+	Mu_Free(checkcookie);
+	return MUOK;
+
+error:
+	Mu_Free(endpointstr);
+	Mu_Free(checkcookie);
+	Mu_Free(authuser);
+	return MUNBUF;
+}
+
+/*****************************************************************
+Description:
+		BuilD the Query signal, with the XML files
+Input:
+		Build: contain the info of building signal
+		Ptr: return strings
+Output:
+		MUOK: no error
+		MUEAUH: auth the username and password error
+		MUNPOS: no file store the singnal, we will post to server
+		MUNBUF: error happended when malloc buffer for query
+Lock:
+		None
+******************************************************************/
+int Mu_BuildQueryPost(Mu_Build build, char **Ptr)
+{
+	int reqlen;
+	char *authuser = NULL;
+	char *checkcookie = NULL;
+	struct stat info;
+	
+	//get the auth
+	if(Mu_Strlen(mu_url.username) || Mu_Strlen(mu_url.password)){
+		if(NULL == (authuser =Mu_GetBasicAuth(mu_url.username, mu_url.password))){
+			Mu_ErrorPrint();		
+			return MUEAUH;
+		}
+	}
+
+	//make cookies
+	if(cookies){
+		if(NULL == (checkcookie = Mu_GetCookiesForHead())){
+			Mu_ErrorPrint();
+			return MUEAUH;
+		}
+	}
+
+	//if((build.fd == -1) || (fstat(fileno(build.fd), &info) == -1))
+	if(fstat(build.fd, &info) == -1){
+		Mu_ErrorPrint();
+		return MUNPOS;
+	}
+	const char reqfmt[]={
+		"POST %s%s/%s HTTP/1.1\r\n"
+		"User-Agent: %s\r\n"
+		"Host: %s\r\n"
+		"Accept: */*\r\n"
+		"%s%s"
+		"Content-Type: multipart/form-data; boundary=----------7d0123456789a\r\n"
+		"Content-Length: %ld\r\n"
+		"Connection: Keep-Alive\r\n"
+		"\r\n"
+	};
+
+	//"Content-Type:multipart/form-data; boundary=----------mucrounit123456\r\n"
+	reqlen = snprintf(NULL, 0,
+				reqfmt,
+				mu_url.path? "/": "", 
+				mu_url.path? mu_url.path: "", 
+				mu_url.file,
+				USER_AGENT, mu_url.host,
+				checkcookie? checkcookie: "",
+				authuser? authuser: "",
+				2+info.st_size+strlen(QUERY_CONTENT)+2*strlen(QUERY_BOUNDARY_END));
+
+	if(reqlen <= 0){
+		Mu_ErrorPrint();
+		goto error;
+	}
+	
+	reqlen ++;
+	if(NULL ==(*Ptr = (char *)malloc(reqlen))){
+		Mu_ErrorPrint();
+		goto error;
+	}
+	
+	memset(*Ptr, 0, reqlen);
+	snprintf(*Ptr, reqlen,
+			reqfmt,
+			mu_url.path? "/": "", 
+			mu_url.path? mu_url.path: "", 
+			mu_url.file,
+			USER_AGENT, mu_url.host,
+			checkcookie? checkcookie: "",
+			authuser? authuser: "",
+			2+info.st_size+strlen(QUERY_CONTENT)+2*strlen(QUERY_BOUNDARY_END));
+
+#ifdef DEBUG
+	printf("req = \n%s\n",*Ptr);
+#endif
+	
+	Mu_Free(authuser);
+	Mu_Free(checkcookie);
+	return MUOK;
+	
+error:
+	Mu_Free(authuser);
+	Mu_Free(checkcookie);
+	return MUNBUF;
+}

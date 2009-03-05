@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="186"
+   name=""
+   committed-date="2008-05-26T15:23:58.835712Z"
+   url="svn://10.147.6.15/FTHDM/Doc/MuFTAD%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="73"
+   name="MuFTAD数据结构详细设计ver1.2.pdf"
+   text-time="2008-05-05T11:17:24.000000Z"
+   committed-date="2008-05-05T19:38:11.315931Z"
+   checksum="b0ae84372b3b570090a73fd2ea64c1ab"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="186"
+   name="MuFTAD数据结构详细设计ver1.4.pdf"
+   text-time="2008-05-26T07:16:28.000000Z"
+   committed-date="2008-05-26T15:23:58.835712Z"
+   checksum="ca7437c341a002f23852adc4c32a5130"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="26"
+   name="MuFTAD数据结构详细设计ver1.1.pdf"
+   text-time="2008-04-29T03:26:58.000000Z"
+   committed-date="2008-05-03T17:41:58.713461Z"
+   checksum="a66b1c9621baea208b44aa21d45833ac"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

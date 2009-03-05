@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+	<Protocol_Ver>1</Protocol_Ver>
+	<Protocol_OPC>200</Protocol_OPC>
+
+	<Device_Info>
+		<Device_ID_Int>DEV_INT_1234</Device_ID_Int>
+		<Device_ID_App>0</Device_ID_App>
+	</Device_Info>
+
+	<Conversation>
+		<ConversationID>xRandomID</ConversationID>
+		<AuthUsername/>
+		<AuthPassword/>
+	</Conversation>
+
+	<Payload>
+		<Item>
+			<Type>201</Type>
+			<Text>DBI_Video</Text>
+			<Size>6</Size>
+			<Dat1>2</Dat1>
+			<Dat2>0</Dat2>
+			<Dat3>1234</Dat3>
+			<Dat4>2234</Dat4>
+			<Dat5>3234</Dat5>
+			<Dat6>0</Dat6>
+		</Item>
+	</Payload>
+</Eyewear_ADP>

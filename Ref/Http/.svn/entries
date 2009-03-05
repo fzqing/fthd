@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="48"
+   name=""
+   committed-date="2008-05-04T13:35:05.319026Z"
+   url="svn://10.147.6.15/FTHDM/Ref/Http"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="48"
+   name="rfc2616.pdf"
+   text-time="2008-05-04T05:32:12.000000Z"
+   committed-date="2008-05-04T13:35:05.319026Z"
+   checksum="4f8e61fa2bc83de1fdbe05df477406a0"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:18.000000Z"/>
+<entry
+   committed-rev="48"
+   name="rfc2068.pdf"
+   text-time="2008-05-04T05:32:58.000000Z"
+   committed-date="2008-05-04T13:35:05.319026Z"
+   checksum="91c1267fffa6e0dc6f3e3bee1472294a"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:18.000000Z"/>
+<entry
+   committed-rev="48"
+   name="O&apos;Reilly - HTTP Pocket Reference.chm"
+   text-time="2003-04-19T16:32:56.000000Z"
+   committed-date="2008-05-04T13:35:05.319026Z"
+   checksum="bdeb5feb8a0ae81a1003fbe62a6ab7b8"
+   last-author="ssw"
+   kind="file"
+   prop-time="2008-05-04T05:34:18.000000Z"/>
+</wc-entries>

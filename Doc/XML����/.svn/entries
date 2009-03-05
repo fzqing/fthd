@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="186"
+   name=""
+   committed-date="2008-05-26T15:23:58.835712Z"
+   url="svn://10.147.6.15/FTHDM/Doc/XML%E8%A7%A3%E6%9E%90"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="186"
+   name="XML解析详细设计ver1.5.pdf"
+   text-time="2008-05-26T07:20:06.000000Z"
+   committed-date="2008-05-26T15:23:58.835712Z"
+   checksum="9addd230edfc974249756fce78e94a5c"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="35"
+   name="XML 解析概要设计ver1.2.pdf"
+   text-time="2008-03-12T06:03:18.000000Z"
+   committed-date="2008-05-03T17:44:50.642217Z"
+   checksum="600e208eb7c0f4eda7a3201eb303609f"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="36"
+   name="XML解析详细设计ver1.4.pdf"
+   text-time="2008-04-29T01:57:54.000000Z"
+   committed-date="2008-05-03T17:45:02.513714Z"
+   checksum="ebe0f4ec411506b78a3f6a959601ec27"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

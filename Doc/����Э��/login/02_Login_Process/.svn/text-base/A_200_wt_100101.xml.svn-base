@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+    <Protocol_Ver>1</Protocol_Ver>
+    <Protocol_OPC>200</Protocol_OPC>
+
+    /*  <PreLogin> 被服务器删除  */
+
+    <Device_Info>
+        /*  这两个被服务器置空为随机数，示例为0  */
+        <Device_ID_Int>0</Device_ID_Int>
+        <Device_ID_App>0</Device_ID_App>
+        /*  服务器返回的日期和时间  */
+        <SRV_Date_Time>20080523130523</SRV_Date_Time>
+        /*  其余的字段服务器吃掉，不返回  */
+    </Device_Info>
+
+    <Conversation>
+        /*   服务器返回的ID信息，一个字符串  */
+        <ConversationID>0</ConversationID>
+        <AuthUsername/>
+        <AuthPassword/>
+    </Conversation>
+
+    <Payload>
+        <Item>
+            <Type>100</Type>
+            <Text>SRV_SvrInf</Text>
+            <Size>5</Size>
+            <Dat1>0</Dat1>
+            /*  服务器上的文件名，根据Dat1生成下载链接进行下载，本地文件名这里无规定  */
+            <Dat2>/SVR_Inf/2.xml</Dat2>
+            /*  和文件中的Stepping一样  */
+            <Dat3>2</Dat3>
+            <Dat4/>
+            /*  MD5值  */
+            <Dat5>afdadsfadfsasasdfasf</Dat5>
+        </Item>
+        <Item>
+            <Type>101</Type>
+            <Text>SRV_FirmSF</Text>
+            <Size>5</Size>
+            <Dat1>0</Dat1>
+            /*  服务器上的文件名，根据Dat1生成下载链接进行下载，本地文件名这里无规定  */
+            <Dat2>/SVR_Inf/MicroUnit_v1_1.1.bin</Dat2>
+            /*  新的版本号  */
+            <Dat3>1.1</Dat3>
+            /*  这里的字符串应该和Login时候的字符串一致，用于设备验证文件确属  */
+            <Dat4>MicroUnit_v1</Dat4>
+            /*  MD5值  */
+            <Dat5>afdadsfadfsasasdfasf</Dat5>
+        </Item>
+    </Payload>
+
+</Eyewear_ADP>

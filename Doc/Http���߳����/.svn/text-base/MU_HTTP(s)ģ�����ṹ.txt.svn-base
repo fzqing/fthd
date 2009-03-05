@@ -1,0 +1,74 @@
+────────────────────────────────────────
+			法国电信HTTP(s)下载模块代码结构
+────────────────────────────────────────
+
+  int Mu_HttpPlus(cosnt char *url, int method, Mu_DnStatPtr Ptr)
+          │
+          │
+          ├─────int Mu_Query(Mu_DnStatPtr Ptr)
+          │            │
+          │            ├─int Mu_InitHttpStat(Mu_HttpStatPtr Ptr)
+          │            │
+          │            │
+          │            ├─int Mu_BuildQuery(Mu_Build build, char **Ptr)
+          │            │          │
+          │            │          └─int Mu_BuildQueryGet(Mu_Build build, char **Ptr)
+          │            │                      │
+          │            │                      └char *Mu_GetBasicAuth(const char *user, const char *passwd)
+          │            │
+          │            ├─int Mu_PostSignal(int socket, int xmlfd)
+          │            │
+          │            │
+          │            └─int Mu_ParseHeader(int socket, Mu_HttpStatusPtr *Ptr)
+          │     
+          ├─────int Mu_GetLoop(Mu_DnStatPtr Ptr)
+          │            │
+          │            ├─int Mu_ReadFromRec(const char * name)
+          │            │
+          │            ├─int Mu_BuildQuery(Mu_Build build, char **Ptr)
+          │            │          │
+          │            │          ├─int Mu_BuildQueryGet(Mu_Build build, char **Ptr)
+          │            │          │
+          │            │          ├─int Mu_BuildQueryHead(Mu_Build build, char **Ptr);
+          │            │          │
+          │            │          └─int Mu_BuildQueryPost(Mu_Build build, char **Ptr)
+          │            │
+          │            ├─int Mu_ParseHeader(int socket, Mu_HttpStatusPtr *Ptr)
+          │            │          │
+          │            │          ├─int Mu_FetchHeader(int socket, char **hdr)
+          │            │          │
+          │            │          ├─int Mu_GetStatusCode(cosnt char *hdr)
+          │            │          │
+          │            │          ├─off_t Mu_GetContentLen(const char *hdr)
+          │            │          │
+          │            │          ├─int Mu_GetRelocation(const char *hdr)
+          │            │          │
+          │            │          └─int Mu_GetCookies(const char *hdr)
+          │            │ 
+          │            ├─int Mu_InitThread(off_t length)
+          │            │
+          │            └─void Mu_Download(int *num)
+          │                        │
+          │                        └─int Mu_RecToFile(const char *name)
+          │          
+          └─────int Mu_ParseUrl( const char *url)  
+     
+     
+     
+
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+

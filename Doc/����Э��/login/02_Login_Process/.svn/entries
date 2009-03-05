@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="185"
+   name=""
+   committed-date="2008-05-26T15:22:29.816032Z"
+   url="svn://10.147.6.15/FTHDM/Doc/%E6%B3%95%E7%94%B5%E5%8D%8F%E8%AE%AE/login/02_Login_Process"
+   last-author="ssw"
+   kind="dir"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="185"
+   name="A_300.xml"
+   text-time="2008-05-26T06:09:12.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="c715f4c869e520d00457e78c58112b29"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_301.xml"
+   text-time="2008-05-26T06:01:48.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="aec1cee4f152c0cb279180b97c1487d8"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_200_wo_Auth.xml"
+   text-time="2008-05-26T03:50:14.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="8e4598f7c8633720aaff594fe1d63534"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_4xx5xx.xml"
+   text-time="2008-05-26T04:19:02.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="08ac864cbbf4f4bf45d7ba098901c7ef"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_200_wt_100.xml"
+   text-time="2008-05-26T04:11:50.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="58e05d1b5c9778f1ed5b2a95761e7bb2"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_200_wt_101.xml"
+   text-time="2008-05-26T04:14:46.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="6f076c58bd6b7e7e69e6cfb850a6d46e"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_200_wt_Auth.xml"
+   text-time="2008-05-26T04:11:22.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="07c2a9130990770b8d6b28f4efd22e29"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="A_200_wt_100101.xml"
+   text-time="2008-05-26T04:15:40.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="864cb8ef55771630ba8c39eceff5db0b"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="185"
+   name="Q_Loging.xml"
+   text-time="2008-05-26T02:47:14.000000Z"
+   committed-date="2008-05-26T15:22:29.816032Z"
+   checksum="cf60a618c7d93337e98d3f62b87eff1a"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

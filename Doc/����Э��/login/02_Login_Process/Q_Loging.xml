@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Eyewear_ADP>
+    /*  目前的版本号定义为1  */
+    <Protocol_Ver>1</Protocol_Ver>
+    /*  Login的OPC为100  */
+    <Protocol_OPC>100</Protocol_OPC>
+
+    /*  PreLogin字段可有可无，服务器端不处理该字段  */
+    <PreLogin>
+        <EncryptionMethod>0</EncryptionMethod>
+        <Challenge>Challenge_RandomID</Challenge>
+    </PreLogin>
+
+    <Device_Info>
+        /*  以范例的DEMO ID进行登陆  */
+        <Device_ID_Int>0A000000001020012345678901234567890123456789021000</Device_ID_Int>
+        <Device_ID_App>NULL</Device_ID_App>
+        /*  下两个字段暂时不用，需要确认硬件那边的情况再实现  */
+        <Device_Status>0</Device_Status>
+        <Trig_Resource>0</Trig_Resource>
+        /*  该字段服务器不Care  */
+        <SRV_Date_Time/>
+        /*  以下两个字段可由贵方确定，现在填写的是参考值  */
+        <FirmwareVersion>MicroUnit_v1_1.0</FirmwareVersion>
+        <HardwareVersion>MicroUnit_v1</HardwareVersion>
+        /*  这个文件从SRV-Inf XML中获得，目前应该是1  */
+        <ServerInfo_Step>1</ServerInfo_Step>
+    </Device_Info>
+
+    /*  以下字段服务器不Care  */
+    <Conversation>
+        <ConversationID/>
+        <AuthUsername/>
+        <AuthPassword/>
+    </Conversation>
+</Eyewear_ADP>

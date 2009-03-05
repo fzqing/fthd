@@ -1,0 +1,53 @@
+﻿Mu_BuildXML:创建XML文件总接口
+1:
+	创建请求信令,该请求信令只包含MuEyeWearADP,所用参数源自结构EyeWearADPPtr
+	写入文件为:snd_fd
+	EyewearADPPtr已创建
+	待创建的XML可以参考任一信令XML
+	Mu_BuildXML(BUILD_SIGNAL_ADP, snd_fd,EyewearADPPtr, NULL);
+2
+	函数根据MuFddfFilePtr,创建一个节目的描述性XML
+	注意:待写入的文件为xmlfd
+	待创建的XML参考file_info.xml
+	FddfFilePtr已创建
+	Mu_BuildXML(BUILD_FILE_DES, xmlfd, FddfFilePtr, NULL)；
+3：
+	创建请求信令,该信令包含EyewearADP和payload,该payload标志为902
+	待创建XML信令可以参考payload为902的06_Before_QueryFDDF.xml
+	MuEyewearADPPtr已创建DBUInfoPtr为传来结构指针
+	snd_fd待写入文件句柄
+	Mu_BuildXML(BUILD_SIGQUE_902, snd_fd, MuEyewearADPsnd, DBUInfoPtr);
+4：
+	创建请求信令,该信令包含EyewearADP和payload,该payload标志为201-204
+	待创建XML信令可以参考06_Before_QueryFDDF.xml
+	MuEyewearADPPtr已创建DBIInfoPtr为传来结构指针
+	snd_fd待写入文件句柄
+	Mu_BuildXML(BUILD_SIGQUE_20X, snd_fd,MuEyewearADPPtr,DBIInfoPtr);
+5：	
+	创建请更新信令,该信令包含EyewearADP和payload,该payload标志为902
+	待创建的XML信令参考payload为902的08_Before_Update.xml
+	Mu_BuildXML(BUILD_SIGUP_DN902, snd_fd, MuEyewearADPPtr,DBUInfoPtr);
+	结构与3相同
+6:
+	创建请更新信令,该信令包含EyewearADP和payload,该payload标志为903
+	待创建的XML信令参考payload为903的08_Before_Update.xml
+	MuEyewearADPPtr已创建DBIDirtPtr为传来结构指针
+	snd_fd待写入文件句柄
+	Mu_BuildXML(BUILD_SIGUP_DN903, snd_fd, MuEyewearADPPtr, DBIDirtPtr);
+7:	创建请更新信令,该信令包含EyewearADP和payload,OPC=122
+	待创建的XML信令参考payload为901的08_Before_Update.xml
+	MuEyewearADPPtr已创建DBURatePtr为传来结构指针
+	snd_fd待写入文件句柄
+	Mu_BuildXML(BUILD_SIGUP_FILE, snd_fd, MuEyewearADPPtr, DBURatePtr);
+8:
+	函数根据XmlDeviceInfoPtr,创建一个节目的描述性XML
+	注意:待写入的文件为fd1	
+	待创建的XML参考deviceinformation.xml
+	XmlDeviceInfoPtr已创建
+	Mu_BuildXML(BUILD_DEVICE_INFO, fd1, XmlDeviceInfoPtr, NULL);
+9:
+	函数根据UpdateInfoPtr,创建一个节目的描述性XML
+	注意:待写入的文件为fd1
+	待创建的XML参考update SRV.xml
+	UpdateInfoPtr已创建
+	Mu_BuildXML(BUILD_UPDATE_INFO, fd1, UpdateInfoPtr, NULL); 

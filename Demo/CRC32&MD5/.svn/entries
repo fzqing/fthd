@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="115"
+   name=""
+   committed-date="2008-05-09T17:12:38.505602Z"
+   url="svn://10.147.6.15/FTHDM/Demo/CRC32&amp;MD5"
+   last-author="wkx"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="115"
+   name="demo"
+   text-time="2008-05-10T08:53:56.000000Z"
+   committed-date="2008-05-09T17:12:38.505602Z"
+   checksum="05ec377e45c6d7cb4e22f0a318181939"
+   last-author="wkx"
+   kind="file"
+   prop-time="2008-05-10T08:53:56.000000Z"/>
+<entry
+   committed-rev="115"
+   name="demo.c"
+   text-time="2008-05-10T08:53:56.000000Z"
+   committed-date="2008-05-09T17:12:38.505602Z"
+   checksum="1ced09af7d8551ceb8eed9f0d3059547"
+   last-author="wkx"
+   kind="file"
+   prop-time="2008-05-10T08:53:56.000000Z"/>
+<entry
+   committed-rev="106"
+   name="Readme.txt"
+   text-time="2008-05-08T03:16:08.000000Z"
+   committed-date="2008-05-08T09:21:49.299808Z"
+   checksum="07c1e97290a9516bd333f4ab4ac3b8ed"
+   last-author="wkx"
+   kind="file"
+   prop-time="2008-05-08T03:16:08.000000Z"/>
+</wc-entries>

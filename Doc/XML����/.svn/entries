@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="186"
+   name=""
+   committed-date="2008-05-26T15:23:58.835712Z"
+   url="svn://10.147.6.15/FTHDM/Doc/XML%E7%94%9F%E6%88%90"
+   last-author="ssw"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   committed-rev="186"
+   name="XML生成详细设计ver1.4.pdf"
+   text-time="2008-05-26T07:22:12.000000Z"
+   committed-date="2008-05-26T15:23:58.835712Z"
+   checksum="6f5e0a7c0d129a147ac96a9cb5696c25"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="33"
+   name="XML生成概要设计ver1.0.pdf"
+   text-time="2008-03-20T10:32:06.000000Z"
+   committed-date="2008-05-03T17:44:18.990558Z"
+   checksum="daf8e05a106841184e335e4141d0c092"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="34"
+   name="XML生成详细设计ver1.1.pdf"
+   text-time="2008-04-18T12:50:20.000000Z"
+   committed-date="2008-05-03T17:44:32.507161Z"
+   checksum="97cddd7050c72d442fcd0b9567fb8354"
+   last-author="ssw"
+   kind="file"/>
+<entry
+   committed-rev="76"
+   name="XML生成详细设计ver1.2.pdf"
+   text-time="2008-05-06T09:36:34.000000Z"
+   committed-date="2008-05-06T18:55:18.907880Z"
+   checksum="fa35c34bce5360bcf0946768d4402446"
+   last-author="ssw"
+   kind="file"/>
+</wc-entries>

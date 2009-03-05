@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<File_Infomation> These is the same as FDDF
+	<File_Name/>
+	<File_Size/>
+	<File_HMD5/>
+	<File_CCRC/>
+	<File_Type/>
+	<File_Rate/>
+	<FileDisplayName/>
+	<FileDescription/>
+	<ValidBeforeDate/>
+	<ValidAfterWatch/>
+	<Database_Info>
+		<ID_IDX/>
+		<ID_PRG/>
+		<ID_GRP/>
+		<ID_OWN/>
+	</Database_Info>
+					Additional File Information
+	<User_Rate/>	Integer	File rating given by user
+	<User_Freq/>	Integer	User accessing file times
+</File_Infomation>

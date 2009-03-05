@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DeviceInfo>
+		<Device_ID_Int>111</Device_ID_Int>
+		<Device_ID_App>222</Device_ID_App>
+		<Device_Fireversion>333</Device_Fireversion>
+</DeviceInfo>

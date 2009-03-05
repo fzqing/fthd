@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ServiceInfo>
+    /*  协议版本号在本实线中为1  */
+    <Protocol_Ver>1</Protocol_Ver>
+    /*  该文件版本号目前为1  */
+    <Stepping>1</Stepping>
+
+    /*  目前的Server List只有以下三个字段，其中的内容均指向同一个服务器地址  */
+    <ServerList>
+        <Ping>localhost</Ping>
+        <Last>localhost</Last>
+        <Addr>localhost</Addr>
+    </ServerList>
+
+    /*  如果不使用测试服务器，那么以下API是将要使用的API名称  */
+    /*  如果使用测试服务期，那么PreLogin将是_GET那个，其它的都是_POST  */
+    <APIPathList>
+        <Pre_Login>/SRV_PreLogin.php</Pre_Login>
+        <Login>/SRV_Login.php</Login>
+        <Query_Status>/SRV_Query.php</Query_Status>
+        <Query_FDDF_List>/SRV_FDDFList.php</Query_FDDF_List>
+        <Update_Status>/SRV_Update.php</Update_Status>
+        <Logout>/SRV_Logout.php</Logout>
+    </APIPathList>
+</ServiceInfo>

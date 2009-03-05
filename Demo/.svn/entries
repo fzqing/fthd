@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="194"
+   name=""
+   committed-date="2008-05-27T10:32:57.040405Z"
+   url="svn://10.147.6.15/FTHDM/Demo"
+   last-author="wyj"
+   kind="dir"
+   uuid="6da3d911-5f4b-0410-bee2-f6f9cfb012cd"
+   repos="svn://10.147.6.15/FTHDM"
+   revision="194"/>
+<entry
+   name="CRC32&amp;MD5"
+   kind="dir"/>
+<entry
+   name="xml解析与生成"
+   kind="dir"/>
+<entry
+   name="network"
+   kind="dir"/>
+</wc-entries>

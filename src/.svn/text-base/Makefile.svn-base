@@ -1,0 +1,20 @@
+#the make file use for the project MuFTAD
+all:lib
+	make obj
+	mv main/MuFTAD ./ 
+	
+lib:
+	(cd network; make)
+	(cd parsexml; make)
+	(cd crcmd5; make)
+
+obj:
+	(cd main; make)
+
+.PHONY:clean
+clean:
+	(cd network; make clean)
+	(cd parsexml; make clean)
+	(cd crcmd5; make clean)
+	(cd main; make clean) 
+
